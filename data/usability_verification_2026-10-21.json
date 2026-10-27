@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-21",
+  "purpose": "Make the main result and next action discoverable",
+  "source_checks": {
+    "python_unittest_passed": 85,
+    "web_tests_passed": 17
+  },
+  "new_api_requests": 0,
+  "runtime_call_count": 34,
+  "protected_files_unchanged": {
+    ".env": true,
+    "data/research.sqlite": true,
+    "data/news_snapshot.jsonl": true,
+    "data/company_U_1595.json": true,
+    "data/company_U_83932.json": true,
+    "alfa_app/agent.py": true,
+    "alfa_app/config.py": true,
+    "alfa_app/evidence.py": true,
+    "alfa_app/llm.py": true,
+    "alfa_app/news.py": true,
+    "alfa_app/ranking.py": true,
+    "alfa_app/server.py": true,
+    "alfa_app/store.py": true,
+    "alfa_app/tasks.py": true,
+    "alfa_app/__init__.py": true,
+    "alfa_app/__main__.py": true
+  },
+  "preexisting_runs_unchanged": true,
+  "backend_or_prompt_changed": false,
+  "current_main_run_id": "e985b152c5434632a3ada8003a0025ee",
+  "approved_insight_rewritten": false,
+  "browser": {
+    "url": "http://127.0.0.1:8001/",
+    "verified": [
+      "visible top button",
+      "cached main opens with one click",
+      "next action shown before detailed analysis",
+      "button focuses next action",
+      "bank facts, dates, risks and opportunities remain expandable",
+      "source button expands and focuses bank pages",
+      "missing-data answer returns to main",
+      "switching to U_83932 clears previous ready result",
+      "U_83932 without a main insight offers return to news",
+      "return focuses the new source result"
+    ]
+  },
+  "files_changed": [
+    "web/app.js",
+    "web/styles.css",
+    "web/index.html",
+    "tests/test_web.mjs",
+    "README.md"
+  ],
+  "clean_archive_checks": {
+    "python": {
+      "passed": 85,
+      "failed": 0
+    },
+    "web": {
+      "passed": 17,
+      "failed": 0
+    },
+    "corpus": {
+      "passed": 12,
+      "total": 12,
+      "llm_calls": 0
+    }
+  }
+}

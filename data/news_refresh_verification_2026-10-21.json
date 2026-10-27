@@ -1,0 +1,21 @@
+{
+  "inserted": 0,
+  "updated": 0,
+  "duplicate": 10,
+  "errors": [],
+  "feeds": [
+    {
+      "feed_id": "cbr_news",
+      "source_url": "https://www.cbr.ru/rss/eventrss",
+      "items_available": 100,
+      "raw_sha256": "8d566bb47de0e58ed5f7c83fd51d9359d625ee07b7e9bc4975697ee7a6726206"
+    },
+    {
+      "feed_id": "cbr_press",
+      "source_url": "https://www.cbr.ru/rss/RssPress",
+      "items_available": 11,
+      "raw_sha256": "0f36f9bba140f3782a559f5da3db4b662d4d98c3cc8ac0fb8b4c2d903a0747c2"
+    }
+  ],
+  "verified_on": "2026-10-21T02:34:53.238778+03:00"
+}

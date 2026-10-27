@@ -1,0 +1,57 @@
+{
+  "analysis_version": "2026-10-24-v22-hybrid-metadata-shutdown",
+  "logic_sha256": "7c1d2a21e00737471e98e8b25da79004fe9cb2a630e331375f3d3bf043d6cfca",
+  "before_tests": {
+    "python": 205,
+    "javascript": 58
+  },
+  "python_windows": {
+    "passed": 224,
+    "failed": 0,
+    "skipped": 0
+  },
+  "python_linux_network_none": {
+    "passed": 224,
+    "failed": 0,
+    "skipped": 0
+  },
+  "javascript": {
+    "passed": 59,
+    "failed": 0,
+    "skipped": 0
+  },
+  "new_regressions": {
+    "python": 19,
+    "javascript": 1
+  },
+  "corpus_checks": 12,
+  "quality_checks": 13,
+  "expanded_checks": 866,
+  "bank_controls": {
+    "relevant_cases": 8,
+    "hit_at_3": 7,
+    "hit_at_5": 8,
+    "unrelated_cases": 3,
+    "unrelated_empty": 3,
+    "failed": 0
+  },
+  "news_controls": 6,
+  "http_company_role_cases": 10,
+  "dependency_blocked_tests": [],
+  "syntax_python_and_js": "passed",
+  "pip_check": "passed",
+  "docker_config_build": "passed",
+  "real_sigterm_and_sigkill_restart": "passed_synthetic_network_none",
+  "paid_gateway_calls": 0,
+  "environment_unchanged": true,
+  "prior_runtime_rows_preserved": true,
+  "ui_product_files_unchanged": true,
+  "status": "READY WITH WARNINGS",
+  "local_ready": true,
+  "public_ready": false,
+  "test_log_sha256": {
+    "python-final.log": "73d7bd9313ef74ad27c5cb73a961a7a943477959cc66c8094a78c0ea27b40f25",
+    "docker-python-final.log": "39ab9af214463a1308e816c18a2ff6b9765d76d737897df810c4f2ed03c31b70",
+    "javascript.log": "b8b03126ed7b3b8f7e7a05c207e3f23688d24277420f2952a91f5c2ce3e91992"
+  }
+}

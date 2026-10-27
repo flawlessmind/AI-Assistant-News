@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-10-23T22:49:43.593246+03:00",
+  "source_url": "https://changellenge.up.railway.app/openapi.json",
+  "schema_title": "LiteLLM API",
+  "schema_version": "3.1.0",
+  "schema_bytes": 1958587,
+  "schema_sha256": "d1bd06f9d7165dc3df75bfe7b0db62567bda694596916a6ef258185426e65713",
+  "examined_chat_routes": [
+    "/chat/completions",
+    "/v1/chat/completions"
+  ],
+  "documented_chat_idempotency_guarantee_found": false,
+  "documented_chat_header_parameters": {
+    "/chat/completions": [],
+    "/v1/chat/completions": []
+  },
+  "supplied_instruction": "docs/api_instruction_2026-10-21.pdf",
+  "supplied_instruction_sha256": "f2ed65679b2931d78ef9655a36d31386a91ca6a14bf0b0d14f9a1f66db06d6e3",
+  "docs_endpoint_http_status": 404,
+  "conclusion": "No documented idempotent chat-generation contract; client transport retries are disabled. Unrelated administrative idempotency is not a chat contract.",
+  "authentication_sent": false,
+  "new_generative_requests": 0
+}

@@ -1,0 +1,49 @@
+{
+  "verified_on": "2026-10-23",
+  "application_version": "2026-10-23-v11-production-acceptance",
+  "browser": "Chromium via installed Playwright",
+  "company_id": "U_83932",
+  "role": "ceo",
+  "event_id": "news_7e40391627d879b84af9",
+  "viewports": [
+    {
+      "width": 1440,
+      "scroll_width": 1440,
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "scroll_width": 1024,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "scroll_width": 768,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false
+    }
+  ],
+  "page_errors": [],
+  "failed_application_requests": [],
+  "ocr_characters": 4148,
+  "ocr_warning_visible": true,
+  "mobile_dialog_overflow": false,
+  "escape_closes_dialog": true,
+  "business_overview_entry_visible": true,
+  "company_and_role_preserved_on_reload": true,
+  "running_job_resumed_after_reload": "46d25b052c6a41f78a6c49e4dd51c6cc",
+  "new_application_post_requests_during_resume": 0,
+  "followup_run_id": "77a297fd0cae4d568c78a7a6c59b0d1e",
+  "followup_status": "answered",
+  "feedback_saved": true,
+  "feedback_is_engineering_acceptance_not_user_research": true,
+  "screenshots_directory": "docs/screenshots/production_2026-10-23",
+  "semantic_news_paraphrase_found": true,
+  "search_503_preserves_open_card": true,
+  "search_retry_recovers": true,
+  "expected_console_error": "An intentionally injected HTTP 503 search response; the app recovered."
+}

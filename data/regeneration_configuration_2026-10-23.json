@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-10-23T20:43:21.091186+03:00",
+  "authorization": "User explicitly requested removal of application request-count limits.",
+  "local_call_cap": null,
+  "configured_value": 0,
+  "gateway_budget_rub_per_day": 500,
+  "physical_attempts_preserved": 85,
+  "gateway_budget_block_preserved": false,
+  "usage_ledger_reset": false,
+  "history_deleted": false,
+  "only_changed_field": "ALFA_MAX_CALLS_PER_PERIOD"
+}

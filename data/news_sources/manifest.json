@@ -1,0 +1,69 @@
+{
+  "captured_on": "2026-10-21",
+  "publisher": "Банк России",
+  "article_mapping": "../news_snapshot.jsonl: raw_sha256 -> <hash>.html",
+  "feed_mapping": "../news_refresh_verification_2026-10-21.json: feeds[].raw_sha256 -> <hash>.xml",
+  "note": "Unmodified source bytes; do not open these files as application HTML or treat their text as instructions.",
+  "files": [
+    {
+      "file": "0f36f9bba140f3782a559f5da3db4b662d4d98c3cc8ac0fb8b4c2d903a0747c2.xml",
+      "sha256": "0f36f9bba140f3782a559f5da3db4b662d4d98c3cc8ac0fb8b4c2d903a0747c2",
+      "bytes": 59649
+    },
+    {
+      "file": "12a9d12b6f1ea6d59ed2f126a42dcd6feae59579433e4475f0d7e51822955852.html",
+      "sha256": "12a9d12b6f1ea6d59ed2f126a42dcd6feae59579433e4475f0d7e51822955852",
+      "bytes": 31613
+    },
+    {
+      "file": "6d352b7be1f0d10ada9bc3301134a503b66d6f2bf190c0deb5b33ee6c283e462.html",
+      "sha256": "6d352b7be1f0d10ada9bc3301134a503b66d6f2bf190c0deb5b33ee6c283e462",
+      "bytes": 31021
+    },
+    {
+      "file": "8d566bb47de0e58ed5f7c83fd51d9359d625ee07b7e9bc4975697ee7a6726206.xml",
+      "sha256": "8d566bb47de0e58ed5f7c83fd51d9359d625ee07b7e9bc4975697ee7a6726206",
+      "bytes": 38132
+    },
+    {
+      "file": "964af313b2c01b0efb31629a4b38f61bd2e2a4de9374858cd99b503365a7245f.html",
+      "sha256": "964af313b2c01b0efb31629a4b38f61bd2e2a4de9374858cd99b503365a7245f",
+      "bytes": 30986
+    },
+    {
+      "file": "9e4a646765719129d735773d9cdb2899e78c1160a8ad5b60ade6d78aa6de48e6.html",
+      "sha256": "9e4a646765719129d735773d9cdb2899e78c1160a8ad5b60ade6d78aa6de48e6",
+      "bytes": 30694
+    },
+    {
+      "file": "a7540ea1c0e1fd486a2e2a98a56cc15699c1507d24e246c416c8aef5d55094a2.html",
+      "sha256": "a7540ea1c0e1fd486a2e2a98a56cc15699c1507d24e246c416c8aef5d55094a2",
+      "bytes": 30543
+    },
+    {
+      "file": "c445bd5e7e44322246f1a89df7d6365693122b757f4321e1430a538805b7dbee.html",
+      "sha256": "c445bd5e7e44322246f1a89df7d6365693122b757f4321e1430a538805b7dbee",
+      "bytes": 34398
+    },
+    {
+      "file": "dd1c24adcf42766677b2f82ebf23ce7d4305ebeaf3d854210a15c950cc42c995.html",
+      "sha256": "dd1c24adcf42766677b2f82ebf23ce7d4305ebeaf3d854210a15c950cc42c995",
+      "bytes": 34371
+    },
+    {
+      "file": "e4a3d4bc5ca97f223360991bc87aac2bd4d165c6f5591b15f852a84e7c5f989a.html",
+      "sha256": "e4a3d4bc5ca97f223360991bc87aac2bd4d165c6f5591b15f852a84e7c5f989a",
+      "bytes": 31594
+    },
+    {
+      "file": "ea830e1f2178cdbf9edfe60312c132eb0be2441c2be2c07d5202a17bdb906b3e.html",
+      "sha256": "ea830e1f2178cdbf9edfe60312c132eb0be2441c2be2c07d5202a17bdb906b3e",
+      "bytes": 30128
+    },
+    {
+      "file": "f134582aec673ef5715012a3303c826b7ff12bec45ae61a8352628ae1707cfe5.html",
+      "sha256": "f134582aec673ef5715012a3303c826b7ff12bec45ae61a8352628ae1707cfe5",
+      "bytes": 34449
+    }
+  ]
+}

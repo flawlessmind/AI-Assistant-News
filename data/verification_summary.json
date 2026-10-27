@@ -1,0 +1,13 @@
+{
+  "checked_on": "2026-10-20",
+  "python": "3.12.14",
+  "unit_tests_passed": 9,
+  "unit_tests_failed": 0,
+  "corpus_checks_passed": 12,
+  "corpus_checks_total": 12,
+  "pdf_files_sha256_verified": 9,
+  "original_profiler_sha256": "f1a61781b6d12d3b5e19a710367ff39a6ab2df79a70e2774e59f9d970b9820fb",
+  "profile_U_1595_matches_handoff": true,
+  "organizer_api_calls": 0,
+  "end_to_end_application_ready": false
+}

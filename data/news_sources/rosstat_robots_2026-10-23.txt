@@ -1,0 +1,8 @@
+User-agent: *
+
+Disallow: /search
+Disallow: /admin/
+Disallow: /wps/wcm/
+Disallow: /audiocaptcha
+
+Sitemap: http://rosstat.gov.ru/sitemap.xml

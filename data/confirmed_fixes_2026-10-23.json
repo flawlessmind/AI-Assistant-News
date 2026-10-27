@@ -1,0 +1,67 @@
+{
+  "checked_at": "2026-10-23T22:49:43.796685+03:00",
+  "analysis_version": "2026-10-23-v20-confirmed-fixes",
+  "logic_sha256": "3639fce8e7c2e71ca00f72bd6765202440717a0dd2b4fdfdb8b01b5d2d5cb569",
+  "base_commit": "b869e4c5a92136a84b956fac038027a24ba66cef",
+  "requested_duplicate_suffix_archive_found": false,
+  "compared_archive": "alfa_service_recovery_2026-10-23.zip",
+  "compared_archive_sha256": "0e5b35b45a5f742917b61f29581ecfae7bc5cb9bb092550787b973271ddb283c",
+  "working_version_before": "v19",
+  "compared_archive_version": "v18",
+  "python_windows": {
+    "passed": 193,
+    "failed": 0,
+    "skipped": 0,
+    "external_connections": "blocked by test runner"
+  },
+  "python_linux": {
+    "passed": 193,
+    "failed": 0,
+    "skipped": 0,
+    "docker_network": "none"
+  },
+  "javascript": {
+    "passed": 53,
+    "failed": 0,
+    "skipped": 0
+  },
+  "corpus_checks": 12,
+  "quality_checks": 13,
+  "expanded_checks": 866,
+  "news_search_queries_passed": 6,
+  "bank_hybrid_top5": {
+    "passed": 8,
+    "total": 8
+  },
+  "unrelated_queries_filtered": 3,
+  "http_company_role_cases": 10,
+  "browser_concurrent_questions_and_reload_passed": true,
+  "uncertain_result_single_send_passed": true,
+  "queue_capacity_default": 16,
+  "worker_count": 2,
+  "queue_overflow_http_both_servers": 503,
+  "head_empty_body_and_get_headers_both_servers_passed": true,
+  "source_hash_cache_invalidation_passed": true,
+  "batch_feed_status_query_passed": true,
+  "cleaned_rosstat_articles": 8,
+  "all_eight_substantive_bodies_preserved": true,
+  "real_runtime_preservation_verified": true,
+  "new_real_generative_requests": 0,
+  "real_period_physical_attempts_before": 122,
+  "real_period_physical_attempts_after": 122,
+  "local_call_cap_unchanged": null,
+  "gateway_budget_rub_per_day": 500,
+  "dependencies_updated": false,
+  "pip_check": "passed",
+  "tests_unavailable_due_to_dependencies": [],
+  "live_model_quality_retest": "not performed: explicitly prohibited by user",
+  "local_server": {
+    "url": "http://127.0.0.1:8002/",
+    "ready": true,
+    "remote_bind_allowed": false
+  },
+  "delivery_archive": "alfa_service_confirmed_fixes_2026-10-23.zip",
+  "fresh_archive_verification": "See adjacent .verification.json, generated after packaging.",
+  "remaining_risks_documented": "docs/CONFIRMED_FIXES_2026-10-23.md",
+  "passed": true
+}

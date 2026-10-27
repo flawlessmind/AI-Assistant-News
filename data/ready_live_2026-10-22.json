@@ -1,0 +1,786 @@
+{
+  "verified_on": "2026-10-22T21:18:18.772733+03:00",
+  "model": "deepseek/deepseek-v4.1-flash",
+  "base_url": "https://changellenge.up.railway.app/v1",
+  "search_mode": "hybrid",
+  "physical_generation_limit": 4,
+  "local_cap": 30,
+  "period": "2026-10-22",
+  "cost_rub": null,
+  "cases": [
+    {
+      "company_id": "U_1595",
+      "role": "cfo",
+      "event_id": "news_9f10b60aed544eaa32d4",
+      "source_url": "https://www.cbr.ru/press/event/?id=32919",
+      "ingestion_method": "verified_rss_and_full_article",
+      "status": "validation_failed",
+      "run_id": "94a5f7b54abe4d25948a207106333925",
+      "context_fingerprint": "884ab06ba0cb824efe7463a8ffb36865a1f7a6448e2ca9d9a0ba502d7d26ae84",
+      "insight": null,
+      "error": null,
+      "check_issues": [
+        "forecast_not_supported_by_quote",
+        "title_overstates_clothing_evidence"
+      ],
+      "review": null,
+      "stop_detail": {
+        "message": "Ответ не прошёл проверку цитат, ссылок или смысловой опоры; он не опубликован.",
+        "issues": [
+          "forecast_not_supported_by_quote",
+          "title_overstates_clothing_evidence"
+        ],
+        "next_step": "Уточнить вопрос или найти дополнительный источник. Неизвестные показатели можно перечислить кнопкой «Каких данных не хватает?»."
+      },
+      "evidence": [
+        {
+          "evidence_id": "ev_bad5d7e1a0de53315e702f46",
+          "source_id": "alfa_inflation",
+          "page": 1,
+          "publication_date": "2026-09-02",
+          "retrieval_method": "hybrid",
+          "semantic_score": 0.878325
+        },
+        {
+          "evidence_id": "ev_093499d04edac4927d8f55d3",
+          "source_id": "alfa_consumption",
+          "page": 2,
+          "publication_date": "2026-08-05",
+          "retrieval_method": "hybrid",
+          "semantic_score": 0.873263
+        },
+        {
+          "evidence_id": "ev_466819d9f38c8550f79ce092",
+          "source_id": "alfa_fi_strategy",
+          "page": 12,
+          "publication_date": "2026-07-22",
+          "retrieval_method": "hybrid",
+          "semantic_score": 0.879154
+        },
+        {
+          "evidence_id": "ev_8182d1baec68b32b6d75f8e2",
+          "source_id": "alfa_fi_strategy",
+          "page": 13,
+          "publication_date": "2026-07-22",
+          "retrieval_method": "hybrid",
+          "semantic_score": 0.866614
+        },
+        {
+          "evidence_id": "ev_b51e00b2dad5e5402a1a9cb2",
+          "source_id": "alfa_fi_strategy",
+          "page": 11,
+          "publication_date": "2026-07-22",
+          "retrieval_method": "hybrid",
+          "semantic_score": 0.864599
+        }
+      ],
+      "trace": [
+        {
+          "step": "route",
+          "task": "insight",
+          "reason": "Сформировать новый инсайт."
+        },
+        {
+          "step": "plan",
+          "queries": [
+            "инфляция основные выводы",
+            "инфляция непродовольственные товары цены",
+            "инфляция ограничения предложения спрос"
+          ],
+          "unavailable_queries": [],
+          "reason": "Темы новости, профиль и выбранный вопрос определяют план поиска. Частные договоры исключены из публичного поиска."
+        },
+        {
+          "step": "retrieve",
+          "round": 1,
+          "query": "инфляция основные выводы",
+          "source_filter": "alfa_inflation",
+          "evidence_ids": [
+            "ev_bad5d7e1a0de53315e702f46"
+          ],
+          "new_evidence_ids": [
+            "ev_bad5d7e1a0de53315e702f46"
+          ],
+          "retrieval_method": "hybrid",
+          "semantic_scores": {
+            "ev_bad5d7e1a0de53315e702f46": 0.883892
+          }
+        },
+        {
+          "step": "retrieve",
+          "round": 1,
+          "query": "инфляция непродовольственные товары цены",
+          "source_filter": null,
+          "evidence_ids": [
+            "ev_466819d9f38c8550f79ce092",
+            "ev_bad5d7e1a0de53315e702f46",
+            "ev_8182d1baec68b32b6d75f8e2"
+          ],
+          "new_evidence_ids": [
+            "ev_466819d9f38c8550f79ce092",
+            "ev_8182d1baec68b32b6d75f8e2"
+          ],
+          "retrieval_method": "hybrid",
+          "semantic_scores": {
+            "ev_466819d9f38c8550f79ce092": 0.871364,
+            "ev_bad5d7e1a0de53315e702f46": 0.878325,
+            "ev_8182d1baec68b32b6d75f8e2": 0.866614
+          }
+        },
+        {
+          "step": "retrieve",
+          "round": 1,
+          "query": "инфляция ограничения предложения спрос",
+          "source_filter": null,
+          "evidence_ids": [
+            "ev_466819d9f38c8550f79ce092",
+            "ev_093499d04edac4927d8f55d3",
+            "ev_b51e00b2dad5e5402a1a9cb2"
+          ],
+          "new_evidence_ids": [
+            "ev_093499d04edac4927d8f55d3",
+            "ev_b51e00b2dad5e5402a1a9cb2"
+          ],
+          "retrieval_method": "hybrid",
+          "semantic_scores": {
+            "ev_466819d9f38c8550f79ce092": 0.879154,
+            "ev_093499d04edac4927d8f55d3": 0.873263,
+            "ev_b51e00b2dad5e5402a1a9cb2": 0.864599
+          }
+        },
+        {
+          "step": "draft",
+          "round": 1,
+          "model": "deepseek/deepseek-v4.1-flash",
+          "requested_max_tokens": 6144,
+          "context_chars": 22950,
+          "news_chars": 1043,
+          "bank_evidence_chars": 13381
+        },
+        {
+          "step": "draft_result",
+          "round": 1,
+          "cached": false,
+          "usage": {
+            "prompt_tokens": 9544,
+            "completion_tokens": 4484,
+            "total_tokens": 14028,
+            "completion_tokens_details": {
+              "reasoning_tokens": 3449
+            }
+          },
+          "cost_rub": null,
+          "diagnostics": {
+            "stage": "draft",
+            "call_id": "ac8e89ff025443378e864f91b4b5ce7c",
+            "attempt": 1,
+            "requested_max_tokens": 6144,
+            "request_bytes": 46790,
+            "message_chars": 27709,
+            "timeout_seconds": 120.0,
+            "http_status": 200,
+            "elapsed_ms": 38531,
+            "response_bytes": 40760,
+            "usage": {
+              "prompt_tokens": 9544,
+              "completion_tokens": 4484,
+              "total_tokens": 14028,
+              "completion_tokens_details": {
+                "reasoning_tokens": 3449
+              }
+            },
+            "finish_reason": "stop",
+            "content_type": "string",
+            "reasoning_chars": 13123,
+            "content_chars": 3355
+          }
+        },
+        {
+          "step": "check",
+          "round": 1,
+          "issues": [
+            "forecast_not_supported_by_quote",
+            "title_overstates_clothing_evidence"
+          ],
+          "semantic_entailment_automatically_proved": false
+        },
+        {
+          "step": "revise",
+          "reason": "Исправляем формулировки/ссылки по уже найденным полным страницам. Частные данные запрашиваются у клиента.",
+          "issues": [
+            "forecast_not_supported_by_quote",
+            "title_overstates_clothing_evidence"
+          ],
+          "queries": [],
+          "unavailable_queries": [],
+          "next_round_will_run": false
+        },
+        {
+          "step": "stop",
+          "reason": "Ответ не прошёл проверку цитат, ссылок или смысловой опоры; он не опубликован.",
+          "issues": [
+            "forecast_not_supported_by_quote",
+            "title_overstates_clothing_evidence"
+          ]
+        }
+      ]
+    },
+    {
+      "company_id": "U_83932",
+      "role": "ceo",
+      "event_id": "news_6edd3faee905180b5c87",
+      "source_url": "https://www.cbr.ru/press/event/?id=32909",
+      "ingestion_method": "manual_web_extracted_excerpt_and_editorial_summary",
+      "status": "generation_unavailable",
+      "run_id": "c93ba8c746e04f70bf5da4d24ac78801",
+      "context_fingerprint": "1c4c5ced0c176599814ccb906ee8e3c6c41ddc86665cd10777773ea67d50eb01",
+      "insight": null,
+      "error": {
+        "code": "invalid_response",
+        "message": "Генерация прервана по лимиту длины (finish_reason=length; max_tokens=4096). JSON не принят. Распределение токенов — в безопасной диагностике; рассуждения не публикуются.",
+        "retry_at": null,
+        "diagnostics": {
+          "stage": "review",
+          "call_id": "2d3d88af2f5f4ba89fac5874cbf1daaf",
+          "attempt": 1,
+          "requested_max_tokens": 4096,
+          "request_bytes": 53932,
+          "message_chars": 31796,
+          "timeout_seconds": 120.0,
+          "http_status": 200,
+          "elapsed_ms": 37032,
+          "response_bytes": 45320,
+          "usage": {
+            "prompt_tokens": 11027,
+            "completion_tokens": 4096,
+            "total_tokens": 15123,
+            "completion_tokens_details": {
+              "reasoning_tokens": 4096
+            }
+          },
+          "finish_reason": "length",
+          "content_type": "string",
+          "reasoning_chars": 17243,
+          "content_chars": 0,
+          "reason": "output_truncated"
+        }
+      },
+      "check_issues": null,
+      "review": null,
+      "stop_detail": {
+        "message": "Генерация прервана по лимиту длины (finish_reason=length; max_tokens=4096). JSON не принят. Распределение токенов — в безопасной диагностике; рассуждения не публикуются.",
+        "next_step": "Проверить диагностические поля. Техническая ошибка не означает отсутствие банковских доказательств."
+      },
+      "evidence": [
+        {
+          "evidence_id": "ev_ea0f1e38daffe69d107aa6c1",
+          "source_id": "alfa_labor_7m",
+          "page": 1,
+          "publication_date": "2026-09-07",
+          "retrieval_method": "hybrid",
+          "semantic_score": 0.848976
+        },
+        {
+          "evidence_id": "ev_29fc10d29fa7dc90f24f2975",
+          "source_id": "alfa_labor_7m",
+          "page": 2,
+          "publication_date": "2026-09-07",
+          "retrieval_method": "hybrid",
+          "semantic_score": 0.864022
+        },
+        {
+          "evidence_id": "ev_e544ad1c4cf24ded425d16c3",
+          "source_id": "alfa_consumption",
+          "page": 1,
+          "publication_date": "2026-08-05",
+          "retrieval_method": "hybrid",
+          "semantic_score": 0.868883
+        },
+        {
+          "evidence_id": "ev_93822b0d28b72148f1b8e90e",
+          "source_id": "alfa_gdp_1h",
+          "page": 3,
+          "publication_date": "2026-07-31",
+          "retrieval_method": "hybrid",
+          "semantic_score": 0.837326
+        },
+        {
+          "evidence_id": "ev_b51e00b2dad5e5402a1a9cb2",
+          "source_id": "alfa_fi_strategy",
+          "page": 11,
+          "publication_date": "2026-07-22",
+          "retrieval_method": "hybrid",
+          "semantic_score": 0.865906
+        }
+      ],
+      "trace": [
+        {
+          "step": "route",
+          "task": "insight",
+          "reason": "Сформировать новый инсайт."
+        },
+        {
+          "step": "plan",
+          "queries": [
+            "строительство инвестиции спрос",
+            "розничная торговля потребление спрос",
+            "рынок труда зарплаты"
+          ],
+          "unavailable_queries": [],
+          "reason": "Темы новости, профиль и выбранный вопрос определяют план поиска. Частные договоры исключены из публичного поиска."
+        },
+        {
+          "step": "retrieve",
+          "round": 1,
+          "query": "строительство инвестиции спрос",
+          "source_filter": null,
+          "evidence_ids": [
+            "ev_b51e00b2dad5e5402a1a9cb2",
+            "ev_430ee57b3ab413b3a394b2c1",
+            "ev_93822b0d28b72148f1b8e90e"
+          ],
+          "new_evidence_ids": [
+            "ev_b51e00b2dad5e5402a1a9cb2",
+            "ev_430ee57b3ab413b3a394b2c1",
+            "ev_93822b0d28b72148f1b8e90e"
+          ],
+          "retrieval_method": "hybrid",
+          "semantic_scores": {
+            "ev_b51e00b2dad5e5402a1a9cb2": 0.851815,
+            "ev_430ee57b3ab413b3a394b2c1": 0.84028,
+            "ev_93822b0d28b72148f1b8e90e": 0.837326
+          }
+        },
+        {
+          "step": "retrieve",
+          "round": 1,
+          "query": "розничная торговля потребление спрос",
+          "source_filter": null,
+          "evidence_ids": [
+            "ev_e544ad1c4cf24ded425d16c3",
+            "ev_b51e00b2dad5e5402a1a9cb2",
+            "ev_ea0f1e38daffe69d107aa6c1"
+          ],
+          "new_evidence_ids": [
+            "ev_e544ad1c4cf24ded425d16c3",
+            "ev_ea0f1e38daffe69d107aa6c1"
+          ],
+          "retrieval_method": "hybrid",
+          "semantic_scores": {
+            "ev_e544ad1c4cf24ded425d16c3": 0.868883,
+            "ev_b51e00b2dad5e5402a1a9cb2": 0.865906,
+            "ev_ea0f1e38daffe69d107aa6c1": 0.854918
+          }
+        },
+        {
+          "step": "retrieve",
+          "round": 1,
+          "query": "рынок труда зарплаты",
+          "source_filter": null,
+          "evidence_ids": [
+            "ev_29fc10d29fa7dc90f24f2975",
+            "ev_3c2af628d2aa08e46f6a2629",
+            "ev_ea0f1e38daffe69d107aa6c1"
+          ],
+          "new_evidence_ids": [
+            "ev_29fc10d29fa7dc90f24f2975",
+            "ev_3c2af628d2aa08e46f6a2629"
+          ],
+          "retrieval_method": "hybrid",
+          "semantic_scores": {
+            "ev_29fc10d29fa7dc90f24f2975": 0.864022,
+            "ev_3c2af628d2aa08e46f6a2629": 0.849855,
+            "ev_ea0f1e38daffe69d107aa6c1": 0.848976
+          }
+        },
+        {
+          "step": "draft",
+          "round": 1,
+          "model": "deepseek/deepseek-v4.1-flash",
+          "requested_max_tokens": 6144,
+          "context_chars": 27554,
+          "news_chars": 652,
+          "bank_evidence_chars": 17838
+        },
+        {
+          "step": "draft_result",
+          "round": 1,
+          "cached": false,
+          "usage": {
+            "prompt_tokens": 11150,
+            "completion_tokens": 4876,
+            "total_tokens": 16026,
+            "completion_tokens_details": {
+              "reasoning_tokens": 3842
+            }
+          },
+          "cost_rub": null,
+          "diagnostics": {
+            "stage": "draft",
+            "call_id": "01f41a1d751f4b99a258938d1881776b",
+            "attempt": 1,
+            "requested_max_tokens": 6144,
+            "request_bytes": 54868,
+            "message_chars": 32313,
+            "timeout_seconds": 120.0,
+            "http_status": 200,
+            "elapsed_ms": 41047,
+            "response_bytes": 46504,
+            "usage": {
+              "prompt_tokens": 11150,
+              "completion_tokens": 4876,
+              "total_tokens": 16026,
+              "completion_tokens_details": {
+                "reasoning_tokens": 3842
+              }
+            },
+            "finish_reason": "stop",
+            "content_type": "string",
+            "reasoning_chars": 15018,
+            "content_chars": 3465
+          }
+        },
+        {
+          "step": "check",
+          "round": 1,
+          "issues": [],
+          "semantic_entailment_automatically_proved": false
+        },
+        {
+          "step": "response_error",
+          "reason": "Генерация прервана по лимиту длины (finish_reason=length; max_tokens=4096). JSON не принят. Распределение токенов — в безопасной диагностике; рассуждения не публикуются.",
+          "error_code": "invalid_response",
+          "stage": "review",
+          "diagnostics": {
+            "stage": "review",
+            "call_id": "2d3d88af2f5f4ba89fac5874cbf1daaf",
+            "attempt": 1,
+            "requested_max_tokens": 4096,
+            "request_bytes": 53932,
+            "message_chars": 31796,
+            "timeout_seconds": 120.0,
+            "http_status": 200,
+            "elapsed_ms": 37032,
+            "response_bytes": 45320,
+            "usage": {
+              "prompt_tokens": 11027,
+              "completion_tokens": 4096,
+              "total_tokens": 15123,
+              "completion_tokens_details": {
+                "reasoning_tokens": 4096
+              }
+            },
+            "finish_reason": "length",
+            "content_type": "string",
+            "reasoning_chars": 17243,
+            "content_chars": 0,
+            "reason": "output_truncated"
+          }
+        },
+        {
+          "step": "stop",
+          "reason": "invalid_response"
+        }
+      ]
+    },
+    {
+      "company_id": "U_1595",
+      "role": "cfo",
+      "event_id": "news_9f10b60aed544eaa32d4",
+      "source_url": "https://www.cbr.ru/press/event/?id=32919",
+      "corrected_retry_of": "94a5f7b54abe4d25948a207106333925",
+      "status": "complete",
+      "run_id": "e2a4552119fc4f32ac7deb26795d618e",
+      "context_fingerprint": "399029d6bc01f6c752cb2c1a3214abb5bd2f8b35bb10c6eb839500b9a0a0e24a",
+      "insight": {
+        "status": "complete",
+        "title": "Ослабление рубля и цены непродовольственных товаров: что это значит для розничной торговли одеждой?",
+        "news_facts": [
+          {
+            "text": "По данным новости, цены по широкому кругу непродовольственных товаров в регионах росли сдержанно.",
+            "quote": "Цены по широкому кругу непродовольственных товаров в регионах росли сдержанно.",
+            "evidence_ids": [
+              "news_9f10b60aed544eaa32d4"
+            ]
+          }
+        ],
+        "bank_positions": [
+          {
+            "text": "Прогноз банка в обзоре за последнюю неделю августа: ослабление курса рубля, по мнению аналитиков, продолжит влиять на динамику цен в непродовольственном сегменте, а не на одежду отдельно.",
+            "publication_date": "2026-09-02",
+            "quote": "ой стороны, ослабление курсо рубля, на\nнаш взгляд, продолжит воздейстзозоть на\nдинамику цен в непродовольственном сегменте.",
+            "evidence_ids": [
+              "ev_bad5d7e1a0de53315e702f46"
+            ]
+          }
+        ],
+        "interpretations": [
+          {
+            "text": "Если ослабление рубля действительно продолжит переноситься в цены непродовольственных товаров, закупочная стоимость одежды у розничного продавца может вырасти; влияние на компанию неизвестно и требует данных о доле импорта, валюте и условиях договоров поставки.",
+            "evidence_ids": [
+              "ev_bad5d7e1a0de53315e702f46",
+              "news_9f10b60aed544eaa32d4"
+            ],
+            "company_fields": [
+              "company.industry_okved_code",
+              "company.industry_name"
+            ],
+            "conditional": true
+          }
+        ],
+        "risks": [
+          {
+            "text": "В непродовольственном сегменте в целом, а не в розничной торговле одеждой, банк допускает давление ослабления рубля на цены: если этот сценарий реализуется и закупки подорожают без переноса в розничные цены, маржа продавца одежды может снизиться, но подтверждения на данных компании нет.",
+            "evidence_ids": [
+              "ev_bad5d7e1a0de53315e702f46"
+            ],
+            "company_fields": [
+              "company.industry_okved_code",
+              "company.industry_name"
+            ],
+            "conditional": true
+          }
+        ],
+        "opportunities": [
+          {
+            "text": "Банк связывает рост оборота розничной торговли с ростом зарплат и восстановлением потребкредитования; если этот импульс сохранится, спрос на одежду может остаться устойчивым — это стоит проверить на данных сегмента одежды, а не переносить с розницы в целом.",
+            "evidence_ids": [
+              "ev_b51e00b2dad5e5402a1a9cb2"
+            ],
+            "company_fields": [
+              "company.industry_okved_code"
+            ],
+            "conditional": true
+          }
+        ],
+        "actions": [
+          {
+            "text": "Проверить, есть ли в закупках валютная привязка и как менялись закупочные цены на одежду, чтобы оценить перенос ослабления рубля в себестоимость.",
+            "evidence_ids": [
+              "ev_bad5d7e1a0de53315e702f46"
+            ],
+            "company_fields": [
+              "company.industry_okved_code"
+            ],
+            "conditional": true
+          }
+        ],
+        "uncertainties": [
+          "Нет данных о доле импортных закупок, валюте и условиях договоров поставки.",
+          "Нет динамики продаж, запасов и сведений о действующих кредитных договорах."
+        ],
+        "additional_queries": [],
+        "scope_note": "Источники описывают агрегированные показатели инфляции и потребительского спроса по стране — непродовольственный сегмент в целом, услуги, розницу в целом — за недельные и месячные периоды лета и начала осени; клиент относится к розничной торговле одеждой, подтверждения динамики цен, спроса и закупок именно этого сегмента и этой компании нет, поэтому перенос выводов требует проверки на данных компании."
+      },
+      "error": null,
+      "check_issues": null,
+      "review": {
+        "approved": true,
+        "issues": [],
+        "additional_queries": []
+      },
+      "stop_detail": null,
+      "evidence": [
+        {
+          "evidence_id": "ev_bad5d7e1a0de53315e702f46",
+          "source_id": "alfa_inflation",
+          "page": 1,
+          "publication_date": "2026-09-02",
+          "retrieval_method": "hybrid",
+          "semantic_score": 0.878325
+        },
+        {
+          "evidence_id": "ev_093499d04edac4927d8f55d3",
+          "source_id": "alfa_consumption",
+          "page": 2,
+          "publication_date": "2026-08-05",
+          "retrieval_method": "hybrid",
+          "semantic_score": 0.873263
+        },
+        {
+          "evidence_id": "ev_466819d9f38c8550f79ce092",
+          "source_id": "alfa_fi_strategy",
+          "page": 12,
+          "publication_date": "2026-07-22",
+          "retrieval_method": "hybrid",
+          "semantic_score": 0.879154
+        },
+        {
+          "evidence_id": "ev_8182d1baec68b32b6d75f8e2",
+          "source_id": "alfa_fi_strategy",
+          "page": 13,
+          "publication_date": "2026-07-22",
+          "retrieval_method": "hybrid",
+          "semantic_score": 0.866614
+        },
+        {
+          "evidence_id": "ev_b51e00b2dad5e5402a1a9cb2",
+          "source_id": "alfa_fi_strategy",
+          "page": 11,
+          "publication_date": "2026-07-22",
+          "retrieval_method": "hybrid",
+          "semantic_score": 0.864599
+        }
+      ],
+      "trace": [
+        {
+          "step": "route",
+          "task": "insight",
+          "reason": "Сформировать новый инсайт."
+        },
+        {
+          "step": "plan",
+          "queries": [
+            "инфляция основные выводы",
+            "инфляция непродовольственные товары цены",
+            "инфляция ограничения предложения спрос"
+          ],
+          "unavailable_queries": [],
+          "reason": "Темы новости, профиль и выбранный вопрос определяют план поиска. Частные договоры исключены из публичного поиска."
+        },
+        {
+          "step": "retrieve",
+          "round": 1,
+          "query": "инфляция основные выводы",
+          "source_filter": "alfa_inflation",
+          "evidence_ids": [
+            "ev_bad5d7e1a0de53315e702f46"
+          ],
+          "new_evidence_ids": [
+            "ev_bad5d7e1a0de53315e702f46"
+          ],
+          "retrieval_method": "hybrid",
+          "semantic_scores": {
+            "ev_bad5d7e1a0de53315e702f46": 0.883892
+          }
+        },
+        {
+          "step": "retrieve",
+          "round": 1,
+          "query": "инфляция непродовольственные товары цены",
+          "source_filter": null,
+          "evidence_ids": [
+            "ev_466819d9f38c8550f79ce092",
+            "ev_bad5d7e1a0de53315e702f46",
+            "ev_8182d1baec68b32b6d75f8e2"
+          ],
+          "new_evidence_ids": [
+            "ev_466819d9f38c8550f79ce092",
+            "ev_8182d1baec68b32b6d75f8e2"
+          ],
+          "retrieval_method": "hybrid",
+          "semantic_scores": {
+            "ev_466819d9f38c8550f79ce092": 0.871364,
+            "ev_bad5d7e1a0de53315e702f46": 0.878325,
+            "ev_8182d1baec68b32b6d75f8e2": 0.866614
+          }
+        },
+        {
+          "step": "retrieve",
+          "round": 1,
+          "query": "инфляция ограничения предложения спрос",
+          "source_filter": null,
+          "evidence_ids": [
+            "ev_466819d9f38c8550f79ce092",
+            "ev_093499d04edac4927d8f55d3",
+            "ev_b51e00b2dad5e5402a1a9cb2"
+          ],
+          "new_evidence_ids": [
+            "ev_093499d04edac4927d8f55d3",
+            "ev_b51e00b2dad5e5402a1a9cb2"
+          ],
+          "retrieval_method": "hybrid",
+          "semantic_scores": {
+            "ev_466819d9f38c8550f79ce092": 0.879154,
+            "ev_093499d04edac4927d8f55d3": 0.873263,
+            "ev_b51e00b2dad5e5402a1a9cb2": 0.864599
+          }
+        },
+        {
+          "step": "candidate_recheck",
+          "round": 1,
+          "model": "deepseek/deepseek-v4.1-flash",
+          "requested_max_tokens": 6144,
+          "context_chars": 22950,
+          "news_chars": 1043,
+          "bank_evidence_chars": 13381
+        },
+        {
+          "step": "draft_result",
+          "round": 1,
+          "cached": true,
+          "usage": {},
+          "cost_rub": null,
+          "diagnostics": {
+            "stage": "candidate",
+            "source_run_id": "94a5f7b54abe4d25948a207106333925",
+            "reason": "Старое одобрение не используется: JSON заново проверяется текущими правилами и review."
+          }
+        },
+        {
+          "step": "check",
+          "round": 1,
+          "issues": [],
+          "semantic_entailment_automatically_proved": false
+        },
+        {
+          "step": "model_review",
+          "round": 1,
+          "approved": true,
+          "issues": [],
+          "queries": [],
+          "cached": false,
+          "usage": {
+            "prompt_tokens": 5512,
+            "completion_tokens": 2739,
+            "total_tokens": 8251,
+            "completion_tokens_details": {
+              "reasoning_tokens": 2722
+            }
+          },
+          "diagnostics": {
+            "stage": "review",
+            "call_id": "bda076967d314fe091283916b9a7c30d",
+            "attempt": 1,
+            "requested_max_tokens": 4096,
+            "request_bytes": 26629,
+            "message_chars": 16003,
+            "timeout_seconds": 120.0,
+            "http_status": 200,
+            "elapsed_ms": 24953,
+            "response_bytes": 28096,
+            "usage": {
+              "prompt_tokens": 5512,
+              "completion_tokens": 2739,
+              "total_tokens": 8251,
+              "completion_tokens_details": {
+                "reasoning_tokens": 2722
+              }
+            },
+            "finish_reason": "stop",
+            "content_type": "string",
+            "reasoning_chars": 10908,
+            "content_chars": 53
+          }
+        },
+        {
+          "step": "stop",
+          "reason": "Структура, источники, признаки и модельная проверка пройдены; остаются заявленные ограничения."
+        }
+      ]
+    }
+  ],
+  "max_rounds_for_control": 1,
+  "key_info": {
+    "numeric_fields_as_reported": {},
+    "units_verified": false,
+    "balance_rub": null
+  },
+  "new_physical_generations": 4,
+  "final_checked_at": "2026-10-22T21:26:18.185347+03:00",
+  "limits": [
+    "Four-request audit cap exhausted. Construction review failed by output truncation and was not approved.",
+    "Existing .env and local cap unchanged. Review bound remains 4096.",
+    "A previous complete JSON draft is an untrusted candidate; no previous approval was reused."
+  ]
+}

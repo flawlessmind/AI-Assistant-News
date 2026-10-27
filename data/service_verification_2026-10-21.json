@@ -1,0 +1,163 @@
+{
+  "checked_on": "2026-10-21",
+  "baseline_zip_sha256": "9071723add4ff4772b3bf5927c74710de1e634fcdbf5a40cba23f8ed176431dc",
+  "baseline_components_unchanged": true,
+  "fresh_news": {
+    "event_id": "news_9f10b60aed544eaa32d4",
+    "source_url": "https://www.cbr.ru/press/event/?id=32919",
+    "title": "В большинстве регионов в сентябре цены выросли умеренно",
+    "published_at": "2026-10-16T12:46:00+03:00",
+    "content_sha256": "69bf1695dd7660b00c101abfab44b8dcf9ebb793c2abdc5978b01fae5fe238be",
+    "raw_sha256": "6d352b7be1f0d10ada9bc3301134a503b66d6f2bf190c0deb5b33ee6c283e462"
+  },
+  "company_runs": [
+    {
+      "company_id": "U_1595",
+      "score": 7.92,
+      "reasons": [
+        {
+          "points": 5,
+          "company_field": "company.industry_okved_code",
+          "company_value": "47.71",
+          "text": "Розничная торговля: событие связано с потребительскими ценами или спросом. Влияние на продажи клиента ещё не установлено."
+        },
+        {
+          "points": 1,
+          "company_field": "company.products.credit",
+          "company_value": true,
+          "text": "Отмечен кредитный продукт: изменение цен — повод проверить потребность в оборотном финансировании. Рост расходов клиента этим не установлен."
+        },
+        {
+          "points": 1,
+          "company_field": "user.selected_role",
+          "company_value": "cfo",
+          "text": "Выбран ракурс финансового директора: приоритет условиям финансирования и денежным потокам."
+        }
+      ],
+      "source_ids": [
+        "alfa_consumption",
+        "alfa_gdp_1h",
+        "alfa_inflation",
+        "alfa_labor_7m",
+        "alfa_policy_rate"
+      ],
+      "trace_steps": [
+        "plan",
+        "retrieve",
+        "retrieve",
+        "retrieve",
+        "retrieve",
+        "stop"
+      ],
+      "status": "sources_ready",
+      "live_llm_used": false
+    },
+    {
+      "company_id": "U_83932",
+      "score": 4.92,
+      "reasons": [
+        {
+          "points": 3,
+          "company_field": "company.industry_okved_code",
+          "company_value": "41.20.1",
+          "text": "Для строительства событие может влиять на условия спроса, закупок и финансирования проектов. Конкретный эффект требует данных о проектах."
+        },
+        {
+          "points": 1,
+          "company_field": "user.selected_role",
+          "company_value": "cfo",
+          "text": "Выбран ракурс финансового директора: приоритет условиям финансирования и денежным потокам."
+        }
+      ],
+      "source_ids": [
+        "alfa_consumption",
+        "alfa_fi_strategy",
+        "alfa_gdp_1h",
+        "alfa_inflation",
+        "alfa_labor_7m",
+        "alfa_policy_rate"
+      ],
+      "trace_steps": [
+        "plan",
+        "retrieve",
+        "retrieve",
+        "retrieve",
+        "stop"
+      ],
+      "status": "sources_ready",
+      "live_llm_used": false
+    }
+  ],
+  "missing_key_handling": {
+    "code": "missing_key",
+    "message": "Ключ организаторов не настроен на сервере.",
+    "retry_at": null
+  },
+  "organizer_api_requests_performed": 0,
+  "live_llm_generation_verified": false,
+  "docker_build_verified": false,
+  "original_unit_tests": 9,
+  "original_corpus_checks": 12,
+  "total_unit_tests": 26,
+  "notes": [
+    "LLM tests use synthetic transports; no generated test answers are used as application output.",
+    "This is an actual newly ingested news article, not the historical September fixture."
+  ],
+  "browser_qa": {
+    "performed_on": "2026-10-21",
+    "entry_from_demo_home": true,
+    "company_switch_resets_detail_and_changes_reasons": true,
+    "role_switch_resets_detail_and_changes_reasons": true,
+    "source_ocr_dialog": true,
+    "followup_question_changes_search_and_trace": true,
+    "evidence_context_limit_observed": 6,
+    "live_button_disabled_without_key": true,
+    "screenshots": [
+      "docs/screenshots/alfa_service_preview.png",
+      "docs/screenshots/alfa_service_card_preview.png"
+    ]
+  },
+  "news_snapshot_count": 10,
+  "raw_source_files_verified_by_sha256": 12,
+  "duplicate_refresh": {
+    "inserted": 0,
+    "updated": 0,
+    "duplicate": 10,
+    "errors": []
+  },
+  "docker_compose_config_verified": true,
+  "docker_unverified_reason": "Docker daemon not available on local npipe docker_engine.",
+  "clean_archive_verification": {
+    "python": "3.12.14",
+    "system_site_packages": false,
+    "installed_packages": [
+      {
+        "name": "pip",
+        "version": "25.0.1"
+      }
+    ],
+    "runtime_third_party_packages_required": 0,
+    "checks": [
+      {
+        "check": "unit_tests",
+        "exit_code": 0
+      },
+      {
+        "check": "corpus_checks",
+        "exit_code": 0
+      },
+      {
+        "check": "configuration_probe_without_network",
+        "exit_code": 0
+      },
+      {
+        "check": "clean_process_http_ui_news_and_source_run",
+        "status": "passed",
+        "news_count": 10,
+        "insight_status": "sources_ready",
+        "bank_evidence_count": 6
+      }
+    ],
+    "organizer_api_requests_performed": 0
+  }
+}

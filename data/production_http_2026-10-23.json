@@ -1,0 +1,178 @@
+{
+  "no_key": true,
+  "news_count": 10,
+  "search": {
+    "mode": "hybrid",
+    "model_id": "intfloat/multilingual-e5-small",
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "encoder_signature": "76c66307b818136283680614a7bafe7e22da4f5780c0a7d54d9f61075bfdc8e1",
+    "index_sha256": "bbaee463e046b80658da73e79c716754fd95e9b60826c5bc4b937cffe47b19e6",
+    "chunks": 74,
+    "dimension": 384,
+    "min_cosine": 0.82,
+    "policy_version": "e5-int8-mean-pool-hybrid-v1",
+    "network_at_query_time": false,
+    "ready": true
+  },
+  "companies": 2,
+  "matrix": [
+    {
+      "company_id": "U_1595",
+      "role": "cfo",
+      "event_id": "news_9f10b60aed544eaa32d4",
+      "business_score": 7,
+      "reasons": [
+        {
+          "points": 5,
+          "company_field": "company.industry_okved_code",
+          "company_value": "47.71",
+          "text": "Розничная торговля: событие связано с потребительскими ценами или спросом. Влияние на продажи клиента ещё не установлено."
+        },
+        {
+          "points": 1,
+          "company_field": "company.products.credit",
+          "company_value": true,
+          "text": "В базе отмечен кредитный продукт: изменение цен — повод проверить потребность в оборотном финансировании. Текущий долг и рост расходов этим не установлены."
+        },
+        {
+          "points": 1,
+          "company_field": "user.selected_role",
+          "company_value": "cfo",
+          "text": "Выбран ракурс финансового директора: приоритет условиям финансирования и денежным потокам."
+        },
+        {
+          "points": 0,
+          "company_field": "payments.outgoing_external_counterparty_count",
+          "company_value": 159,
+          "text": "В предоставленном наборе у компании 159 контрагентов по внешним исходящим платежам. Состав закупок и условия расчётов нужно уточнить; самопереводы исключены, период и валюта платежей не установлены."
+        }
+      ],
+      "sources_status": "sources_ready",
+      "semantic_news_match": {
+        "event_id": "news_9f10b60aed544eaa32d4",
+        "semantic_score": 0.850513,
+        "score": 0.8505125045776367,
+        "retrieval_method": "hybrid",
+        "exact_match": false
+      },
+      "evidence_count": 5,
+      "gaps_status": "answered",
+      "generation_status": "generation_unavailable",
+      "context_fingerprint": "4645eb64fa44a21c570b8c884dfade735c7abd4f7f4b1b0e518e014ecd17d1f8"
+    },
+    {
+      "company_id": "U_1595",
+      "role": "ceo",
+      "event_id": "news_9f10b60aed544eaa32d4",
+      "business_score": 6,
+      "reasons": [
+        {
+          "points": 5,
+          "company_field": "company.industry_okved_code",
+          "company_value": "47.71",
+          "text": "Розничная торговля: событие связано с потребительскими ценами или спросом. Влияние на продажи клиента ещё не установлено."
+        },
+        {
+          "points": 1,
+          "company_field": "company.products.credit",
+          "company_value": true,
+          "text": "В базе отмечен кредитный продукт: изменение цен — повод проверить потребность в оборотном финансировании. Текущий долг и рост расходов этим не установлены."
+        },
+        {
+          "points": 0,
+          "company_field": "payments.outgoing_external_counterparty_count",
+          "company_value": 159,
+          "text": "В предоставленном наборе у компании 159 контрагентов по внешним исходящим платежам. Состав закупок и условия расчётов нужно уточнить; самопереводы исключены, период и валюта платежей не установлены."
+        }
+      ],
+      "sources_status": "sources_ready",
+      "semantic_news_match": {
+        "event_id": "news_9f10b60aed544eaa32d4",
+        "semantic_score": 0.850513,
+        "score": 0.8505125045776367,
+        "retrieval_method": "hybrid",
+        "exact_match": false
+      },
+      "evidence_count": 5,
+      "gaps_status": "answered",
+      "generation_status": "generation_unavailable",
+      "context_fingerprint": "e3fab0e741264f0dda4057172189591462885d8e6d60ff2ab3a2053e614c6b1f"
+    },
+    {
+      "company_id": "U_83932",
+      "role": "cfo",
+      "event_id": "news_9f10b60aed544eaa32d4",
+      "business_score": 4,
+      "reasons": [
+        {
+          "points": 3,
+          "company_field": "company.industry_okved_code",
+          "company_value": "41.20.1",
+          "text": "Для строительства событие может влиять на условия спроса, закупок и финансирования проектов. Конкретный эффект требует данных о проектах."
+        },
+        {
+          "points": 1,
+          "company_field": "user.selected_role",
+          "company_value": "cfo",
+          "text": "Выбран ракурс финансового директора: приоритет условиям финансирования и денежным потокам."
+        },
+        {
+          "points": 0,
+          "company_field": "payments.outgoing_external_counterparty_count",
+          "company_value": 61,
+          "text": "В предоставленном наборе у компании 61 контрагентов по внешним исходящим платежам. Состав закупок и условия расчётов нужно уточнить; самопереводы исключены, период и валюта платежей не установлены."
+        }
+      ],
+      "sources_status": "sources_ready",
+      "semantic_news_match": {
+        "event_id": "news_9f10b60aed544eaa32d4",
+        "semantic_score": 0.850513,
+        "score": 0.8505125045776367,
+        "retrieval_method": "hybrid",
+        "exact_match": false
+      },
+      "evidence_count": 5,
+      "gaps_status": "answered",
+      "generation_status": "generation_unavailable",
+      "context_fingerprint": "60a4b76d7c28c3600f70035b37df041f1174fb508af3fe742e1239f39644e0bd"
+    },
+    {
+      "company_id": "U_83932",
+      "role": "ceo",
+      "event_id": "news_9f10b60aed544eaa32d4",
+      "business_score": 3,
+      "reasons": [
+        {
+          "points": 3,
+          "company_field": "company.industry_okved_code",
+          "company_value": "41.20.1",
+          "text": "Для строительства событие может влиять на условия спроса, закупок и финансирования проектов. Конкретный эффект требует данных о проектах."
+        },
+        {
+          "points": 0,
+          "company_field": "payments.outgoing_external_counterparty_count",
+          "company_value": 61,
+          "text": "В предоставленном наборе у компании 61 контрагентов по внешним исходящим платежам. Состав закупок и условия расчётов нужно уточнить; самопереводы исключены, период и валюта платежей не установлены."
+        }
+      ],
+      "sources_status": "sources_ready",
+      "semantic_news_match": {
+        "event_id": "news_9f10b60aed544eaa32d4",
+        "semantic_score": 0.850513,
+        "score": 0.8505125045776367,
+        "retrieval_method": "hybrid",
+        "exact_match": false
+      },
+      "evidence_count": 5,
+      "gaps_status": "answered",
+      "generation_status": "generation_unavailable",
+      "context_fingerprint": "55922ca7254f535c9045779d075f0f0e8b8c9fa7d5c4c221b0966d1fe5c8c481"
+    }
+  ],
+  "unsafe_action_codes": [
+    403,
+    403
+  ],
+  "new_llm_calls": 0,
+  "analysis_version": "2026-10-23-v11-production-acceptance"
+}

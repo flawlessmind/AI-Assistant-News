@@ -1,0 +1,208 @@
+{
+  "as_of": "2026-10-20",
+  "inventory": {
+    "documents": 9,
+    "pages": 64,
+    "chunks": 131,
+    "searchable_chunks": 74
+  },
+  "checks": [
+    {
+      "check": "source_retrieved",
+      "query": "ключевая ставка пауза кредиты",
+      "expected_source": "alfa_policy_rate",
+      "expected_page": 1,
+      "options": {},
+      "passed": true,
+      "returned": [
+        {
+          "source_id": "alfa_policy_rate",
+          "page": 1
+        },
+        {
+          "source_id": "alfa_bond_brief",
+          "page": 1
+        },
+        {
+          "source_id": "alfa_fi_strategy",
+          "page": 23
+        },
+        {
+          "source_id": "alfa_consumption",
+          "page": 2
+        },
+        {
+          "source_id": "alfa_fi_strategy",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "check": "source_retrieved",
+      "query": "розничная торговля потребление спрос",
+      "expected_source": "alfa_labor_7m",
+      "expected_page": 1,
+      "options": {},
+      "passed": true,
+      "returned": [
+        {
+          "source_id": "alfa_gdp_1h",
+          "page": 2
+        },
+        {
+          "source_id": "alfa_consumption",
+          "page": 1
+        },
+        {
+          "source_id": "alfa_labor_7m",
+          "page": 1
+        },
+        {
+          "source_id": "alfa_consumption",
+          "page": 3
+        },
+        {
+          "source_id": "alfa_gdp_1h",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "check": "source_retrieved",
+      "query": "инфляция бензин недельная",
+      "expected_source": "alfa_inflation",
+      "expected_page": 1,
+      "options": {},
+      "passed": true,
+      "returned": [
+        {
+          "source_id": "alfa_inflation",
+          "page": 1
+        },
+        {
+          "source_id": "alfa_consumption",
+          "page": 2
+        },
+        {
+          "source_id": "alfa_gdp_1h",
+          "page": 2
+        },
+        {
+          "source_id": "alfa_fi_strategy",
+          "page": 12
+        },
+        {
+          "source_id": "alfa_policy_rate",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "check": "source_retrieved",
+      "query": "прогноз роста ВВП инвестиции",
+      "expected_source": "alfa_gdp_1h",
+      "expected_page": null,
+      "options": {},
+      "passed": true,
+      "returned": [
+        {
+          "source_id": "alfa_gdp_1h",
+          "page": 1
+        },
+        {
+          "source_id": "alfa_gdp_1h",
+          "page": 3
+        },
+        {
+          "source_id": "alfa_consumption",
+          "page": 1
+        },
+        {
+          "source_id": "alfa_fi_strategy",
+          "page": 3
+        },
+        {
+          "source_id": "alfa_fi_strategy",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "check": "source_retrieved",
+      "query": "золото ФРС",
+      "expected_source": "alfa_gold",
+      "expected_page": null,
+      "options": {
+        "include_undated": true
+      },
+      "passed": true,
+      "returned": [
+        {
+          "source_id": "alfa_gold",
+          "page": 5
+        },
+        {
+          "source_id": "alfa_gold",
+          "page": 3
+        },
+        {
+          "source_id": "alfa_gold",
+          "page": 2
+        },
+        {
+          "source_id": "alfa_gold",
+          "page": 4
+        },
+        {
+          "source_id": "alfa_gold",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "check": "source_retrieved",
+      "query": "сталь прокат",
+      "expected_source": "alfa_steel",
+      "expected_page": null,
+      "options": {
+        "include_historical": true
+      },
+      "passed": true,
+      "returned": [
+        {
+          "source_id": "alfa_steel",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "check": "no_future_sources",
+      "passed": true
+    },
+    {
+      "check": "steel_2021_excluded_by_default",
+      "passed": true
+    },
+    {
+      "check": "unknown_publication_date_excluded_by_default",
+      "passed": true
+    },
+    {
+      "check": "unknown_query_returns_empty",
+      "passed": true
+    },
+    {
+      "check": "altered_rate_quote_rejected",
+      "passed": true
+    },
+    {
+      "check": "different_company_features_change_retrieval_queries",
+      "passed": true
+    }
+  ],
+  "passed": 12,
+  "total": 12,
+  "llm_calls": 0,
+  "api_cost_rub": 0,
+  "limits": "These selected checks are not a representative accuracy estimate; numeric OCR and semantic entailment are not automatically validated."
+}

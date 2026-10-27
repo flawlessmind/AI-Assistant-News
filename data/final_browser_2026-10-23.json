@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-10-23T20:55:29.919836+03:00",
+  "analysis_version": "2026-10-23-v19-independent-regeneration",
+  "browser": "Playwright Chromium against the normally launched application on localhost:8002",
+  "widths": [
+    {
+      "viewport": 1440,
+      "scroll_width": 1440,
+      "horizontal_overflow": false
+    },
+    {
+      "viewport": 1024,
+      "scroll_width": 1024,
+      "horizontal_overflow": false
+    },
+    {
+      "viewport": 768,
+      "scroll_width": 768,
+      "horizontal_overflow": false
+    },
+    {
+      "viewport": 390,
+      "scroll_width": 390,
+      "horizontal_overflow": false
+    }
+  ],
+  "restored_current_insight": true,
+  "cfo_ceo_actions_differ": true,
+  "prototype_labels_in_main_flow": false,
+  "source_dialog_opened": true,
+  "source_page_chars": 4221,
+  "escape_closes_dialog": true,
+  "physical_attempts_before_reading": 95,
+  "physical_attempts_after_reading": 95,
+  "new_generative_requests": 0,
+  "screenshots": "docs/screenshots/final-*",
+  "separate_live_regeneration_report": "data/regeneration_live_2026-10-23.json",
+  "separate_controlled_concurrency_report": "data/regeneration_browser_2026-10-23.json"
+}

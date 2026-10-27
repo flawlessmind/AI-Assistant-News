@@ -1,0 +1,1394 @@
+{
+  "no_key": true,
+  "news_count": 50,
+  "search": {
+    "mode": "hybrid",
+    "model_id": "intfloat/multilingual-e5-small",
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "encoder_signature": "76c66307b818136283680614a7bafe7e22da4f5780c0a7d54d9f61075bfdc8e1",
+    "index_sha256": "bbaee463e046b80658da73e79c716754fd95e9b60826c5bc4b937cffe47b19e6",
+    "chunks": 74,
+    "dimension": 384,
+    "min_cosine": 0.82,
+    "policy_version": "e5-int8-mean-pool-hybrid-v1",
+    "network_at_query_time": false,
+    "ready": true
+  },
+  "companies": 5,
+  "matrix": [
+    {
+      "company_id": "U_1595",
+      "role": "cfo",
+      "event_id": "news_2f1c5b8efafa74f5118b",
+      "business_score": 14,
+      "reasons": [
+        {
+          "points": 2,
+          "company_field": "company.industry_okved_code",
+          "company_value": "47.71",
+          "text": "Общеэкономический контекст для планирования: индивидуальный спрос, долг и денежные потоки компании из этой статистики не следуют."
+        },
+        {
+          "points": 5,
+          "company_field": "company.industry_okved_code",
+          "company_value": "47.71",
+          "text": "Розничная торговля: событие связано с потребительскими ценами или спросом. Влияние на продажи клиента ещё не установлено."
+        },
+        {
+          "points": 1,
+          "company_field": "company.industry_okved_code",
+          "company_value": "47.71",
+          "text": "Для розницы ставка может быть связана с покупательским спросом; индивидуальную связь нужно проверить."
+        },
+        {
+          "points": 4,
+          "company_field": "company.products.credit",
+          "company_value": true,
+          "text": "В базе отмечен кредитный продукт. Уточнить наличие действующего долга и, если он есть, условия; сумма долга неизвестна."
+        },
+        {
+          "points": 1,
+          "company_field": "company.products.leasing",
+          "company_value": true,
+          "text": "Отмечен лизинг: возможная связь с условиями договоров требует проверки; автоматический пересмотр платежей не предполагается."
+        },
+        {
+          "points": 1,
+          "company_field": "user.selected_role",
+          "company_value": "cfo",
+          "text": "Выбран ракурс финансового директора: приоритет условиям финансирования и денежным потокам."
+        },
+        {
+          "points": 0,
+          "company_field": "payments.outgoing_external_counterparty_count",
+          "company_value": 159,
+          "text": "В предоставленном наборе у компании 159 контрагентов по внешним исходящим платежам. Состав закупок и условия расчётов нужно уточнить; самопереводы исключены, период и валюта платежей не установлены."
+        },
+        {
+          "points": 0,
+          "company_field": "network.outgoing.industry_divisions",
+          "company_value": [
+            {
+              "okved_division": "68",
+              "company_count": 34
+            },
+            {
+              "okved_division": "73",
+              "company_count": 7
+            },
+            {
+              "okved_division": "46",
+              "company_count": 6
+            },
+            {
+              "okved_division": "62",
+              "company_count": 5
+            },
+            {
+              "okved_division": "47",
+              "company_count": 2
+            },
+            {
+              "okved_division": "55",
+              "company_count": 2
+            },
+            {
+              "okved_division": "70",
+              "company_count": 2
+            },
+            {
+              "okved_division": "81",
+              "company_count": 2
+            },
+            {
+              "okved_division": "82",
+              "company_count": 2
+            },
+            {
+              "okved_division": "13",
+              "company_count": 1
+            },
+            {
+              "okved_division": "41",
+              "company_count": 1
+            },
+            {
+              "okved_division": "53",
+              "company_count": 1
+            },
+            {
+              "okved_division": "56",
+              "company_count": 1
+            },
+            {
+              "okved_division": "63",
+              "company_count": 1
+            },
+            {
+              "okved_division": "64",
+              "company_count": 1
+            },
+            {
+              "okved_division": "71",
+              "company_count": 1
+            },
+            {
+              "okved_division": "80",
+              "company_count": 1
+            },
+            {
+              "okved_division": "95",
+              "company_count": 1
+            }
+          ],
+          "text": "В исходящих платёжных связях известна отраслевая структура контрагентов (ОКВЭД 68: 34, ОКВЭД 73: 7, ОКВЭД 46: 6). Это число компаний, не доли расходов или продаж; назначение переводов не установлено."
+        },
+        {
+          "points": 0,
+          "company_field": "network.incoming.industry_divisions",
+          "company_value": [
+            {
+              "okved_division": "46",
+              "company_count": 1
+            },
+            {
+              "okved_division": "81",
+              "company_count": 1
+            }
+          ],
+          "text": "В входящих платёжных связях известна отраслевая структура контрагентов (ОКВЭД 46: 1, ОКВЭД 81: 1). Это число компаний, не доли расходов или продаж; назначение переводов не установлено."
+        }
+      ],
+      "sources_status": "sources_ready",
+      "semantic_news_match": {
+        "event_id": "news_9f10b60aed544eaa32d4",
+        "semantic_score": 0.850513,
+        "score": 0.8505125045776367,
+        "retrieval_method": "hybrid",
+        "exact_match": false
+      },
+      "evidence_count": 6,
+      "gaps_status": "answered",
+      "generation_status": "generation_unavailable",
+      "context_fingerprint": "a6e79c810c5d2a9f26848485acf6dc1b066051e824fc4785496a0cea4dba5c1c"
+    },
+    {
+      "company_id": "U_1595",
+      "role": "ceo",
+      "event_id": "news_2f1c5b8efafa74f5118b",
+      "business_score": 14,
+      "reasons": [
+        {
+          "points": 2,
+          "company_field": "company.industry_okved_code",
+          "company_value": "47.71",
+          "text": "Общеэкономический контекст для планирования: индивидуальный спрос, долг и денежные потоки компании из этой статистики не следуют."
+        },
+        {
+          "points": 5,
+          "company_field": "company.industry_okved_code",
+          "company_value": "47.71",
+          "text": "Розничная торговля: событие связано с потребительскими ценами или спросом. Влияние на продажи клиента ещё не установлено."
+        },
+        {
+          "points": 1,
+          "company_field": "company.industry_okved_code",
+          "company_value": "47.71",
+          "text": "Для розницы ставка может быть связана с покупательским спросом; индивидуальную связь нужно проверить."
+        },
+        {
+          "points": 4,
+          "company_field": "company.products.credit",
+          "company_value": true,
+          "text": "В базе отмечен кредитный продукт. Уточнить наличие действующего долга и, если он есть, условия; сумма долга неизвестна."
+        },
+        {
+          "points": 1,
+          "company_field": "company.products.leasing",
+          "company_value": true,
+          "text": "Отмечен лизинг: возможная связь с условиями договоров требует проверки; автоматический пересмотр платежей не предполагается."
+        },
+        {
+          "points": 1,
+          "company_field": "user.selected_role",
+          "company_value": "ceo",
+          "text": "Выбран ракурс руководителя: приоритет спросу, операционной деятельности и ресурсам."
+        },
+        {
+          "points": 0,
+          "company_field": "payments.outgoing_external_counterparty_count",
+          "company_value": 159,
+          "text": "В предоставленном наборе у компании 159 контрагентов по внешним исходящим платежам. Состав закупок и условия расчётов нужно уточнить; самопереводы исключены, период и валюта платежей не установлены."
+        },
+        {
+          "points": 0,
+          "company_field": "network.outgoing.industry_divisions",
+          "company_value": [
+            {
+              "okved_division": "68",
+              "company_count": 34
+            },
+            {
+              "okved_division": "73",
+              "company_count": 7
+            },
+            {
+              "okved_division": "46",
+              "company_count": 6
+            },
+            {
+              "okved_division": "62",
+              "company_count": 5
+            },
+            {
+              "okved_division": "47",
+              "company_count": 2
+            },
+            {
+              "okved_division": "55",
+              "company_count": 2
+            },
+            {
+              "okved_division": "70",
+              "company_count": 2
+            },
+            {
+              "okved_division": "81",
+              "company_count": 2
+            },
+            {
+              "okved_division": "82",
+              "company_count": 2
+            },
+            {
+              "okved_division": "13",
+              "company_count": 1
+            },
+            {
+              "okved_division": "41",
+              "company_count": 1
+            },
+            {
+              "okved_division": "53",
+              "company_count": 1
+            },
+            {
+              "okved_division": "56",
+              "company_count": 1
+            },
+            {
+              "okved_division": "63",
+              "company_count": 1
+            },
+            {
+              "okved_division": "64",
+              "company_count": 1
+            },
+            {
+              "okved_division": "71",
+              "company_count": 1
+            },
+            {
+              "okved_division": "80",
+              "company_count": 1
+            },
+            {
+              "okved_division": "95",
+              "company_count": 1
+            }
+          ],
+          "text": "В исходящих платёжных связях известна отраслевая структура контрагентов (ОКВЭД 68: 34, ОКВЭД 73: 7, ОКВЭД 46: 6). Это число компаний, не доли расходов или продаж; назначение переводов не установлено."
+        },
+        {
+          "points": 0,
+          "company_field": "network.incoming.industry_divisions",
+          "company_value": [
+            {
+              "okved_division": "46",
+              "company_count": 1
+            },
+            {
+              "okved_division": "81",
+              "company_count": 1
+            }
+          ],
+          "text": "В входящих платёжных связях известна отраслевая структура контрагентов (ОКВЭД 46: 1, ОКВЭД 81: 1). Это число компаний, не доли расходов или продаж; назначение переводов не установлено."
+        }
+      ],
+      "sources_status": "sources_ready",
+      "semantic_news_match": {
+        "event_id": "news_9f10b60aed544eaa32d4",
+        "semantic_score": 0.850513,
+        "score": 0.8505125045776367,
+        "retrieval_method": "hybrid",
+        "exact_match": false
+      },
+      "evidence_count": 6,
+      "gaps_status": "answered",
+      "generation_status": "generation_unavailable",
+      "context_fingerprint": "b549af24d01a4f39afa6a33e5b64f254f85ce55c4d77643cd688380511ce9052"
+    },
+    {
+      "company_id": "U_768",
+      "role": "cfo",
+      "event_id": "news_2f1c5b8efafa74f5118b",
+      "business_score": 9,
+      "reasons": [
+        {
+          "points": 2,
+          "company_field": "company.industry_okved_code",
+          "company_value": "49.41.1",
+          "text": "Общеэкономический контекст для планирования: индивидуальный спрос, долг и денежные потоки компании из этой статистики не следуют."
+        },
+        {
+          "points": 5,
+          "company_field": "company.industry_okved_code",
+          "company_value": "49.41.1",
+          "text": "Транспорт и складирование: проверить связь события с тарифами, загрузкой и расходами. Состав затрат компании неизвестен."
+        },
+        {
+          "points": 1,
+          "company_field": "company.products.leasing",
+          "company_value": true,
+          "text": "Отмечен лизинг: возможная связь с условиями договоров требует проверки; автоматический пересмотр платежей не предполагается."
+        },
+        {
+          "points": 1,
+          "company_field": "user.selected_role",
+          "company_value": "cfo",
+          "text": "Выбран ракурс финансового директора: приоритет условиям финансирования и денежным потокам."
+        },
+        {
+          "points": 0,
+          "company_field": "payments.outgoing_external_counterparty_count",
+          "company_value": 55,
+          "text": "В предоставленном наборе у компании 55 контрагентов по внешним исходящим платежам. Состав закупок и условия расчётов нужно уточнить; самопереводы исключены, период и валюта платежей не установлены."
+        },
+        {
+          "points": 0,
+          "company_field": "network.outgoing.industry_divisions",
+          "company_value": [
+            {
+              "okved_division": "46",
+              "company_count": 7
+            },
+            {
+              "okved_division": "45",
+              "company_count": 5
+            },
+            {
+              "okved_division": "49",
+              "company_count": 4
+            },
+            {
+              "okved_division": "33",
+              "company_count": 2
+            },
+            {
+              "okved_division": "43",
+              "company_count": 1
+            },
+            {
+              "okved_division": "52",
+              "company_count": 1
+            },
+            {
+              "okved_division": "62",
+              "company_count": 1
+            },
+            {
+              "okved_division": "64",
+              "company_count": 1
+            },
+            {
+              "okved_division": "68",
+              "company_count": 1
+            },
+            {
+              "okved_division": "72",
+              "company_count": 1
+            },
+            {
+              "okved_division": "77",
+              "company_count": 1
+            },
+            {
+              "okved_division": "78",
+              "company_count": 1
+            },
+            {
+              "okved_division": "86",
+              "company_count": 1
+            }
+          ],
+          "text": "В исходящих платёжных связях известна отраслевая структура контрагентов (ОКВЭД 46: 7, ОКВЭД 45: 5, ОКВЭД 49: 4). Это число компаний, не доли расходов или продаж; назначение переводов не установлено."
+        },
+        {
+          "points": 0,
+          "company_field": "network.incoming.industry_divisions",
+          "company_value": [
+            {
+              "okved_division": "46",
+              "company_count": 4
+            },
+            {
+              "okved_division": "49",
+              "company_count": 3
+            },
+            {
+              "okved_division": "52",
+              "company_count": 2
+            },
+            {
+              "okved_division": "82",
+              "company_count": 1
+            }
+          ],
+          "text": "В входящих платёжных связях известна отраслевая структура контрагентов (ОКВЭД 46: 4, ОКВЭД 49: 3, ОКВЭД 52: 2). Это число компаний, не доли расходов или продаж; назначение переводов не установлено."
+        }
+      ],
+      "sources_status": "sources_ready",
+      "semantic_news_match": {
+        "event_id": "news_9f10b60aed544eaa32d4",
+        "semantic_score": 0.850513,
+        "score": 0.8505125045776367,
+        "retrieval_method": "hybrid",
+        "exact_match": false
+      },
+      "evidence_count": 6,
+      "gaps_status": "answered",
+      "generation_status": "generation_unavailable",
+      "context_fingerprint": "7a944a923bbebb42781e15ebd0a02f360eca05fd875883842da81453bc3ea8ed"
+    },
+    {
+      "company_id": "U_768",
+      "role": "ceo",
+      "event_id": "news_2f1c5b8efafa74f5118b",
+      "business_score": 9,
+      "reasons": [
+        {
+          "points": 2,
+          "company_field": "company.industry_okved_code",
+          "company_value": "49.41.1",
+          "text": "Общеэкономический контекст для планирования: индивидуальный спрос, долг и денежные потоки компании из этой статистики не следуют."
+        },
+        {
+          "points": 5,
+          "company_field": "company.industry_okved_code",
+          "company_value": "49.41.1",
+          "text": "Транспорт и складирование: проверить связь события с тарифами, загрузкой и расходами. Состав затрат компании неизвестен."
+        },
+        {
+          "points": 1,
+          "company_field": "company.products.leasing",
+          "company_value": true,
+          "text": "Отмечен лизинг: возможная связь с условиями договоров требует проверки; автоматический пересмотр платежей не предполагается."
+        },
+        {
+          "points": 1,
+          "company_field": "user.selected_role",
+          "company_value": "ceo",
+          "text": "Выбран ракурс руководителя: приоритет спросу, операционной деятельности и ресурсам."
+        },
+        {
+          "points": 0,
+          "company_field": "payments.outgoing_external_counterparty_count",
+          "company_value": 55,
+          "text": "В предоставленном наборе у компании 55 контрагентов по внешним исходящим платежам. Состав закупок и условия расчётов нужно уточнить; самопереводы исключены, период и валюта платежей не установлены."
+        },
+        {
+          "points": 0,
+          "company_field": "network.outgoing.industry_divisions",
+          "company_value": [
+            {
+              "okved_division": "46",
+              "company_count": 7
+            },
+            {
+              "okved_division": "45",
+              "company_count": 5
+            },
+            {
+              "okved_division": "49",
+              "company_count": 4
+            },
+            {
+              "okved_division": "33",
+              "company_count": 2
+            },
+            {
+              "okved_division": "43",
+              "company_count": 1
+            },
+            {
+              "okved_division": "52",
+              "company_count": 1
+            },
+            {
+              "okved_division": "62",
+              "company_count": 1
+            },
+            {
+              "okved_division": "64",
+              "company_count": 1
+            },
+            {
+              "okved_division": "68",
+              "company_count": 1
+            },
+            {
+              "okved_division": "72",
+              "company_count": 1
+            },
+            {
+              "okved_division": "77",
+              "company_count": 1
+            },
+            {
+              "okved_division": "78",
+              "company_count": 1
+            },
+            {
+              "okved_division": "86",
+              "company_count": 1
+            }
+          ],
+          "text": "В исходящих платёжных связях известна отраслевая структура контрагентов (ОКВЭД 46: 7, ОКВЭД 45: 5, ОКВЭД 49: 4). Это число компаний, не доли расходов или продаж; назначение переводов не установлено."
+        },
+        {
+          "points": 0,
+          "company_field": "network.incoming.industry_divisions",
+          "company_value": [
+            {
+              "okved_division": "46",
+              "company_count": 4
+            },
+            {
+              "okved_division": "49",
+              "company_count": 3
+            },
+            {
+              "okved_division": "52",
+              "company_count": 2
+            },
+            {
+              "okved_division": "82",
+              "company_count": 1
+            }
+          ],
+          "text": "В входящих платёжных связях известна отраслевая структура контрагентов (ОКВЭД 46: 4, ОКВЭД 49: 3, ОКВЭД 52: 2). Это число компаний, не доли расходов или продаж; назначение переводов не установлено."
+        }
+      ],
+      "sources_status": "sources_ready",
+      "semantic_news_match": {
+        "event_id": "news_9f10b60aed544eaa32d4",
+        "semantic_score": 0.850513,
+        "score": 0.8505125045776367,
+        "retrieval_method": "hybrid",
+        "exact_match": false
+      },
+      "evidence_count": 6,
+      "gaps_status": "answered",
+      "generation_status": "generation_unavailable",
+      "context_fingerprint": "2266b9bb1e883816284adedb5d994f4d6c08c6da588f332b04f283043d147172"
+    },
+    {
+      "company_id": "U_83932",
+      "role": "cfo",
+      "event_id": "news_f94ba9f44cdb2b5b5e18",
+      "business_score": 11,
+      "reasons": [
+        {
+          "points": 6,
+          "company_field": "company.industry_okved_code",
+          "company_value": "41.20.1",
+          "text": "Строительная деятельность совпадает с темой события."
+        },
+        {
+          "points": 3,
+          "company_field": "company.industry_okved_code",
+          "company_value": "41.20.1",
+          "text": "Для строительства событие может влиять на условия спроса, закупок и финансирования проектов. Конкретный эффект требует данных о проектах."
+        },
+        {
+          "points": 1,
+          "company_field": "company.products.leasing",
+          "company_value": true,
+          "text": "Отмечен лизинг: возможная связь с условиями договоров требует проверки; автоматический пересмотр платежей не предполагается."
+        },
+        {
+          "points": 1,
+          "company_field": "user.selected_role",
+          "company_value": "cfo",
+          "text": "Выбран ракурс финансового директора: приоритет условиям финансирования и денежным потокам."
+        },
+        {
+          "points": 0,
+          "company_field": "payments.outgoing_external_counterparty_count",
+          "company_value": 61,
+          "text": "В предоставленном наборе у компании 61 контрагентов по внешним исходящим платежам. Состав закупок и условия расчётов нужно уточнить; самопереводы исключены, период и валюта платежей не установлены."
+        },
+        {
+          "points": 0,
+          "company_field": "network.outgoing.industry_divisions",
+          "company_value": [
+            {
+              "okved_division": "46",
+              "company_count": 17
+            },
+            {
+              "okved_division": "25",
+              "company_count": 5
+            },
+            {
+              "okved_division": "23",
+              "company_count": 4
+            },
+            {
+              "okved_division": "41",
+              "company_count": 3
+            },
+            {
+              "okved_division": "62",
+              "company_count": 3
+            },
+            {
+              "okved_division": "43",
+              "company_count": 2
+            },
+            {
+              "okved_division": "52",
+              "company_count": 2
+            },
+            {
+              "okved_division": "71",
+              "company_count": 2
+            },
+            {
+              "okved_division": "47",
+              "company_count": 1
+            }
+          ],
+          "text": "В исходящих платёжных связях известна отраслевая структура контрагентов (ОКВЭД 46: 17, ОКВЭД 25: 5, ОКВЭД 23: 4). Это число компаний, не доли расходов или продаж; назначение переводов не установлено."
+        },
+        {
+          "points": 0,
+          "company_field": "network.incoming.industry_divisions",
+          "company_value": [
+            {
+              "okved_division": "46",
+              "company_count": 2
+            },
+            {
+              "okved_division": "52",
+              "company_count": 1
+            },
+            {
+              "okved_division": "63",
+              "company_count": 1
+            }
+          ],
+          "text": "В входящих платёжных связях известна отраслевая структура контрагентов (ОКВЭД 46: 2, ОКВЭД 52: 1, ОКВЭД 63: 1). Это число компаний, не доли расходов или продаж; назначение переводов не установлено."
+        }
+      ],
+      "sources_status": "sources_ready",
+      "semantic_news_match": {
+        "event_id": "news_9f10b60aed544eaa32d4",
+        "semantic_score": 0.850513,
+        "score": 0.8505125045776367,
+        "retrieval_method": "hybrid",
+        "exact_match": false
+      },
+      "evidence_count": 5,
+      "gaps_status": "answered",
+      "generation_status": "generation_unavailable",
+      "context_fingerprint": "eaaee20290ac8c2db47bc7d800ad4f3dbc22bf57ca67767672ce5542808d2038"
+    },
+    {
+      "company_id": "U_83932",
+      "role": "ceo",
+      "event_id": "news_f94ba9f44cdb2b5b5e18",
+      "business_score": 11,
+      "reasons": [
+        {
+          "points": 6,
+          "company_field": "company.industry_okved_code",
+          "company_value": "41.20.1",
+          "text": "Строительная деятельность совпадает с темой события."
+        },
+        {
+          "points": 3,
+          "company_field": "company.industry_okved_code",
+          "company_value": "41.20.1",
+          "text": "Для строительства событие может влиять на условия спроса, закупок и финансирования проектов. Конкретный эффект требует данных о проектах."
+        },
+        {
+          "points": 1,
+          "company_field": "company.products.leasing",
+          "company_value": true,
+          "text": "Отмечен лизинг: возможная связь с условиями договоров требует проверки; автоматический пересмотр платежей не предполагается."
+        },
+        {
+          "points": 1,
+          "company_field": "user.selected_role",
+          "company_value": "ceo",
+          "text": "Выбран ракурс руководителя: приоритет спросу, операционной деятельности и ресурсам."
+        },
+        {
+          "points": 0,
+          "company_field": "payments.outgoing_external_counterparty_count",
+          "company_value": 61,
+          "text": "В предоставленном наборе у компании 61 контрагентов по внешним исходящим платежам. Состав закупок и условия расчётов нужно уточнить; самопереводы исключены, период и валюта платежей не установлены."
+        },
+        {
+          "points": 0,
+          "company_field": "network.outgoing.industry_divisions",
+          "company_value": [
+            {
+              "okved_division": "46",
+              "company_count": 17
+            },
+            {
+              "okved_division": "25",
+              "company_count": 5
+            },
+            {
+              "okved_division": "23",
+              "company_count": 4
+            },
+            {
+              "okved_division": "41",
+              "company_count": 3
+            },
+            {
+              "okved_division": "62",
+              "company_count": 3
+            },
+            {
+              "okved_division": "43",
+              "company_count": 2
+            },
+            {
+              "okved_division": "52",
+              "company_count": 2
+            },
+            {
+              "okved_division": "71",
+              "company_count": 2
+            },
+            {
+              "okved_division": "47",
+              "company_count": 1
+            }
+          ],
+          "text": "В исходящих платёжных связях известна отраслевая структура контрагентов (ОКВЭД 46: 17, ОКВЭД 25: 5, ОКВЭД 23: 4). Это число компаний, не доли расходов или продаж; назначение переводов не установлено."
+        },
+        {
+          "points": 0,
+          "company_field": "network.incoming.industry_divisions",
+          "company_value": [
+            {
+              "okved_division": "46",
+              "company_count": 2
+            },
+            {
+              "okved_division": "52",
+              "company_count": 1
+            },
+            {
+              "okved_division": "63",
+              "company_count": 1
+            }
+          ],
+          "text": "В входящих платёжных связях известна отраслевая структура контрагентов (ОКВЭД 46: 2, ОКВЭД 52: 1, ОКВЭД 63: 1). Это число компаний, не доли расходов или продаж; назначение переводов не установлено."
+        }
+      ],
+      "sources_status": "sources_ready",
+      "semantic_news_match": {
+        "event_id": "news_9f10b60aed544eaa32d4",
+        "semantic_score": 0.850513,
+        "score": 0.8505125045776367,
+        "retrieval_method": "hybrid",
+        "exact_match": false
+      },
+      "evidence_count": 5,
+      "gaps_status": "answered",
+      "generation_status": "generation_unavailable",
+      "context_fingerprint": "25150fc842cabf3d14905bd676836d8bb6775bc314586572a927089694a5bfcd"
+    },
+    {
+      "company_id": "U_84",
+      "role": "cfo",
+      "event_id": "news_2f1c5b8efafa74f5118b",
+      "business_score": 12,
+      "reasons": [
+        {
+          "points": 2,
+          "company_field": "company.industry_okved_code",
+          "company_value": "46.90",
+          "text": "Общеэкономический контекст для планирования: индивидуальный спрос, долг и денежные потоки компании из этой статистики не следуют."
+        },
+        {
+          "points": 4,
+          "company_field": "company.industry_okved_code",
+          "company_value": "46.90",
+          "text": "Оптовая торговля: проверить условия расчётов, оборот запасов и спрос по товарным группам компании."
+        },
+        {
+          "points": 4,
+          "company_field": "company.products.credit",
+          "company_value": true,
+          "text": "В базе отмечен кредитный продукт. Уточнить наличие действующего долга и, если он есть, условия; сумма долга неизвестна."
+        },
+        {
+          "points": 1,
+          "company_field": "company.products.leasing",
+          "company_value": true,
+          "text": "Отмечен лизинг: возможная связь с условиями договоров требует проверки; автоматический пересмотр платежей не предполагается."
+        },
+        {
+          "points": 1,
+          "company_field": "user.selected_role",
+          "company_value": "cfo",
+          "text": "Выбран ракурс финансового директора: приоритет условиям финансирования и денежным потокам."
+        },
+        {
+          "points": 0,
+          "company_field": "payments.outgoing_external_counterparty_count",
+          "company_value": 59,
+          "text": "В предоставленном наборе у компании 59 контрагентов по внешним исходящим платежам. Состав закупок и условия расчётов нужно уточнить; самопереводы исключены, период и валюта платежей не установлены."
+        },
+        {
+          "points": 0,
+          "company_field": "network.outgoing.industry_divisions",
+          "company_value": [
+            {
+              "okved_division": "46",
+              "company_count": 11
+            },
+            {
+              "okved_division": "45",
+              "company_count": 4
+            },
+            {
+              "okved_division": "62",
+              "company_count": 4
+            },
+            {
+              "okved_division": "25",
+              "company_count": 1
+            },
+            {
+              "okved_division": "41",
+              "company_count": 1
+            },
+            {
+              "okved_division": "49",
+              "company_count": 1
+            },
+            {
+              "okved_division": "53",
+              "company_count": 1
+            },
+            {
+              "okved_division": "63",
+              "company_count": 1
+            },
+            {
+              "okved_division": "71",
+              "company_count": 1
+            },
+            {
+              "okved_division": "73",
+              "company_count": 1
+            },
+            {
+              "okved_division": "80",
+              "company_count": 1
+            }
+          ],
+          "text": "В исходящих платёжных связях известна отраслевая структура контрагентов (ОКВЭД 46: 11, ОКВЭД 45: 4, ОКВЭД 62: 4). Это число компаний, не доли расходов или продаж; назначение переводов не установлено."
+        },
+        {
+          "points": 0,
+          "company_field": "network.incoming.industry_divisions",
+          "company_value": [
+            {
+              "okved_division": "46",
+              "company_count": 10
+            },
+            {
+              "okved_division": "45",
+              "company_count": 4
+            },
+            {
+              "okved_division": "25",
+              "company_count": 3
+            },
+            {
+              "okved_division": "49",
+              "company_count": 2
+            },
+            {
+              "okved_division": "52",
+              "company_count": 2
+            },
+            {
+              "okved_division": "62",
+              "company_count": 2
+            },
+            {
+              "okved_division": "07",
+              "company_count": 1
+            },
+            {
+              "okved_division": "28",
+              "company_count": 1
+            },
+            {
+              "okved_division": "29",
+              "company_count": 1
+            },
+            {
+              "okved_division": "68",
+              "company_count": 1
+            },
+            {
+              "okved_division": "71",
+              "company_count": 1
+            },
+            {
+              "okved_division": "72",
+              "company_count": 1
+            },
+            {
+              "okved_division": "73",
+              "company_count": 1
+            }
+          ],
+          "text": "В входящих платёжных связях известна отраслевая структура контрагентов (ОКВЭД 46: 10, ОКВЭД 45: 4, ОКВЭД 25: 3). Это число компаний, не доли расходов или продаж; назначение переводов не установлено."
+        },
+        {
+          "points": 0,
+          "company_field": "network.group.unique_company_count",
+          "company_value": 3,
+          "text": "Один GROUP_ID объединяет 3 компаний в наборе. Для группового решения нужно уточнить периметр; контроль и консолидация не подтверждены."
+        }
+      ],
+      "sources_status": "sources_ready",
+      "semantic_news_match": {
+        "event_id": "news_9f10b60aed544eaa32d4",
+        "semantic_score": 0.850513,
+        "score": 0.8505125045776367,
+        "retrieval_method": "hybrid",
+        "exact_match": false
+      },
+      "evidence_count": 6,
+      "gaps_status": "answered",
+      "generation_status": "generation_unavailable",
+      "context_fingerprint": "3fe08e1d1f252634ad2831bdc4252f006dc9019892d3b123214f06f56f452d27"
+    },
+    {
+      "company_id": "U_84",
+      "role": "ceo",
+      "event_id": "news_2f1c5b8efafa74f5118b",
+      "business_score": 12,
+      "reasons": [
+        {
+          "points": 2,
+          "company_field": "company.industry_okved_code",
+          "company_value": "46.90",
+          "text": "Общеэкономический контекст для планирования: индивидуальный спрос, долг и денежные потоки компании из этой статистики не следуют."
+        },
+        {
+          "points": 4,
+          "company_field": "company.industry_okved_code",
+          "company_value": "46.90",
+          "text": "Оптовая торговля: проверить условия расчётов, оборот запасов и спрос по товарным группам компании."
+        },
+        {
+          "points": 4,
+          "company_field": "company.products.credit",
+          "company_value": true,
+          "text": "В базе отмечен кредитный продукт. Уточнить наличие действующего долга и, если он есть, условия; сумма долга неизвестна."
+        },
+        {
+          "points": 1,
+          "company_field": "company.products.leasing",
+          "company_value": true,
+          "text": "Отмечен лизинг: возможная связь с условиями договоров требует проверки; автоматический пересмотр платежей не предполагается."
+        },
+        {
+          "points": 1,
+          "company_field": "user.selected_role",
+          "company_value": "ceo",
+          "text": "Выбран ракурс руководителя: приоритет спросу, операционной деятельности и ресурсам."
+        },
+        {
+          "points": 0,
+          "company_field": "payments.outgoing_external_counterparty_count",
+          "company_value": 59,
+          "text": "В предоставленном наборе у компании 59 контрагентов по внешним исходящим платежам. Состав закупок и условия расчётов нужно уточнить; самопереводы исключены, период и валюта платежей не установлены."
+        },
+        {
+          "points": 0,
+          "company_field": "network.outgoing.industry_divisions",
+          "company_value": [
+            {
+              "okved_division": "46",
+              "company_count": 11
+            },
+            {
+              "okved_division": "45",
+              "company_count": 4
+            },
+            {
+              "okved_division": "62",
+              "company_count": 4
+            },
+            {
+              "okved_division": "25",
+              "company_count": 1
+            },
+            {
+              "okved_division": "41",
+              "company_count": 1
+            },
+            {
+              "okved_division": "49",
+              "company_count": 1
+            },
+            {
+              "okved_division": "53",
+              "company_count": 1
+            },
+            {
+              "okved_division": "63",
+              "company_count": 1
+            },
+            {
+              "okved_division": "71",
+              "company_count": 1
+            },
+            {
+              "okved_division": "73",
+              "company_count": 1
+            },
+            {
+              "okved_division": "80",
+              "company_count": 1
+            }
+          ],
+          "text": "В исходящих платёжных связях известна отраслевая структура контрагентов (ОКВЭД 46: 11, ОКВЭД 45: 4, ОКВЭД 62: 4). Это число компаний, не доли расходов или продаж; назначение переводов не установлено."
+        },
+        {
+          "points": 0,
+          "company_field": "network.incoming.industry_divisions",
+          "company_value": [
+            {
+              "okved_division": "46",
+              "company_count": 10
+            },
+            {
+              "okved_division": "45",
+              "company_count": 4
+            },
+            {
+              "okved_division": "25",
+              "company_count": 3
+            },
+            {
+              "okved_division": "49",
+              "company_count": 2
+            },
+            {
+              "okved_division": "52",
+              "company_count": 2
+            },
+            {
+              "okved_division": "62",
+              "company_count": 2
+            },
+            {
+              "okved_division": "07",
+              "company_count": 1
+            },
+            {
+              "okved_division": "28",
+              "company_count": 1
+            },
+            {
+              "okved_division": "29",
+              "company_count": 1
+            },
+            {
+              "okved_division": "68",
+              "company_count": 1
+            },
+            {
+              "okved_division": "71",
+              "company_count": 1
+            },
+            {
+              "okved_division": "72",
+              "company_count": 1
+            },
+            {
+              "okved_division": "73",
+              "company_count": 1
+            }
+          ],
+          "text": "В входящих платёжных связях известна отраслевая структура контрагентов (ОКВЭД 46: 10, ОКВЭД 45: 4, ОКВЭД 25: 3). Это число компаний, не доли расходов или продаж; назначение переводов не установлено."
+        },
+        {
+          "points": 0,
+          "company_field": "network.group.unique_company_count",
+          "company_value": 3,
+          "text": "Один GROUP_ID объединяет 3 компаний в наборе. Для группового решения нужно уточнить периметр; контроль и консолидация не подтверждены."
+        }
+      ],
+      "sources_status": "sources_ready",
+      "semantic_news_match": {
+        "event_id": "news_9f10b60aed544eaa32d4",
+        "semantic_score": 0.850513,
+        "score": 0.8505125045776367,
+        "retrieval_method": "hybrid",
+        "exact_match": false
+      },
+      "evidence_count": 6,
+      "gaps_status": "answered",
+      "generation_status": "generation_unavailable",
+      "context_fingerprint": "5d4320e66061a95204ca72a57a5ff753719e1035bcbb17197fe6bf33501586ab"
+    },
+    {
+      "company_id": "U_87",
+      "role": "cfo",
+      "event_id": "news_2f1c5b8efafa74f5118b",
+      "business_score": 12,
+      "reasons": [
+        {
+          "points": 2,
+          "company_field": "company.industry_okved_code",
+          "company_value": "25.11",
+          "text": "Общеэкономический контекст для планирования: индивидуальный спрос, долг и денежные потоки компании из этой статистики не следуют."
+        },
+        {
+          "points": 5,
+          "company_field": "company.industry_okved_code",
+          "company_value": "25.11",
+          "text": "Производственная деятельность: событие относится к промышленности. Применимость к продукции компании требует проверки."
+        },
+        {
+          "points": 3,
+          "company_field": "company.industry_okved_code",
+          "company_value": "25.11",
+          "text": "Производству важны цены ресурсов и условия финансирования. Структура затрат и условия договоров компании не установлены."
+        },
+        {
+          "points": 1,
+          "company_field": "company.products.leasing",
+          "company_value": true,
+          "text": "Отмечен лизинг: возможная связь с условиями договоров требует проверки; автоматический пересмотр платежей не предполагается."
+        },
+        {
+          "points": 1,
+          "company_field": "user.selected_role",
+          "company_value": "cfo",
+          "text": "Выбран ракурс финансового директора: приоритет условиям финансирования и денежным потокам."
+        },
+        {
+          "points": 0,
+          "company_field": "payments.outgoing_external_counterparty_count",
+          "company_value": 15,
+          "text": "В предоставленном наборе у компании 15 контрагентов по внешним исходящим платежам. Состав закупок и условия расчётов нужно уточнить; самопереводы исключены, период и валюта платежей не установлены."
+        },
+        {
+          "points": 0,
+          "company_field": "network.outgoing.industry_divisions",
+          "company_value": [
+            {
+              "okved_division": "46",
+              "company_count": 4
+            },
+            {
+              "okved_division": "33",
+              "company_count": 1
+            },
+            {
+              "okved_division": "63",
+              "company_count": 1
+            },
+            {
+              "okved_division": "71",
+              "company_count": 1
+            }
+          ],
+          "text": "В исходящих платёжных связях известна отраслевая структура контрагентов (ОКВЭД 46: 4, ОКВЭД 33: 1, ОКВЭД 63: 1). Это число компаний, не доли расходов или продаж; назначение переводов не установлено."
+        },
+        {
+          "points": 0,
+          "company_field": "network.incoming.industry_divisions",
+          "company_value": [
+            {
+              "okved_division": "46",
+              "company_count": 7
+            },
+            {
+              "okved_division": "43",
+              "company_count": 1
+            },
+            {
+              "okved_division": "62",
+              "company_count": 1
+            },
+            {
+              "okved_division": "64",
+              "company_count": 1
+            },
+            {
+              "okved_division": "71",
+              "company_count": 1
+            }
+          ],
+          "text": "В входящих платёжных связях известна отраслевая структура контрагентов (ОКВЭД 46: 7, ОКВЭД 43: 1, ОКВЭД 62: 1). Это число компаний, не доли расходов или продаж; назначение переводов не установлено."
+        },
+        {
+          "points": 0,
+          "company_field": "network.group.unique_company_count",
+          "company_value": 74,
+          "text": "Один GROUP_ID объединяет 74 компаний в наборе. Для группового решения нужно уточнить периметр; контроль и консолидация не подтверждены."
+        }
+      ],
+      "sources_status": "sources_ready",
+      "semantic_news_match": {
+        "event_id": "news_9f10b60aed544eaa32d4",
+        "semantic_score": 0.850513,
+        "score": 0.8505125045776367,
+        "retrieval_method": "hybrid",
+        "exact_match": false
+      },
+      "evidence_count": 6,
+      "gaps_status": "answered",
+      "generation_status": "generation_unavailable",
+      "context_fingerprint": "b5aa44a5aab66443e28a47269b5754c416bc67f67a2be67e19062cd7515eb808"
+    },
+    {
+      "company_id": "U_87",
+      "role": "ceo",
+      "event_id": "news_2f1c5b8efafa74f5118b",
+      "business_score": 12,
+      "reasons": [
+        {
+          "points": 2,
+          "company_field": "company.industry_okved_code",
+          "company_value": "25.11",
+          "text": "Общеэкономический контекст для планирования: индивидуальный спрос, долг и денежные потоки компании из этой статистики не следуют."
+        },
+        {
+          "points": 5,
+          "company_field": "company.industry_okved_code",
+          "company_value": "25.11",
+          "text": "Производственная деятельность: событие относится к промышленности. Применимость к продукции компании требует проверки."
+        },
+        {
+          "points": 3,
+          "company_field": "company.industry_okved_code",
+          "company_value": "25.11",
+          "text": "Производству важны цены ресурсов и условия финансирования. Структура затрат и условия договоров компании не установлены."
+        },
+        {
+          "points": 1,
+          "company_field": "company.products.leasing",
+          "company_value": true,
+          "text": "Отмечен лизинг: возможная связь с условиями договоров требует проверки; автоматический пересмотр платежей не предполагается."
+        },
+        {
+          "points": 1,
+          "company_field": "user.selected_role",
+          "company_value": "ceo",
+          "text": "Выбран ракурс руководителя: приоритет спросу, операционной деятельности и ресурсам."
+        },
+        {
+          "points": 0,
+          "company_field": "payments.outgoing_external_counterparty_count",
+          "company_value": 15,
+          "text": "В предоставленном наборе у компании 15 контрагентов по внешним исходящим платежам. Состав закупок и условия расчётов нужно уточнить; самопереводы исключены, период и валюта платежей не установлены."
+        },
+        {
+          "points": 0,
+          "company_field": "network.outgoing.industry_divisions",
+          "company_value": [
+            {
+              "okved_division": "46",
+              "company_count": 4
+            },
+            {
+              "okved_division": "33",
+              "company_count": 1
+            },
+            {
+              "okved_division": "63",
+              "company_count": 1
+            },
+            {
+              "okved_division": "71",
+              "company_count": 1
+            }
+          ],
+          "text": "В исходящих платёжных связях известна отраслевая структура контрагентов (ОКВЭД 46: 4, ОКВЭД 33: 1, ОКВЭД 63: 1). Это число компаний, не доли расходов или продаж; назначение переводов не установлено."
+        },
+        {
+          "points": 0,
+          "company_field": "network.incoming.industry_divisions",
+          "company_value": [
+            {
+              "okved_division": "46",
+              "company_count": 7
+            },
+            {
+              "okved_division": "43",
+              "company_count": 1
+            },
+            {
+              "okved_division": "62",
+              "company_count": 1
+            },
+            {
+              "okved_division": "64",
+              "company_count": 1
+            },
+            {
+              "okved_division": "71",
+              "company_count": 1
+            }
+          ],
+          "text": "В входящих платёжных связях известна отраслевая структура контрагентов (ОКВЭД 46: 7, ОКВЭД 43: 1, ОКВЭД 62: 1). Это число компаний, не доли расходов или продаж; назначение переводов не установлено."
+        },
+        {
+          "points": 0,
+          "company_field": "network.group.unique_company_count",
+          "company_value": 74,
+          "text": "Один GROUP_ID объединяет 74 компаний в наборе. Для группового решения нужно уточнить периметр; контроль и консолидация не подтверждены."
+        }
+      ],
+      "sources_status": "sources_ready",
+      "semantic_news_match": {
+        "event_id": "news_9f10b60aed544eaa32d4",
+        "semantic_score": 0.850513,
+        "score": 0.8505125045776367,
+        "retrieval_method": "hybrid",
+        "exact_match": false
+      },
+      "evidence_count": 6,
+      "gaps_status": "answered",
+      "generation_status": "generation_unavailable",
+      "context_fingerprint": "65b2828b169b28b96fe8fc631739ac1bf67866148be38ef92a2cc793e41b567d"
+    }
+  ],
+  "unsafe_action_codes": [
+    403,
+    403
+  ],
+  "new_llm_calls": 0,
+  "analysis_version": "2026-10-23-v20-confirmed-fixes"
+}

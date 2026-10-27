@@ -1,0 +1,2 @@
+# Optional: only needed to extract original PDFs again.
+pypdf==6.10.0

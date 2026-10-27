@@ -1,0 +1,51 @@
+{
+  "analysis_version": "2026-10-24-v21-stable-attempts",
+  "logic_sha256": "669d667122085afbb7f837593bdda56867d0bf9d82eee9411e463896464244f1",
+  "tables": {
+    "news": {
+      "before": 53,
+      "after": 53,
+      "preserved": true
+    },
+    "aliases": {
+      "before": 0,
+      "after": 0,
+      "preserved": true
+    },
+    "runs": {
+      "before": 229,
+      "after": 230,
+      "preserved": true
+    },
+    "jobs": {
+      "before": 85,
+      "after": 85,
+      "preserved": true
+    },
+    "calls": {
+      "before": 176,
+      "after": 176,
+      "preserved": true
+    },
+    "usage": {
+      "before": 3,
+      "after": 3,
+      "preserved": true
+    },
+    "llm_cache": {
+      "before": 165,
+      "after": 165,
+      "preserved": true
+    },
+    "feedback": {
+      "before": 1,
+      "after": 1,
+      "preserved": true
+    }
+  },
+  "new_real_llm_calls": 0,
+  "protected_files_unchanged": true,
+  "sqlite_quick_check": "ok",
+  "environment_unchanged": true,
+  "application_schema_addition": "job_requests (additive; existing tables unchanged)"
+}

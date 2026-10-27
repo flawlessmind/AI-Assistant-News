@@ -1,0 +1,100 @@
+{
+  "analysis_version": "2026-10-23-v20-confirmed-fixes",
+  "method": "Real Chromium + actual HTTP API, SQLite and job workers, isolated synthetic model transport.",
+  "synthetic_transport": true,
+  "external_generative_requests": 0,
+  "distinct_job_ids": [
+    "324129094d454fcea975b7402dc4bece",
+    "7114dce3d8f24b5189fcfd5ca465d4ab"
+  ],
+  "complete_contexts": [
+    {
+      "operation": "analysis",
+      "company_id": "U_1595",
+      "event_id": "news_6edd3faee905180b5c87",
+      "role": "cfo",
+      "as_of": "2026-10-23",
+      "mode": "live",
+      "question": "Как проверить договоры компании?",
+      "task": "explain",
+      "parent_run_id": null,
+      "regenerate": null,
+      "request_id": "314c6870a9e94818a729734b341475fb"
+    },
+    {
+      "operation": "analysis",
+      "company_id": "U_1595",
+      "event_id": "news_6edd3faee905180b5c87",
+      "role": "cfo",
+      "as_of": "2026-10-23",
+      "mode": "live",
+      "question": "Как сверить поступления компании?",
+      "task": "explain",
+      "parent_run_id": null,
+      "regenerate": null,
+      "request_id": "e5f475d00b6a424aa966e89b3578349c"
+    }
+  ],
+  "queue_overflow_http": 503,
+  "source_mode_result": "sources_ready",
+  "reload_restored_both_questions": true,
+  "persisted_contexts_after_reload": 2,
+  "firstProgress": "Формируем ответ модели Вопрос: «Как проверить договоры компании?».",
+  "secondProgress": "Формируем ответ модели Вопрос: «Как сверить поступления компании?».",
+  "both_workers_entered": true,
+  "first_question_status": "answered",
+  "second_question_status": "answered",
+  "first_saved_question": "Как проверить договоры компании?",
+  "second_saved_question": "Как сверить поступления компании?",
+  "visible_outcome": "Ответ на вопрос готов\n\nКак сверить поступления компании?\n\nСинтетический ответ для проверки интерфейса\n\nЭто тест работы приложения; аналитический вывод о компании не формируется.\n\nСинтетический транспорт используется только в изолированной браузерной проверке.\n\nПояснение по источникам\n\nДля решения потребуются собственные сведения компании.\n\nЭто тестовый ответ, а не аналитика банка.\n\nОткрыт сохранённый ответ.",
+  "wrong_first_question_visible": false,
+  "second_question_visible": true,
+  "after": {
+    "counts": {
+      "Как проверить договоры компании?": 1,
+      "Как сверить поступления компании?": 1
+    },
+    "stages": [
+      "draft",
+      "draft",
+      "review",
+      "review"
+    ],
+    "jobs_by_state": {
+      "done": 2
+    }
+  },
+  "uncertain_result": {
+    "uncertain_warning_visible": true,
+    "sends_before_manual_regeneration": 1,
+    "sends_after_manual_regeneration": 2,
+    "explicit_regeneration": true,
+    "request_id_valid": true,
+    "question_preserved": true,
+    "manual_regeneration_succeeded": true,
+    "widths": [
+      {
+        "width": 1440,
+        "scroll_width": 1440,
+        "overflow": false
+      },
+      {
+        "width": 1024,
+        "scroll_width": 1024,
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "scroll_width": 768,
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "scroll_width": 390,
+        "overflow": false
+      }
+    ],
+    "synthetic_transport": true,
+    "external_generative_requests": 0
+  }
+}

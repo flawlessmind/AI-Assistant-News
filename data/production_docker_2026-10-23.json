@@ -1,0 +1,133 @@
+{
+  "container": "alfa-organizer-check-alfa-news-1",
+  "steps": [
+    {
+      "step": "uid",
+      "exit_code": 0
+    },
+    {
+      "step": "doctor",
+      "exit_code": 0
+    },
+    {
+      "step": "pip_check",
+      "exit_code": 0
+    },
+    {
+      "step": "tests",
+      "exit_code": 0
+    },
+    {
+      "step": "http",
+      "exit_code": 0
+    },
+    {
+      "step": "corpus",
+      "exit_code": 0
+    },
+    {
+      "step": "quality",
+      "exit_code": 0
+    },
+    {
+      "step": "search",
+      "exit_code": 0
+    },
+    {
+      "step": "prepare_interrupted",
+      "exit_code": 0
+    },
+    {
+      "step": "restart",
+      "exit_code": 0
+    },
+    {
+      "step": "image",
+      "exit_code": 0
+    }
+  ],
+  "new_generative_requests": 0,
+  "doctor": {
+    "ready": true,
+    "python": "3.12.14",
+    "runtime_packages": {
+      "numpy": "2.4.3",
+      "onnxruntime": "1.25.0",
+      "tokenizers": "0.22.2",
+      "waitress": "3.0.2"
+    },
+    "search": {
+      "mode": "hybrid",
+      "model_id": "intfloat/multilingual-e5-small",
+      "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+      "encoder_signature": "76c66307b818136283680614a7bafe7e22da4f5780c0a7d54d9f61075bfdc8e1",
+      "index_sha256": "bbaee463e046b80658da73e79c716754fd95e9b60826c5bc4b937cffe47b19e6",
+      "chunks": 74,
+      "dimension": 384,
+      "min_cosine": 0.82,
+      "policy_version": "e5-int8-mean-pool-hybrid-v1",
+      "network_at_query_time": false
+    },
+    "profiles": 2,
+    "news": 10,
+    "key_configured": false,
+    "live_enabled": false,
+    "generative_requests": 0
+  },
+  "python_tests": 133,
+  "http_cases": 4,
+  "corpus": 12,
+  "quality": 13,
+  "search": {
+    "lexical": {
+      "relevant_cases": 8,
+      "hit_at_3": 4,
+      "hit_at_5": 5,
+      "unrelated_cases": 3,
+      "unrelated_empty": 3,
+      "failed": 3
+    },
+    "semantic": {
+      "relevant_cases": 8,
+      "hit_at_3": 8,
+      "hit_at_5": 8,
+      "unrelated_cases": 3,
+      "unrelated_empty": 3,
+      "failed": 0
+    },
+    "hybrid": {
+      "relevant_cases": 8,
+      "hit_at_3": 7,
+      "hit_at_5": 8,
+      "unrelated_cases": 3,
+      "unrelated_empty": 3,
+      "failed": 0
+    }
+  },
+  "persistent_run_id": "6004b51272324aa8bbd1923e7153572d",
+  "persistent_feedback_id": "a3758b0266f849fb9fca7bef4efbd2fc",
+  "interrupted_job_id": "01b615ecde314c23ba1d284c69d3c7a1",
+  "restart_preserved_history": true,
+  "restart_did_not_generate": true,
+  "metrics": {
+    "period": "2026-10-22",
+    "physical_attempts": 0,
+    "gateway_budget_blocked": false,
+    "cost_rub": null,
+    "calls_by_status": {},
+    "mean_llm_request_ms": null,
+    "runs_by_status": {
+      "answered": 1
+    },
+    "jobs_by_state": {
+      "failed": 1
+    },
+    "feedback_by_rating": {
+      "helpful": 1
+    },
+    "local_call_cap": 30,
+    "calls_remaining": 30
+  },
+  "image": "sha256:c71aa66db5ae0ae9162c0f098565826a6be3b0beb4a4eb0c9227e1ba9dd1e090",
+  "passed": true
+}

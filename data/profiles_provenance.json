@@ -1,0 +1,645 @@
+{
+  "source_files_sha256": {
+    "df_Uid_data_hack.csv": "cb48983806ce7ca0ae045a40c9627ccbe47cc72bfb54058db04df2386da4a983",
+    "df_Fid_Uid_link_hack.csv": "3d9c718e2a87304f48bbc7447607116bb8e4bd61dded70b0a1d0558f086a1b58",
+    "df_Uid_payment_hack.csv": "30095f75bead1a1dac0d7232b0da09a326b7ef643ee3b77b36ad3b4458a1cab3"
+  },
+  "raw_inputs_unchanged": true,
+  "profiles": [
+    {
+      "company_id": "U_1595",
+      "industry": "47.71",
+      "network": {
+        "outgoing": {
+          "unique_company_count": 159,
+          "classified_count": 71,
+          "missing_profile_count": 88,
+          "ambiguous_profile_count": 0,
+          "unclassified_profile_count": 0,
+          "industry_divisions": [
+            {
+              "okved_division": "68",
+              "company_count": 34
+            },
+            {
+              "okved_division": "73",
+              "company_count": 7
+            },
+            {
+              "okved_division": "46",
+              "company_count": 6
+            },
+            {
+              "okved_division": "62",
+              "company_count": 5
+            },
+            {
+              "okved_division": "47",
+              "company_count": 2
+            },
+            {
+              "okved_division": "55",
+              "company_count": 2
+            },
+            {
+              "okved_division": "70",
+              "company_count": 2
+            },
+            {
+              "okved_division": "81",
+              "company_count": 2
+            },
+            {
+              "okved_division": "82",
+              "company_count": 2
+            },
+            {
+              "okved_division": "13",
+              "company_count": 1
+            },
+            {
+              "okved_division": "41",
+              "company_count": 1
+            },
+            {
+              "okved_division": "53",
+              "company_count": 1
+            },
+            {
+              "okved_division": "56",
+              "company_count": 1
+            },
+            {
+              "okved_division": "63",
+              "company_count": 1
+            },
+            {
+              "okved_division": "64",
+              "company_count": 1
+            },
+            {
+              "okved_division": "71",
+              "company_count": 1
+            },
+            {
+              "okved_division": "80",
+              "company_count": 1
+            },
+            {
+              "okved_division": "95",
+              "company_count": 1
+            }
+          ]
+        },
+        "incoming": {
+          "unique_company_count": 5,
+          "classified_count": 2,
+          "missing_profile_count": 3,
+          "ambiguous_profile_count": 0,
+          "unclassified_profile_count": 0,
+          "industry_divisions": [
+            {
+              "okved_division": "46",
+              "company_count": 1
+            },
+            {
+              "okved_division": "81",
+              "company_count": 1
+            }
+          ]
+        },
+        "group": {
+          "unique_company_count": 1,
+          "classified_count": 1,
+          "missing_profile_count": 0,
+          "ambiguous_profile_count": 0,
+          "unclassified_profile_count": 0,
+          "industry_divisions": [
+            {
+              "okved_division": "47",
+              "company_count": 1
+            }
+          ]
+        },
+        "basis": "Unique company identifiers linked by payment direction or the supplied GROUP_ID; no amount weighting.",
+        "limitations": [
+          "Payment links do not establish the purpose of a transfer or supplier/customer roles.",
+          "Sector counts describe counterparties, not spending shares, revenue exposure or ownership.",
+          "Missing and conflicting profiles are excluded from sector classification and counted separately.",
+          "Companies sharing GROUP_ID are not assumed to form a consolidated or controlled group."
+        ]
+      },
+      "file_sha256": "a65e0d0b981b1639032102025968effa107bea9e012e43a67e5b281667cd779e"
+    },
+    {
+      "company_id": "U_83932",
+      "industry": "41.20.1",
+      "network": {
+        "outgoing": {
+          "unique_company_count": 61,
+          "classified_count": 39,
+          "missing_profile_count": 22,
+          "ambiguous_profile_count": 0,
+          "unclassified_profile_count": 0,
+          "industry_divisions": [
+            {
+              "okved_division": "46",
+              "company_count": 17
+            },
+            {
+              "okved_division": "25",
+              "company_count": 5
+            },
+            {
+              "okved_division": "23",
+              "company_count": 4
+            },
+            {
+              "okved_division": "41",
+              "company_count": 3
+            },
+            {
+              "okved_division": "62",
+              "company_count": 3
+            },
+            {
+              "okved_division": "43",
+              "company_count": 2
+            },
+            {
+              "okved_division": "52",
+              "company_count": 2
+            },
+            {
+              "okved_division": "71",
+              "company_count": 2
+            },
+            {
+              "okved_division": "47",
+              "company_count": 1
+            }
+          ]
+        },
+        "incoming": {
+          "unique_company_count": 8,
+          "classified_count": 4,
+          "missing_profile_count": 4,
+          "ambiguous_profile_count": 0,
+          "unclassified_profile_count": 0,
+          "industry_divisions": [
+            {
+              "okved_division": "46",
+              "company_count": 2
+            },
+            {
+              "okved_division": "52",
+              "company_count": 1
+            },
+            {
+              "okved_division": "63",
+              "company_count": 1
+            }
+          ]
+        },
+        "group": {
+          "unique_company_count": 1,
+          "classified_count": 1,
+          "missing_profile_count": 0,
+          "ambiguous_profile_count": 0,
+          "unclassified_profile_count": 0,
+          "industry_divisions": [
+            {
+              "okved_division": "41",
+              "company_count": 1
+            }
+          ]
+        },
+        "basis": "Unique company identifiers linked by payment direction or the supplied GROUP_ID; no amount weighting.",
+        "limitations": [
+          "Payment links do not establish the purpose of a transfer or supplier/customer roles.",
+          "Sector counts describe counterparties, not spending shares, revenue exposure or ownership.",
+          "Missing and conflicting profiles are excluded from sector classification and counted separately.",
+          "Companies sharing GROUP_ID are not assumed to form a consolidated or controlled group."
+        ]
+      },
+      "file_sha256": "c3f035fcc0543fe4332b3ca473b27b54d092beb21b22ace57b7660974adf9de0"
+    },
+    {
+      "company_id": "U_87",
+      "industry": "25.11",
+      "network": {
+        "outgoing": {
+          "unique_company_count": 15,
+          "classified_count": 7,
+          "missing_profile_count": 8,
+          "ambiguous_profile_count": 0,
+          "unclassified_profile_count": 0,
+          "industry_divisions": [
+            {
+              "okved_division": "46",
+              "company_count": 4
+            },
+            {
+              "okved_division": "33",
+              "company_count": 1
+            },
+            {
+              "okved_division": "63",
+              "company_count": 1
+            },
+            {
+              "okved_division": "71",
+              "company_count": 1
+            }
+          ]
+        },
+        "incoming": {
+          "unique_company_count": 34,
+          "classified_count": 11,
+          "missing_profile_count": 23,
+          "ambiguous_profile_count": 0,
+          "unclassified_profile_count": 0,
+          "industry_divisions": [
+            {
+              "okved_division": "46",
+              "company_count": 7
+            },
+            {
+              "okved_division": "43",
+              "company_count": 1
+            },
+            {
+              "okved_division": "62",
+              "company_count": 1
+            },
+            {
+              "okved_division": "64",
+              "company_count": 1
+            },
+            {
+              "okved_division": "71",
+              "company_count": 1
+            }
+          ]
+        },
+        "group": {
+          "unique_company_count": 74,
+          "classified_count": 74,
+          "missing_profile_count": 0,
+          "ambiguous_profile_count": 0,
+          "unclassified_profile_count": 0,
+          "industry_divisions": [
+            {
+              "okved_division": "68",
+              "company_count": 24
+            },
+            {
+              "okved_division": "46",
+              "company_count": 10
+            },
+            {
+              "okved_division": "62",
+              "company_count": 5
+            },
+            {
+              "okved_division": "08",
+              "company_count": 4
+            },
+            {
+              "okved_division": "41",
+              "company_count": 4
+            },
+            {
+              "okved_division": "77",
+              "company_count": 4
+            },
+            {
+              "okved_division": "25",
+              "company_count": 3
+            },
+            {
+              "okved_division": "45",
+              "company_count": 3
+            },
+            {
+              "okved_division": "80",
+              "company_count": 3
+            },
+            {
+              "okved_division": "42",
+              "company_count": 2
+            },
+            {
+              "okved_division": "43",
+              "company_count": 2
+            },
+            {
+              "okved_division": "64",
+              "company_count": 2
+            },
+            {
+              "okved_division": "07",
+              "company_count": 1
+            },
+            {
+              "okved_division": "32",
+              "company_count": 1
+            },
+            {
+              "okved_division": "38",
+              "company_count": 1
+            },
+            {
+              "okved_division": "49",
+              "company_count": 1
+            },
+            {
+              "okved_division": "66",
+              "company_count": 1
+            },
+            {
+              "okved_division": "71",
+              "company_count": 1
+            },
+            {
+              "okved_division": "72",
+              "company_count": 1
+            },
+            {
+              "okved_division": "93",
+              "company_count": 1
+            }
+          ]
+        },
+        "basis": "Unique company identifiers linked by payment direction or the supplied GROUP_ID; no amount weighting.",
+        "limitations": [
+          "Payment links do not establish the purpose of a transfer or supplier/customer roles.",
+          "Sector counts describe counterparties, not spending shares, revenue exposure or ownership.",
+          "Missing and conflicting profiles are excluded from sector classification and counted separately.",
+          "Companies sharing GROUP_ID are not assumed to form a consolidated or controlled group."
+        ]
+      },
+      "file_sha256": "180c55713faac33f29b7e1c900a31c6feae03dbf51d4520f8d6650e9b5c162e6"
+    },
+    {
+      "company_id": "U_768",
+      "industry": "49.41.1",
+      "network": {
+        "outgoing": {
+          "unique_company_count": 55,
+          "classified_count": 27,
+          "missing_profile_count": 28,
+          "ambiguous_profile_count": 0,
+          "unclassified_profile_count": 0,
+          "industry_divisions": [
+            {
+              "okved_division": "46",
+              "company_count": 7
+            },
+            {
+              "okved_division": "45",
+              "company_count": 5
+            },
+            {
+              "okved_division": "49",
+              "company_count": 4
+            },
+            {
+              "okved_division": "33",
+              "company_count": 2
+            },
+            {
+              "okved_division": "43",
+              "company_count": 1
+            },
+            {
+              "okved_division": "52",
+              "company_count": 1
+            },
+            {
+              "okved_division": "62",
+              "company_count": 1
+            },
+            {
+              "okved_division": "64",
+              "company_count": 1
+            },
+            {
+              "okved_division": "68",
+              "company_count": 1
+            },
+            {
+              "okved_division": "72",
+              "company_count": 1
+            },
+            {
+              "okved_division": "77",
+              "company_count": 1
+            },
+            {
+              "okved_division": "78",
+              "company_count": 1
+            },
+            {
+              "okved_division": "86",
+              "company_count": 1
+            }
+          ]
+        },
+        "incoming": {
+          "unique_company_count": 22,
+          "classified_count": 10,
+          "missing_profile_count": 12,
+          "ambiguous_profile_count": 0,
+          "unclassified_profile_count": 0,
+          "industry_divisions": [
+            {
+              "okved_division": "46",
+              "company_count": 4
+            },
+            {
+              "okved_division": "49",
+              "company_count": 3
+            },
+            {
+              "okved_division": "52",
+              "company_count": 2
+            },
+            {
+              "okved_division": "82",
+              "company_count": 1
+            }
+          ]
+        },
+        "group": {
+          "unique_company_count": 1,
+          "classified_count": 1,
+          "missing_profile_count": 0,
+          "ambiguous_profile_count": 0,
+          "unclassified_profile_count": 0,
+          "industry_divisions": [
+            {
+              "okved_division": "49",
+              "company_count": 1
+            }
+          ]
+        },
+        "basis": "Unique company identifiers linked by payment direction or the supplied GROUP_ID; no amount weighting.",
+        "limitations": [
+          "Payment links do not establish the purpose of a transfer or supplier/customer roles.",
+          "Sector counts describe counterparties, not spending shares, revenue exposure or ownership.",
+          "Missing and conflicting profiles are excluded from sector classification and counted separately.",
+          "Companies sharing GROUP_ID are not assumed to form a consolidated or controlled group."
+        ]
+      },
+      "file_sha256": "761b337490a5f7d7b78e6c87f7245e4117ec09d6f5c40d80b35df5c6e33225ba"
+    },
+    {
+      "company_id": "U_84",
+      "industry": "46.90",
+      "network": {
+        "outgoing": {
+          "unique_company_count": 59,
+          "classified_count": 27,
+          "missing_profile_count": 32,
+          "ambiguous_profile_count": 0,
+          "unclassified_profile_count": 0,
+          "industry_divisions": [
+            {
+              "okved_division": "46",
+              "company_count": 11
+            },
+            {
+              "okved_division": "45",
+              "company_count": 4
+            },
+            {
+              "okved_division": "62",
+              "company_count": 4
+            },
+            {
+              "okved_division": "25",
+              "company_count": 1
+            },
+            {
+              "okved_division": "41",
+              "company_count": 1
+            },
+            {
+              "okved_division": "49",
+              "company_count": 1
+            },
+            {
+              "okved_division": "53",
+              "company_count": 1
+            },
+            {
+              "okved_division": "63",
+              "company_count": 1
+            },
+            {
+              "okved_division": "71",
+              "company_count": 1
+            },
+            {
+              "okved_division": "73",
+              "company_count": 1
+            },
+            {
+              "okved_division": "80",
+              "company_count": 1
+            }
+          ]
+        },
+        "incoming": {
+          "unique_company_count": 100,
+          "classified_count": 30,
+          "missing_profile_count": 70,
+          "ambiguous_profile_count": 0,
+          "unclassified_profile_count": 0,
+          "industry_divisions": [
+            {
+              "okved_division": "46",
+              "company_count": 10
+            },
+            {
+              "okved_division": "45",
+              "company_count": 4
+            },
+            {
+              "okved_division": "25",
+              "company_count": 3
+            },
+            {
+              "okved_division": "49",
+              "company_count": 2
+            },
+            {
+              "okved_division": "52",
+              "company_count": 2
+            },
+            {
+              "okved_division": "62",
+              "company_count": 2
+            },
+            {
+              "okved_division": "07",
+              "company_count": 1
+            },
+            {
+              "okved_division": "28",
+              "company_count": 1
+            },
+            {
+              "okved_division": "29",
+              "company_count": 1
+            },
+            {
+              "okved_division": "68",
+              "company_count": 1
+            },
+            {
+              "okved_division": "71",
+              "company_count": 1
+            },
+            {
+              "okved_division": "72",
+              "company_count": 1
+            },
+            {
+              "okved_division": "73",
+              "company_count": 1
+            }
+          ]
+        },
+        "group": {
+          "unique_company_count": 3,
+          "classified_count": 3,
+          "missing_profile_count": 0,
+          "ambiguous_profile_count": 0,
+          "unclassified_profile_count": 0,
+          "industry_divisions": [
+            {
+              "okved_division": "46",
+              "company_count": 2
+            },
+            {
+              "okved_division": "25",
+              "company_count": 1
+            }
+          ]
+        },
+        "basis": "Unique company identifiers linked by payment direction or the supplied GROUP_ID; no amount weighting.",
+        "limitations": [
+          "Payment links do not establish the purpose of a transfer or supplier/customer roles.",
+          "Sector counts describe counterparties, not spending shares, revenue exposure or ownership.",
+          "Missing and conflicting profiles are excluded from sector classification and counted separately.",
+          "Companies sharing GROUP_ID are not assumed to form a consolidated or controlled group."
+        ]
+      },
+      "file_sha256": "3ccdcb0584bbf92de0f113e33f3f5de3ccabf0c661de1459c9f6f53b86cc013e"
+    }
+  ],
+  "monetary_units_and_observation_period_verified": false,
+  "generative_requests": 0
+}

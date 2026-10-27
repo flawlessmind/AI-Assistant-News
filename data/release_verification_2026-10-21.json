@@ -1,0 +1,21 @@
+{
+  "python": "3.12.14",
+  "runtime_third_party_packages_required": 0,
+  "organizer_api_requests_for_clean_checks": 0,
+  "unit_tests_passed": 51,
+  "corpus_checks_passed": 12,
+  "docker_compose_config_verified": true,
+  "docker_build_verified": false,
+  "installer_excluded": true,
+  "key_and_runtime_excluded": true,
+  "clean_cli_http_startup_verified": true,
+  "news_count": 10,
+  "source_run_status": "sources_ready",
+  "live_fixture_not_used_as_runtime_answer": true,
+  "protected_files_unchanged": 10,
+  "ui_tests_passed": 10,
+  "ui_asset_version": "20261021-ui3",
+  "ui_report": "data/ui_verification_2026-10-21.json",
+  "historical_record": true,
+  "superseded_by": "semantic_verification_2026-10-21.json"
+}

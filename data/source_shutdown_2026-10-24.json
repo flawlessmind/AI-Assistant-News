@@ -1,0 +1,77 @@
+{
+  "analysis_version": "2026-10-24-v23-source-integrity",
+  "logic_sha256": "150adb132f613450187a0f08695d2ae11969a02bb8553c9884211f62f78e37de",
+  "llm_synthetic_transport": {
+    "kind": "actual_linux_signals_synthetic_gateway",
+    "external_calls": 0,
+    "sigterm": {
+      "exit_code": 0,
+      "seconds": 6.12,
+      "state_after_restart": {
+        "calls": {
+          "ok": 1
+        },
+        "usage": 1,
+        "jobs": {
+          "failed": 1
+        },
+        "cache": 1,
+        "markers": 1
+      },
+      "review_started": false
+    },
+    "sigkill_restart": {
+      "state": {
+        "calls": {
+          "interrupted_outcome_unknown": 1,
+          "ok": 1
+        },
+        "usage": 2,
+        "jobs": {
+          "failed": 2
+        },
+        "cache": 1,
+        "markers": 2
+      },
+      "same_id_returns_failed_without_send": true,
+      "automatic_replay": false
+    },
+    "passed": true
+  },
+  "refresh_synthetic_publisher": {
+    "kind": "actual_linux_sync_refresh_shutdown",
+    "external_requests": 0,
+    "sigterm": {
+      "exit_code": 0,
+      "seconds": 5.0,
+      "sync_http_status": 503,
+      "state_after_restart": {
+        "jobs": {
+          "done": 1,
+          "failed": 1
+        },
+        "cache": 1,
+        "calls": 0,
+        "news": 50,
+        "markers": 1
+      },
+      "next_fetch_started": false
+    },
+    "sigkill": {
+      "exit_code": 137,
+      "state_after_restart": {
+        "jobs": {
+          "done": 1,
+          "failed": 2
+        },
+        "cache": 1,
+        "calls": 0,
+        "news": 50,
+        "markers": 2
+      },
+      "automatic_replay": false
+    },
+    "passed": true
+  },
+  "real_external_requests": 0
+}

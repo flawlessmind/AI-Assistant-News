@@ -1,0 +1,13 @@
+{
+  "local_cap": 50,
+  "ordinary_release_default_cap": 30,
+  "gateway_budget_rub_per_day": 500,
+  "authorization": "User explicitly authorized necessary additional paid calls without the earlier numeric limit.",
+  "reason": "Revalidate all current answers after fixing the self-transfer/intragroup confusion found in manual acceptance.",
+  "changed_local_configuration_fields": [
+    "ALFA_MAX_CALLS_PER_PERIOD"
+  ],
+  "all_other_configuration_fields_unchanged": true,
+  "usage_ledger_reset": false,
+  "history_deleted": false
+}

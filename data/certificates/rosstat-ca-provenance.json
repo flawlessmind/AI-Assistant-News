@@ -1,0 +1,23 @@
+{
+  "scope": "Only verified HTTPS requests to allowlisted rosstat.gov.ru news endpoints. No system trust changes and no LLM transport changes.",
+  "bundle_sha256": "4ab21fc3f37793557c69279432f5def448acbd8aaf578e1112a40aa5773cbd89",
+  "root": {
+    "source_url": "https://gu-st.ru/content/lending/russian_trusted_root_ca_pem.crt",
+    "der_sha256": "d26d2d0231b7c39f92cc738512ba54103519e4405d68b5bd703e9788ca8ecf31",
+    "valid_until": "2032-02-27"
+  },
+  "intermediate": {
+    "source_url": "http://nuc-cdp.digital.gov.ru/cdp/subca_ssl_rsa2024.crt",
+    "source_discovery": "AIA in the Rosstat leaf certificate; signed chain verified on a real HTTPS request before use.",
+    "der_sha256": "2155785036c900dbb5f1bb2a1569c80c55595bd6bf94867a29bbddbc7d88a3f2",
+    "valid_until": "2029-07-19"
+  },
+  "private_certificates": false,
+  "verified_at": "2026-10-23",
+  "live_test": {
+    "rss_items": 20,
+    "article_chars": 5285,
+    "tls_verification": true,
+    "llm_calls": 0
+  }
+}

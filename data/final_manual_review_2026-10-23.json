@@ -1,0 +1,111 @@
+{
+  "checked_at": "2026-10-23T20:55:29.588421+03:00",
+  "analysis_version": "2026-10-23-v19-independent-regeneration",
+  "logic_sha256": "06d1d435e19eaaa0624eb391c251c39c16b6f4bbfc29f2d486321719e61d9402",
+  "review_origin": "Development inspection assisted by automated checks; not independent expert labeling or statistical accuracy.",
+  "insights": 6,
+  "followups": 2,
+  "current_cases_passed": 8,
+  "cases": [
+    {
+      "name": "retail_cfo",
+      "run_id": "ff3f29b0cae24bff990283248ed6d50c",
+      "status": "complete",
+      "current_context_verified": true,
+      "canonical_article_verified": true,
+      "local_check_issues": [],
+      "review_approved": true,
+      "draft_reused_as_unapproved_candidate": true,
+      "review_model": "google/gemma-4-26b-a4b-it",
+      "development_review_finding": "Clothing demand and working capital remain conditional. The credit marker is used only to ask whether a contract exists. July/car-segment qualifiers retained."
+    },
+    {
+      "name": "construction_cfo",
+      "run_id": "4cd6215540f6494db8c20b6d79fc32b7",
+      "status": "complete",
+      "current_context_verified": true,
+      "canonical_article_verified": true,
+      "local_check_issues": [],
+      "review_approved": true,
+      "draft_reused_as_unapproved_candidate": true,
+      "review_model": "google/gemma-4-26b-a4b-it",
+      "development_review_finding": "Buyer family-mortgage payment scenario is distinguished from the developer own debt. Sales mix and receipts need company confirmation."
+    },
+    {
+      "name": "manufacturing_cfo",
+      "run_id": "3d509cb7a6bb432b9329f9c6c43b167b",
+      "status": "complete",
+      "current_context_verified": true,
+      "canonical_article_verified": true,
+      "local_check_issues": [],
+      "review_approved": true,
+      "draft_reused_as_unapproved_candidate": true,
+      "review_model": "google/gemma-4-26b-a4b-it",
+      "development_review_finding": "Aggregate industry figures are not company orders. Metal-structure demand, order book and payment terms require verification."
+    },
+    {
+      "name": "transport_ceo",
+      "run_id": "402afca4ff75471d828d1ae940e77302",
+      "status": "complete",
+      "current_context_verified": true,
+      "canonical_article_verified": true,
+      "local_check_issues": [],
+      "review_approved": true,
+      "draft_reused_as_unapproved_candidate": true,
+      "review_model": "google/gemma-4-26b-a4b-it",
+      "development_review_finding": "Fuel is a conditional cost scenario. No tariff, fleet utilization or margin amount is invented."
+    },
+    {
+      "name": "wholesale_cfo",
+      "run_id": "dc7c5f5b319e41708ef6a966bf887784",
+      "status": "complete",
+      "current_context_verified": true,
+      "canonical_article_verified": true,
+      "local_check_issues": [],
+      "review_approved": true,
+      "draft_reused_as_unapproved_candidate": true,
+      "review_model": "google/gemma-4-26b-a4b-it",
+      "development_review_finding": "Macro supply constraints and named source industries are retained; effect on wholesale is a scenario, payment purposes and contracts need verification."
+    },
+    {
+      "name": "retail_ceo",
+      "run_id": "d887f7ff631545dfbca1896a0aa1c917",
+      "status": "complete",
+      "current_context_verified": true,
+      "canonical_article_verified": true,
+      "local_check_issues": [],
+      "review_approved": true,
+      "draft_reused_as_unapproved_candidate": true,
+      "review_model": "google/gemma-4-26b-a4b-it",
+      "development_review_finding": "Next action checks clothing sales and inventory. Same event, different action from CFO; no measured company effect claimed."
+    },
+    {
+      "name": "retail_followup",
+      "run_id": "b765069b8b07416393ca9838aa979865",
+      "status": "answered",
+      "current_context_verified": true,
+      "canonical_article_verified": true,
+      "local_check_issues": [],
+      "review_approved": true,
+      "draft_reused_as_unapproved_candidate": true,
+      "review_model": "google/gemma-4-26b-a4b-it",
+      "development_review_finding": "Aggregate retail observations do not establish this company clothing sales. Source period and car example retained."
+    },
+    {
+      "name": "network_followup",
+      "run_id": "307414c483594feb882911abba203924",
+      "status": "answered",
+      "current_context_verified": true,
+      "canonical_article_verified": true,
+      "local_check_issues": [],
+      "review_approved": true,
+      "draft_reused_as_unapproved_candidate": true,
+      "review_model": "google/gemma-4-26b-a4b-it",
+      "development_review_finding": "Five external incoming counterparties, three unknown profiles and two classified sectors match the profile. Same-ID self-transfer is named correctly; completeness and payment purposes remain unknown."
+    }
+  ],
+  "protected_input_hashes_unchanged": true,
+  "new_generative_requests_in_this_verification": 0,
+  "manual_rejection_retained": "data/final_network_rejected_manually_2026-10-23.json",
+  "separate_negative_reviewer_control": "data/final_reviewer_negative_2026-10-23.json"
+}

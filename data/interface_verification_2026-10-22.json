@@ -1,0 +1,158 @@
+{
+  "date": "2026-10-22",
+  "tools": {
+    "node": "24.15.0",
+    "npm": "11.12.1",
+    "codex": "0.147.0",
+    "ui_ux_pro_max": "installed, read and local search verified",
+    "playwright_mcp": "active tools verified on http://127.0.0.1:8001/",
+    "existing_codex_settings_preserved": true
+  },
+  "tests": {
+    "python": 85,
+    "frontend": 22,
+    "corpus_passed": 12,
+    "corpus_total": 12
+  },
+  "new_llm_requests": 0,
+  "calls_before": 34,
+  "calls_after": 34,
+  "protected_backend_env_index_unchanged": true,
+  "contrast": [
+    {
+      "pair": "ink/bg",
+      "ratio": 14.76,
+      "minimum": 4.5
+    },
+    {
+      "pair": "muted/surface",
+      "ratio": 5.99,
+      "minimum": 4.5
+    },
+    {
+      "pair": "muted/green-soft",
+      "ratio": 5.48,
+      "minimum": 4.5
+    },
+    {
+      "pair": "surface/red",
+      "ratio": 5.4,
+      "minimum": 4.5
+    },
+    {
+      "pair": "green/green-soft",
+      "ratio": 6.81,
+      "minimum": 4.5
+    },
+    {
+      "pair": "amber/amber-soft",
+      "ratio": 6.35,
+      "minimum": 4.5
+    },
+    {
+      "pair": "blue/surface",
+      "ratio": 6.92,
+      "minimum": 4.5
+    },
+    {
+      "pair": "red-hover/red-soft",
+      "ratio": 6.16,
+      "minimum": 4.5
+    },
+    {
+      "pair": "control/surface",
+      "ratio": 3.24,
+      "minimum": 3
+    }
+  ],
+  "browser": {
+    "screens": {
+      "checks": [
+        {
+          "width": 1440,
+          "height": 1000,
+          "scrollWidth": 1440,
+          "clientWidth": 1440,
+          "overflowing": []
+        },
+        {
+          "width": 1024,
+          "height": 1000,
+          "scrollWidth": 1024,
+          "clientWidth": 1024,
+          "overflowing": []
+        },
+        {
+          "width": 768,
+          "height": 1000,
+          "scrollWidth": 768,
+          "clientWidth": 768,
+          "overflowing": []
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390,
+          "clientWidth": 390,
+          "overflowing": []
+        }
+      ],
+      "cache": "Показан проверенный ответ из кеша. Новых запросов к LLM не было.",
+      "context": "Анализ на 21 окт. 2026 г. · Дата события отдельно не установлена."
+    },
+    "network": {
+      "pending": {
+        "message": "Ищем источники…\nПрошло 0 сек. Результат появится в этой карточке.",
+        "busy": "true",
+        "mainStillReady": true,
+        "buttonDisabled": true
+      },
+      "failure": {
+        "message": "Не удалось завершить запрос\n\nНет соединения с сервером. Карточка сохранена; после восстановления соединения можно повторить действие.\n\nПовторить запрос",
+        "mainStillReady": true,
+        "retryVisible": true,
+        "busy": "false"
+      },
+      "intercepted": 1,
+      "requestsReachedBackend": 0,
+      "jsErrors": []
+    },
+    "retry": {
+      "currentDate": "Анализ на 22 окт. 2026 г. · Дата события отдельно не установлена.",
+      "requests": [
+        {
+          "mode": "sources",
+          "task": "sources",
+          "question": "инфляция непродовольственные товары"
+        },
+        {
+          "mode": "sources",
+          "task": "sources",
+          "question": "инфляция непродовольственные товары"
+        }
+      ],
+      "aborted": 1,
+      "acceptedSourceRequests": 1,
+      "result": {
+        "status": "sources_ready",
+        "task": "sources",
+        "run_id": "606d45785bb946f7ba66683c6c6bee46"
+      },
+      "keyboardFocus": {
+        "text": "Задать вопрос с проверкой источников",
+        "outline": "solid",
+        "width": "3px",
+        "visible": true
+      }
+    },
+    "low_relevance": {
+      "state": "Связь с компанией недостаточна\n\nДля этого события не найдена достаточная связь с профилем. Вызов модели пропущен.",
+      "overflow": false
+    }
+  },
+  "limitations": [
+    "Fresh LLM generation intentionally not executed for design.",
+    "Verified ready insight is a cached analysis as of 2026-10-21; source-only flow also verified as of 2026-10-22.",
+    "Evidence refusal and generation-specific errors are covered offline, not by a new paid model run."
+  ]
+}

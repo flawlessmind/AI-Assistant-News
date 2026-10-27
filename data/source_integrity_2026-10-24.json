@@ -1,0 +1,65 @@
+{
+  "analysis_version": "2026-10-24-v23-source-integrity",
+  "logic_sha256": "150adb132f613450187a0f08695d2ae11969a02bb8553c9884211f62f78e37de",
+  "tables": {
+    "news": {
+      "before": 53,
+      "after": 53,
+      "preserved": true
+    },
+    "aliases": {
+      "before": 0,
+      "after": 0,
+      "preserved": true
+    },
+    "runs": {
+      "before": 232,
+      "after": 232,
+      "preserved": true
+    },
+    "jobs": {
+      "before": 85,
+      "after": 85,
+      "preserved": true
+    },
+    "job_requests": {
+      "before": 0,
+      "after": 0,
+      "preserved": true
+    },
+    "calls": {
+      "before": 176,
+      "after": 176,
+      "preserved": true
+    },
+    "usage": {
+      "before": 3,
+      "after": 3,
+      "preserved": true
+    },
+    "llm_cache": {
+      "before": 165,
+      "after": 165,
+      "preserved": true
+    },
+    "feedback": {
+      "before": 1,
+      "after": 1,
+      "preserved": true
+    }
+  },
+  "protected_files_unchanged": true,
+  "schema_change": {
+    "table": "aliases",
+    "added_columns": [
+      "payload"
+    ],
+    "destructive": false
+  },
+  "sqlite_integrity_check": "ok",
+  "news_identity_mismatches": 0,
+  "orphan_aliases": 0,
+  "environment_unchanged": true,
+  "new_real_llm_calls": 0,
+  "active_jobs": 0
+}

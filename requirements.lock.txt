@@ -1,0 +1,23 @@
+# Python 3.12 runtime; resolved and installed in an isolated environment.
+anyio==4.15.1
+certifi==2026.10.19
+click==8.5.0
+colorama==0.4.6
+filelock==4.2.4
+flatbuffers==25.12.19
+fsspec==2026.9.0
+h11==0.16.0
+hf-xet==1.7.0
+httpcore==1.0.9
+httpx==0.28.1
+huggingface_hub==1.33.0
+idna==3.20
+numpy==2.4.3
+onnxruntime==1.25.0
+packaging==26.3
+protobuf==7.36.2
+PyYAML==6.0.3
+tokenizers==0.22.2
+tqdm==4.70.1
+typing_extensions==4.16.0
+waitress==3.0.2

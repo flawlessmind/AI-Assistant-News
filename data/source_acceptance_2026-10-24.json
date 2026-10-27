@@ -1,0 +1,92 @@
+{
+  "analysis_version": "2026-10-24-v23-source-integrity",
+  "logic_sha256": "150adb132f613450187a0f08695d2ae11969a02bb8553c9884211f62f78e37de",
+  "base_commit": "cf282f148c00f2f9c004ed34e0c0a206645a1b41",
+  "new_commit_created": false,
+  "python_windows": {
+    "passed": 249,
+    "failed": 0,
+    "skipped": 0
+  },
+  "python_linux_network_none": {
+    "passed": 249,
+    "failed": 0,
+    "skipped": 0
+  },
+  "javascript": {
+    "passed": 59,
+    "failed": 0,
+    "skipped": 0
+  },
+  "new_regression_cases": 25,
+  "migration_stress": {
+    "repetitions": 20,
+    "concurrent_initializations": 40,
+    "failed": 0,
+    "external_calls": 0
+  },
+  "corpus_checks": 12,
+  "quality_checks": {
+    "records": 13,
+    "passed": 13,
+    "failed": 0
+  },
+  "expanded_checks": {
+    "passed": 866,
+    "failed": 0
+  },
+  "bank_search_comparison": {
+    "lexical": {
+      "relevant_cases": 8,
+      "hit_at_3": 4,
+      "hit_at_5": 5,
+      "unrelated_cases": 3,
+      "unrelated_empty": 3,
+      "failed": 3
+    },
+    "semantic": {
+      "relevant_cases": 8,
+      "hit_at_3": 8,
+      "hit_at_5": 8,
+      "unrelated_cases": 3,
+      "unrelated_empty": 3,
+      "failed": 0
+    },
+    "hybrid": {
+      "relevant_cases": 8,
+      "hit_at_3": 7,
+      "hit_at_5": 8,
+      "unrelated_cases": 3,
+      "unrelated_empty": 3,
+      "failed": 0
+    }
+  },
+  "news_search": {
+    "passed": 6,
+    "total": 6
+  },
+  "no_key_http": {
+    "company_role_cases": 10,
+    "new_llm_calls": 0
+  },
+  "local_start": {
+    "local_ready": true,
+    "duplicate_start_rejected": true,
+    "working_server_survived": true,
+    "http_port": 8002,
+    "external_llm_calls": 0
+  },
+  "browser": {
+    "url": "http://127.0.0.1:8002/",
+    "ready": true,
+    "news": 53,
+    "profiles": 5,
+    "horizontal_overflow": false
+  },
+  "blocked_by_dependencies": [],
+  "real_paid_gateway_tested": false,
+  "new_real_llm_calls": 0,
+  "release_install_verification": "See alfa_service_integrity_2026-10-24.verification.json next to the archive",
+  "local_ready": true,
+  "public_production_ready": false
+}

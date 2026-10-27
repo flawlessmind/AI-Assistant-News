@@ -1,0 +1,1070 @@
+{
+  "kind": "small_explicit_offline_quality_sample",
+  "analysis_as_of": "2026-10-22",
+  "llm_calls": 0,
+  "api_cost_rub": 0,
+  "statistical_accuracy_estimate": false,
+  "inputs": {
+    "bank_index_sha256": "ae589b2357bc66ffaff129d042b407b0654893f83ab05b395d867016e70e3be6",
+    "original_news_snapshot_sha256": "af967db2d8cbefd64eb79e063461b78256f03dd8c43dc0cabf47c4eab4a4ede7",
+    "new_manual_snapshot_sha256": "51f6e53a0a6a9dae069b50689b2fe03e035d5b7fc05c43b27d0d487a8f273820",
+    "profile_sha256": {
+      "U_1595": "224cdf3d928c18f0ebaf7c23e672b76fb6c83344ca395e9627dcafca2159c005",
+      "U_83932": "a3598443100315a91c94eb59b0071f3e799ee242d980aaacc28dfc4d40d511b5"
+    }
+  },
+  "summary": {
+    "records": 13,
+    "passed": 13,
+    "failed": 0
+  },
+  "records": [
+    {
+      "kind": "retrieval",
+      "expected": {
+        "source_id": "alfa_labor_7m",
+        "physical_page": 1,
+        "within_top": 5
+      },
+      "observed": {
+        "returned": [
+          {
+            "source_id": "alfa_labor_7m",
+            "physical_page": 1,
+            "publication_date": "2026-09-07",
+            "evidence_id": "ev_ea0f1e38daffe69d107aa6c1"
+          },
+          {
+            "source_id": "alfa_gdp_1h",
+            "physical_page": 1,
+            "publication_date": "2026-07-31",
+            "evidence_id": "ev_0fecf348802c6357eb969ab4"
+          },
+          {
+            "source_id": "alfa_labor_7m",
+            "physical_page": 2,
+            "publication_date": "2026-09-07",
+            "evidence_id": "ev_b980b7b9f12ce9f0502f76a2"
+          },
+          {
+            "source_id": "alfa_consumption",
+            "physical_page": 1,
+            "publication_date": "2026-08-05",
+            "evidence_id": "ev_3c2af628d2aa08e46f6a2629"
+          },
+          {
+            "source_id": "alfa_gdp_1h",
+            "physical_page": 2,
+            "publication_date": "2026-07-31",
+            "evidence_id": "ev_d1adac9db2fe9d4c27588125"
+          }
+        ],
+        "expected_page_text_locally_verified": true
+      },
+      "errors": [],
+      "status": "pass",
+      "query": "рынок труда не подтверждают охлаждения экономики",
+      "selection_reason": "На первой физической странице отчёта есть явная позиция о состоянии рынка труда."
+    },
+    {
+      "kind": "retrieval",
+      "expected": {
+        "source_id": "alfa_gdp_1h",
+        "physical_page": 2,
+        "within_top": 5
+      },
+      "observed": {
+        "returned": [
+          {
+            "source_id": "alfa_gdp_1h",
+            "physical_page": 2,
+            "publication_date": "2026-07-31",
+            "evidence_id": "ev_1ed326a5a16719fb5a00fcfd"
+          },
+          {
+            "source_id": "alfa_consumption",
+            "physical_page": 1,
+            "publication_date": "2026-08-05",
+            "evidence_id": "ev_3c2af628d2aa08e46f6a2629"
+          },
+          {
+            "source_id": "alfa_gdp_1h",
+            "physical_page": 3,
+            "publication_date": "2026-07-31",
+            "evidence_id": "ev_93822b0d28b72148f1b8e90e"
+          },
+          {
+            "source_id": "alfa_fi_strategy",
+            "physical_page": 18,
+            "publication_date": "2026-07-22",
+            "evidence_id": "ev_d14458bcb67c005f8545348f"
+          },
+          {
+            "source_id": "alfa_labor_7m",
+            "physical_page": 2,
+            "publication_date": "2026-09-07",
+            "evidence_id": "ev_29fc10d29fa7dc90f24f2975"
+          }
+        ],
+        "expected_page_text_locally_verified": true
+      },
+      "errors": [],
+      "status": "pass",
+      "query": "инвестиционная активность строительство июнь",
+      "selection_reason": "Вторая физическая страница содержит разбор динамики предложения, строительства и инвестиций."
+    },
+    {
+      "kind": "retrieval",
+      "expected": {
+        "source_id": "alfa_bond_brief",
+        "physical_page": 1,
+        "within_top": 5
+      },
+      "observed": {
+        "returned": [
+          {
+            "source_id": "alfa_fi_strategy",
+            "physical_page": 6,
+            "publication_date": "2026-07-22",
+            "evidence_id": "ev_459df534f684ad0e4c096edc"
+          },
+          {
+            "source_id": "alfa_bond_brief",
+            "physical_page": 1,
+            "publication_date": "2026-09-14",
+            "evidence_id": "ev_408978e6afd10cfc1825cd5b"
+          },
+          {
+            "source_id": "alfa_fi_strategy",
+            "physical_page": 19,
+            "publication_date": "2026-07-22",
+            "evidence_id": "ev_9203298a26501264b83cf818"
+          },
+          {
+            "source_id": "alfa_fi_strategy",
+            "physical_page": 2,
+            "publication_date": "2026-07-22",
+            "evidence_id": "ev_5b26b95c439bac5f0fbf998f"
+          },
+          {
+            "source_id": "alfa_fi_strategy",
+            "physical_page": 22,
+            "publication_date": "2026-07-22",
+            "evidence_id": "ev_c13b6044ab5f71e8b9634eaf"
+          }
+        ],
+        "expected_page_text_locally_verified": true
+      },
+      "errors": [],
+      "status": "pass",
+      "query": "доходность ОФЗ риторика",
+      "selection_reason": "Первая физическая страница связывает доходности ОФЗ с решением по ставке."
+    },
+    {
+      "kind": "retrieval",
+      "expected": {
+        "source_id": "alfa_labor_7m",
+        "physical_page": 1,
+        "within_top": 5
+      },
+      "observed": {
+        "returned": [
+          {
+            "source_id": "alfa_gdp_1h",
+            "physical_page": 2,
+            "publication_date": "2026-07-31",
+            "evidence_id": "ev_d1adac9db2fe9d4c27588125"
+          },
+          {
+            "source_id": "alfa_gdp_1h",
+            "physical_page": 3,
+            "publication_date": "2026-07-31",
+            "evidence_id": "ev_93822b0d28b72148f1b8e90e"
+          },
+          {
+            "source_id": "alfa_labor_7m",
+            "physical_page": 1,
+            "publication_date": "2026-09-07",
+            "evidence_id": "ev_ea0f1e38daffe69d107aa6c1"
+          },
+          {
+            "source_id": "alfa_gdp_1h",
+            "physical_page": 1,
+            "publication_date": "2026-07-31",
+            "evidence_id": "ev_0fecf348802c6357eb969ab4"
+          },
+          {
+            "source_id": "alfa_fi_strategy",
+            "physical_page": 23,
+            "publication_date": "2026-07-22",
+            "evidence_id": "ev_430ee57b3ab413b3a394b2c1"
+          }
+        ],
+        "expected_page_text_locally_verified": true
+      },
+      "errors": [],
+      "status": "pass",
+      "query": "ограничения предложения непродовольственные автомобили",
+      "selection_reason": "Страница нужна для сохранения сегмента, периода и оговорок при переносе розничной статистики."
+    },
+    {
+      "kind": "new_real_material_manual_ingestion",
+      "expected": {
+        "outside_original_snapshot": true,
+        "official_rss_provenance": true,
+        "dedup_sequence": [
+          "inserted",
+          "duplicate",
+          "updated"
+        ]
+      },
+      "observed": {
+        "outside_original_snapshot": true,
+        "official_rss_provenance": true,
+        "dedup_sequence": [
+          "inserted",
+          "duplicate",
+          "updated"
+        ],
+        "stored_events": 1,
+        "raw_html_download_verified": false,
+        "live_rss_fetch_verified": false
+      },
+      "errors": [],
+      "status": "pass",
+      "source_url": "https://www.cbr.ru/press/event/?id=32909",
+      "published_at": "2026-10-14T20:00:00+03:00",
+      "source_snapshot": "data\\news_audit_2026-10-22.json",
+      "rss_snapshot": "data\\news_sources\\8d566bb47de0e58ed5f7c83fd51d9359d625ee07b7e9bc4975697ee7a6726206.xml",
+      "rss_snapshot_sha256": "8d566bb47de0e58ed5f7c83fd51d9359d625ee07b7e9bc4975697ee7a6726206",
+      "note": "Изменённая редакционная пометка существует только в временной БД теста; исходный снимок не меняется."
+    },
+    {
+      "kind": "company_role_news",
+      "expected": {
+        "industry_reason_required": true,
+        "missing_data_status": "answered",
+        "answer_origin": "rules",
+        "sector_gap_marker": "одежды",
+        "role_action_marker": "денежных поступлений",
+        "sources_status": "sources_ready",
+        "llm_calls": 0
+      },
+      "observed": {
+        "relevance_level": "high",
+        "business_score": 7,
+        "reasons": [
+          {
+            "points": 5,
+            "company_field": "company.industry_okved_code",
+            "company_value": "47.71",
+            "text": "Розничная торговля: событие связано с потребительскими ценами или спросом. Влияние на продажи клиента ещё не установлено."
+          },
+          {
+            "points": 1,
+            "company_field": "company.products.credit",
+            "company_value": true,
+            "text": "В базе отмечен кредитный продукт: изменение цен — повод проверить потребность в оборотном финансировании. Текущий долг и рост расходов этим не установлены."
+          },
+          {
+            "points": 1,
+            "company_field": "user.selected_role",
+            "company_value": "cfo",
+            "text": "Выбран ракурс финансового директора: приоритет условиям финансирования и денежным потокам."
+          }
+        ],
+        "topics": [
+          "inflation"
+        ],
+        "missing_data_status": "answered",
+        "answer_origin": "rules",
+        "data_gap_items": [
+          {
+            "text": "Продажи именно одежды по месяцам: количество, выручка, средний чек и сопоставимые магазины.",
+            "purpose": "Отделить динамику бизнеса от общей статистики; указать единицы, период и базу сравнения."
+          },
+          {
+            "text": "Остатки и оборачиваемость по категориям одежды, уценки и возвраты.",
+            "purpose": "Проверить операционный риск; макроотчёт не содержит этих показателей клиента."
+          },
+          {
+            "text": "Структура затрат, закупочные цены, маржа, условия поставщиков и фактическая география деятельности.",
+            "purpose": "Проверить передачу цен в издержки и спрос. Регион регистрации не равен географии бизнеса."
+          },
+          {
+            "text": "План и факт денежных поступлений и выплат, сроки расчётов и единицы/период показателя выручки.",
+            "purpose": "Оценить денежный поток без предположений о неизвестных суммах и единицах."
+          },
+          {
+            "text": "В базе отмечен кредитный продукт. Уточнить, есть ли действующий долг; если есть — сумму, тип ставки, сроки и график платежей.",
+            "purpose": "Это вопрос клиенту и к его договорам; публичная макроаналитика не устанавливает индивидуальные условия."
+          }
+        ],
+        "sources_status": "sources_ready",
+        "bank_evidence": [
+          {
+            "source_id": "alfa_inflation",
+            "physical_page": 1,
+            "publication_date": "2026-09-02"
+          },
+          {
+            "source_id": "alfa_policy_rate",
+            "physical_page": 1,
+            "publication_date": "2026-09-11"
+          },
+          {
+            "source_id": "alfa_labor_7m",
+            "physical_page": 1,
+            "publication_date": "2026-09-07"
+          },
+          {
+            "source_id": "alfa_consumption",
+            "physical_page": 2,
+            "publication_date": "2026-08-05"
+          },
+          {
+            "source_id": "alfa_gdp_1h",
+            "physical_page": 3,
+            "publication_date": "2026-07-31"
+          },
+          {
+            "source_id": "alfa_fi_strategy",
+            "physical_page": 12,
+            "publication_date": "2026-07-22"
+          }
+        ]
+      },
+      "errors": [],
+      "status": "pass",
+      "company_id": "U_1595",
+      "role": "cfo",
+      "event_id": "news_9f10b60aed544eaa32d4",
+      "source_url": "https://www.cbr.ru/press/event/?id=32919",
+      "published_at": "2026-10-16T12:46:00+03:00"
+    },
+    {
+      "kind": "company_role_news",
+      "expected": {
+        "industry_reason_required": true,
+        "missing_data_status": "answered",
+        "answer_origin": "rules",
+        "sector_gap_marker": "одежды",
+        "role_action_marker": "Ассортимент",
+        "sources_status": "sources_ready",
+        "llm_calls": 0
+      },
+      "observed": {
+        "relevance_level": "high",
+        "business_score": 6,
+        "reasons": [
+          {
+            "points": 5,
+            "company_field": "company.industry_okved_code",
+            "company_value": "47.71",
+            "text": "Розничная торговля: событие связано с потребительскими ценами или спросом. Влияние на продажи клиента ещё не установлено."
+          },
+          {
+            "points": 1,
+            "company_field": "company.products.credit",
+            "company_value": true,
+            "text": "В базе отмечен кредитный продукт: изменение цен — повод проверить потребность в оборотном финансировании. Текущий долг и рост расходов этим не установлены."
+          }
+        ],
+        "topics": [
+          "inflation"
+        ],
+        "missing_data_status": "answered",
+        "answer_origin": "rules",
+        "data_gap_items": [
+          {
+            "text": "Продажи именно одежды по месяцам: количество, выручка, средний чек и сопоставимые магазины.",
+            "purpose": "Отделить динамику бизнеса от общей статистики; указать единицы, период и базу сравнения."
+          },
+          {
+            "text": "Остатки и оборачиваемость по категориям одежды, уценки и возвраты.",
+            "purpose": "Проверить операционный риск; макроотчёт не содержит этих показателей клиента."
+          },
+          {
+            "text": "Структура затрат, закупочные цены, маржа, условия поставщиков и фактическая география деятельности.",
+            "purpose": "Проверить передачу цен в издержки и спрос. Регион регистрации не равен географии бизнеса."
+          },
+          {
+            "text": "Ассортимент, каналы продаж, изменения цен и причины отклонений от плана.",
+            "purpose": "Проверить решения по продажам и ресурсам на данных бизнеса."
+          },
+          {
+            "text": "В базе отмечен кредитный продукт. Уточнить, есть ли действующий долг; если есть — сумму, тип ставки, сроки и график платежей.",
+            "purpose": "Это вопрос клиенту и к его договорам; публичная макроаналитика не устанавливает индивидуальные условия."
+          }
+        ],
+        "sources_status": "sources_ready",
+        "bank_evidence": [
+          {
+            "source_id": "alfa_inflation",
+            "physical_page": 1,
+            "publication_date": "2026-09-02"
+          },
+          {
+            "source_id": "alfa_policy_rate",
+            "physical_page": 1,
+            "publication_date": "2026-09-11"
+          },
+          {
+            "source_id": "alfa_labor_7m",
+            "physical_page": 1,
+            "publication_date": "2026-09-07"
+          },
+          {
+            "source_id": "alfa_consumption",
+            "physical_page": 2,
+            "publication_date": "2026-08-05"
+          },
+          {
+            "source_id": "alfa_gdp_1h",
+            "physical_page": 3,
+            "publication_date": "2026-07-31"
+          },
+          {
+            "source_id": "alfa_fi_strategy",
+            "physical_page": 12,
+            "publication_date": "2026-07-22"
+          }
+        ]
+      },
+      "errors": [],
+      "status": "pass",
+      "company_id": "U_1595",
+      "role": "ceo",
+      "event_id": "news_9f10b60aed544eaa32d4",
+      "source_url": "https://www.cbr.ru/press/event/?id=32919",
+      "published_at": "2026-10-16T12:46:00+03:00"
+    },
+    {
+      "kind": "company_role_news",
+      "expected": {
+        "industry_reason_required": true,
+        "missing_data_status": "answered",
+        "answer_origin": "rules",
+        "sector_gap_marker": "строительного проекта",
+        "role_action_marker": "денежных поступлений",
+        "sources_status": "sources_ready",
+        "llm_calls": 0
+      },
+      "observed": {
+        "relevance_level": "medium",
+        "business_score": 4,
+        "reasons": [
+          {
+            "points": 3,
+            "company_field": "company.industry_okved_code",
+            "company_value": "41.20.1",
+            "text": "Для строительства событие может влиять на условия спроса, закупок и финансирования проектов. Конкретный эффект требует данных о проектах."
+          },
+          {
+            "points": 1,
+            "company_field": "user.selected_role",
+            "company_value": "cfo",
+            "text": "Выбран ракурс финансового директора: приоритет условиям финансирования и денежным потокам."
+          }
+        ],
+        "topics": [
+          "inflation"
+        ],
+        "missing_data_status": "answered",
+        "answer_origin": "rules",
+        "data_gap_items": [
+          {
+            "text": "Продажи и стадия каждого строительного проекта, сроки и договорные поступления.",
+            "purpose": "Отделить динамику бизнеса от общей статистики; указать единицы, период и базу сравнения."
+          },
+          {
+            "text": "План и факт затрат, закупок и сроков по проектам.",
+            "purpose": "Проверить операционный риск; макроотчёт не содержит этих показателей клиента."
+          },
+          {
+            "text": "Структура затрат, закупочные цены, маржа, условия поставщиков и фактическая география деятельности.",
+            "purpose": "Проверить передачу цен в издержки и спрос. Регион регистрации не равен географии бизнеса."
+          },
+          {
+            "text": "План и факт денежных поступлений и выплат, сроки расчётов и единицы/период показателя выручки.",
+            "purpose": "Оценить денежный поток без предположений о неизвестных суммах и единицах."
+          },
+          {
+            "text": "Уточнить наличие заимствований; если они есть — суммы и условия. Нулевой маркер в базе не доказывает отсутствие долга.",
+            "purpose": "Это вопрос клиенту и к его договорам; публичная макроаналитика не устанавливает индивидуальные условия."
+          }
+        ],
+        "sources_status": "sources_ready",
+        "bank_evidence": [
+          {
+            "source_id": "alfa_inflation",
+            "physical_page": 1,
+            "publication_date": "2026-09-02"
+          },
+          {
+            "source_id": "alfa_policy_rate",
+            "physical_page": 1,
+            "publication_date": "2026-09-11"
+          },
+          {
+            "source_id": "alfa_labor_7m",
+            "physical_page": 1,
+            "publication_date": "2026-09-07"
+          },
+          {
+            "source_id": "alfa_consumption",
+            "physical_page": 2,
+            "publication_date": "2026-08-05"
+          },
+          {
+            "source_id": "alfa_gdp_1h",
+            "physical_page": 3,
+            "publication_date": "2026-07-31"
+          },
+          {
+            "source_id": "alfa_fi_strategy",
+            "physical_page": 12,
+            "publication_date": "2026-07-22"
+          }
+        ]
+      },
+      "errors": [],
+      "status": "pass",
+      "company_id": "U_83932",
+      "role": "cfo",
+      "event_id": "news_9f10b60aed544eaa32d4",
+      "source_url": "https://www.cbr.ru/press/event/?id=32919",
+      "published_at": "2026-10-16T12:46:00+03:00"
+    },
+    {
+      "kind": "company_role_news",
+      "expected": {
+        "industry_reason_required": true,
+        "missing_data_status": "answered",
+        "answer_origin": "rules",
+        "sector_gap_marker": "строительного проекта",
+        "role_action_marker": "портфель проектов",
+        "sources_status": "sources_ready",
+        "llm_calls": 0
+      },
+      "observed": {
+        "relevance_level": "medium",
+        "business_score": 3,
+        "reasons": [
+          {
+            "points": 3,
+            "company_field": "company.industry_okved_code",
+            "company_value": "41.20.1",
+            "text": "Для строительства событие может влиять на условия спроса, закупок и финансирования проектов. Конкретный эффект требует данных о проектах."
+          }
+        ],
+        "topics": [
+          "inflation"
+        ],
+        "missing_data_status": "answered",
+        "answer_origin": "rules",
+        "data_gap_items": [
+          {
+            "text": "Продажи и стадия каждого строительного проекта, сроки и договорные поступления.",
+            "purpose": "Отделить динамику бизнеса от общей статистики; указать единицы, период и базу сравнения."
+          },
+          {
+            "text": "План и факт затрат, закупок и сроков по проектам.",
+            "purpose": "Проверить операционный риск; макроотчёт не содержит этих показателей клиента."
+          },
+          {
+            "text": "Структура затрат, закупочные цены, маржа, условия поставщиков и фактическая география деятельности.",
+            "purpose": "Проверить передачу цен в издержки и спрос. Регион регистрации не равен географии бизнеса."
+          },
+          {
+            "text": "Приоритеты и портфель проектов, загрузка команд и причины отклонений сроков от плана.",
+            "purpose": "Проверить решения по продажам и ресурсам на данных бизнеса."
+          },
+          {
+            "text": "Уточнить наличие заимствований; если они есть — суммы и условия. Нулевой маркер в базе не доказывает отсутствие долга.",
+            "purpose": "Это вопрос клиенту и к его договорам; публичная макроаналитика не устанавливает индивидуальные условия."
+          }
+        ],
+        "sources_status": "sources_ready",
+        "bank_evidence": [
+          {
+            "source_id": "alfa_inflation",
+            "physical_page": 1,
+            "publication_date": "2026-09-02"
+          },
+          {
+            "source_id": "alfa_policy_rate",
+            "physical_page": 1,
+            "publication_date": "2026-09-11"
+          },
+          {
+            "source_id": "alfa_labor_7m",
+            "physical_page": 1,
+            "publication_date": "2026-09-07"
+          },
+          {
+            "source_id": "alfa_consumption",
+            "physical_page": 2,
+            "publication_date": "2026-08-05"
+          },
+          {
+            "source_id": "alfa_gdp_1h",
+            "physical_page": 3,
+            "publication_date": "2026-07-31"
+          },
+          {
+            "source_id": "alfa_fi_strategy",
+            "physical_page": 12,
+            "publication_date": "2026-07-22"
+          }
+        ]
+      },
+      "errors": [],
+      "status": "pass",
+      "company_id": "U_83932",
+      "role": "ceo",
+      "event_id": "news_9f10b60aed544eaa32d4",
+      "source_url": "https://www.cbr.ru/press/event/?id=32919",
+      "published_at": "2026-10-16T12:46:00+03:00"
+    },
+    {
+      "kind": "company_role_news",
+      "expected": {
+        "industry_reason_required": true,
+        "missing_data_status": "answered",
+        "answer_origin": "rules",
+        "sector_gap_marker": "одежды",
+        "role_action_marker": "денежных поступлений",
+        "sources_status": "sources_ready",
+        "llm_calls": 0
+      },
+      "observed": {
+        "relevance_level": "high",
+        "business_score": 8,
+        "reasons": [
+          {
+            "points": 5,
+            "company_field": "company.industry_okved_code",
+            "company_value": "47.71",
+            "text": "Розничная торговля: событие связано с потребительскими ценами или спросом. Влияние на продажи клиента ещё не установлено."
+          },
+          {
+            "points": 1,
+            "company_field": "company.products.leasing",
+            "company_value": true,
+            "text": "Отмечен лизинг: возможная связь с условиями договоров требует проверки; автоматический пересмотр платежей не предполагается."
+          },
+          {
+            "points": 2,
+            "company_field": "company.employee_band_fns",
+            "company_value": "Более 251",
+            "text": "Есть сведения о градации работников; событие о рынке труда может быть значимо для кадровых расходов."
+          }
+        ],
+        "topics": [
+          "consumer_demand",
+          "construction",
+          "labor"
+        ],
+        "missing_data_status": "answered",
+        "answer_origin": "rules",
+        "data_gap_items": [
+          {
+            "text": "Продажи именно одежды по месяцам: количество, выручка, средний чек и сопоставимые магазины.",
+            "purpose": "Отделить динамику бизнеса от общей статистики; указать единицы, период и базу сравнения."
+          },
+          {
+            "text": "Остатки и оборачиваемость по категориям одежды, уценки и возвраты.",
+            "purpose": "Проверить операционный риск; макроотчёт не содержит этих показателей клиента."
+          },
+          {
+            "text": "Структура затрат, закупочные цены, маржа, условия поставщиков и фактическая география деятельности.",
+            "purpose": "Проверить передачу цен в издержки и спрос. Регион регистрации не равен географии бизнеса."
+          },
+          {
+            "text": "План и факт денежных поступлений и выплат, сроки расчётов и единицы/период показателя выручки.",
+            "purpose": "Оценить денежный поток без предположений о неизвестных суммах и единицах."
+          },
+          {
+            "text": "В базе отмечен кредитный продукт. Уточнить, есть ли действующий долг; если есть — сумму, тип ставки, сроки и график платежей.",
+            "purpose": "Это вопрос клиенту и к его договорам; публичная макроаналитика не устанавливает индивидуальные условия."
+          }
+        ],
+        "sources_status": "sources_ready",
+        "bank_evidence": [
+          {
+            "source_id": "alfa_labor_7m",
+            "physical_page": 1,
+            "publication_date": "2026-09-07"
+          },
+          {
+            "source_id": "alfa_labor_7m",
+            "physical_page": 2,
+            "publication_date": "2026-09-07"
+          },
+          {
+            "source_id": "alfa_consumption",
+            "physical_page": 1,
+            "publication_date": "2026-08-05"
+          },
+          {
+            "source_id": "alfa_consumption",
+            "physical_page": 1,
+            "publication_date": "2026-08-05"
+          },
+          {
+            "source_id": "alfa_gdp_1h",
+            "physical_page": 2,
+            "publication_date": "2026-07-31"
+          },
+          {
+            "source_id": "alfa_gdp_1h",
+            "physical_page": 2,
+            "publication_date": "2026-07-31"
+          }
+        ]
+      },
+      "errors": [],
+      "status": "pass",
+      "company_id": "U_1595",
+      "role": "cfo",
+      "event_id": "news_6edd3faee905180b5c87",
+      "source_url": "https://www.cbr.ru/press/event/?id=32909",
+      "published_at": "2026-10-14T20:00:00+03:00"
+    },
+    {
+      "kind": "company_role_news",
+      "expected": {
+        "industry_reason_required": true,
+        "missing_data_status": "answered",
+        "answer_origin": "rules",
+        "sector_gap_marker": "одежды",
+        "role_action_marker": "Ассортимент",
+        "sources_status": "sources_ready",
+        "llm_calls": 0
+      },
+      "observed": {
+        "relevance_level": "high",
+        "business_score": 9,
+        "reasons": [
+          {
+            "points": 5,
+            "company_field": "company.industry_okved_code",
+            "company_value": "47.71",
+            "text": "Розничная торговля: событие связано с потребительскими ценами или спросом. Влияние на продажи клиента ещё не установлено."
+          },
+          {
+            "points": 1,
+            "company_field": "company.products.leasing",
+            "company_value": true,
+            "text": "Отмечен лизинг: возможная связь с условиями договоров требует проверки; автоматический пересмотр платежей не предполагается."
+          },
+          {
+            "points": 2,
+            "company_field": "company.employee_band_fns",
+            "company_value": "Более 251",
+            "text": "Есть сведения о градации работников; событие о рынке труда может быть значимо для кадровых расходов."
+          },
+          {
+            "points": 1,
+            "company_field": "user.selected_role",
+            "company_value": "ceo",
+            "text": "Выбран ракурс руководителя: приоритет спросу, операционной деятельности и ресурсам."
+          }
+        ],
+        "topics": [
+          "consumer_demand",
+          "construction",
+          "labor"
+        ],
+        "missing_data_status": "answered",
+        "answer_origin": "rules",
+        "data_gap_items": [
+          {
+            "text": "Продажи именно одежды по месяцам: количество, выручка, средний чек и сопоставимые магазины.",
+            "purpose": "Отделить динамику бизнеса от общей статистики; указать единицы, период и базу сравнения."
+          },
+          {
+            "text": "Остатки и оборачиваемость по категориям одежды, уценки и возвраты.",
+            "purpose": "Проверить операционный риск; макроотчёт не содержит этих показателей клиента."
+          },
+          {
+            "text": "Структура затрат, закупочные цены, маржа, условия поставщиков и фактическая география деятельности.",
+            "purpose": "Проверить передачу цен в издержки и спрос. Регион регистрации не равен географии бизнеса."
+          },
+          {
+            "text": "Ассортимент, каналы продаж, изменения цен и причины отклонений от плана.",
+            "purpose": "Проверить решения по продажам и ресурсам на данных бизнеса."
+          },
+          {
+            "text": "В базе отмечен кредитный продукт. Уточнить, есть ли действующий долг; если есть — сумму, тип ставки, сроки и график платежей.",
+            "purpose": "Это вопрос клиенту и к его договорам; публичная макроаналитика не устанавливает индивидуальные условия."
+          }
+        ],
+        "sources_status": "sources_ready",
+        "bank_evidence": [
+          {
+            "source_id": "alfa_labor_7m",
+            "physical_page": 1,
+            "publication_date": "2026-09-07"
+          },
+          {
+            "source_id": "alfa_labor_7m",
+            "physical_page": 2,
+            "publication_date": "2026-09-07"
+          },
+          {
+            "source_id": "alfa_consumption",
+            "physical_page": 1,
+            "publication_date": "2026-08-05"
+          },
+          {
+            "source_id": "alfa_consumption",
+            "physical_page": 1,
+            "publication_date": "2026-08-05"
+          },
+          {
+            "source_id": "alfa_gdp_1h",
+            "physical_page": 2,
+            "publication_date": "2026-07-31"
+          },
+          {
+            "source_id": "alfa_gdp_1h",
+            "physical_page": 2,
+            "publication_date": "2026-07-31"
+          }
+        ]
+      },
+      "errors": [],
+      "status": "pass",
+      "company_id": "U_1595",
+      "role": "ceo",
+      "event_id": "news_6edd3faee905180b5c87",
+      "source_url": "https://www.cbr.ru/press/event/?id=32909",
+      "published_at": "2026-10-14T20:00:00+03:00"
+    },
+    {
+      "kind": "company_role_news",
+      "expected": {
+        "industry_reason_required": true,
+        "missing_data_status": "answered",
+        "answer_origin": "rules",
+        "sector_gap_marker": "строительного проекта",
+        "role_action_marker": "денежных поступлений",
+        "sources_status": "sources_ready",
+        "llm_calls": 0
+      },
+      "observed": {
+        "relevance_level": "high",
+        "business_score": 9,
+        "reasons": [
+          {
+            "points": 6,
+            "company_field": "company.industry_okved_code",
+            "company_value": "41.20.1",
+            "text": "Строительная деятельность совпадает с темой события."
+          },
+          {
+            "points": 1,
+            "company_field": "company.products.leasing",
+            "company_value": true,
+            "text": "Отмечен лизинг: возможная связь с условиями договоров требует проверки; автоматический пересмотр платежей не предполагается."
+          },
+          {
+            "points": 2,
+            "company_field": "company.employee_band_fns",
+            "company_value": "101-250",
+            "text": "Есть сведения о градации работников; событие о рынке труда может быть значимо для кадровых расходов."
+          }
+        ],
+        "topics": [
+          "consumer_demand",
+          "construction",
+          "labor"
+        ],
+        "missing_data_status": "answered",
+        "answer_origin": "rules",
+        "data_gap_items": [
+          {
+            "text": "Продажи и стадия каждого строительного проекта, сроки и договорные поступления.",
+            "purpose": "Отделить динамику бизнеса от общей статистики; указать единицы, период и базу сравнения."
+          },
+          {
+            "text": "План и факт затрат, закупок и сроков по проектам.",
+            "purpose": "Проверить операционный риск; макроотчёт не содержит этих показателей клиента."
+          },
+          {
+            "text": "Структура затрат, закупочные цены, маржа, условия поставщиков и фактическая география деятельности.",
+            "purpose": "Проверить передачу цен в издержки и спрос. Регион регистрации не равен географии бизнеса."
+          },
+          {
+            "text": "План и факт денежных поступлений и выплат, сроки расчётов и единицы/период показателя выручки.",
+            "purpose": "Оценить денежный поток без предположений о неизвестных суммах и единицах."
+          },
+          {
+            "text": "Уточнить наличие заимствований; если они есть — суммы и условия. Нулевой маркер в базе не доказывает отсутствие долга.",
+            "purpose": "Это вопрос клиенту и к его договорам; публичная макроаналитика не устанавливает индивидуальные условия."
+          }
+        ],
+        "sources_status": "sources_ready",
+        "bank_evidence": [
+          {
+            "source_id": "alfa_labor_7m",
+            "physical_page": 1,
+            "publication_date": "2026-09-07"
+          },
+          {
+            "source_id": "alfa_labor_7m",
+            "physical_page": 2,
+            "publication_date": "2026-09-07"
+          },
+          {
+            "source_id": "alfa_consumption",
+            "physical_page": 1,
+            "publication_date": "2026-08-05"
+          },
+          {
+            "source_id": "alfa_consumption",
+            "physical_page": 1,
+            "publication_date": "2026-08-05"
+          },
+          {
+            "source_id": "alfa_gdp_1h",
+            "physical_page": 2,
+            "publication_date": "2026-07-31"
+          },
+          {
+            "source_id": "alfa_gdp_1h",
+            "physical_page": 2,
+            "publication_date": "2026-07-31"
+          }
+        ]
+      },
+      "errors": [],
+      "status": "pass",
+      "company_id": "U_83932",
+      "role": "cfo",
+      "event_id": "news_6edd3faee905180b5c87",
+      "source_url": "https://www.cbr.ru/press/event/?id=32909",
+      "published_at": "2026-10-14T20:00:00+03:00"
+    },
+    {
+      "kind": "company_role_news",
+      "expected": {
+        "industry_reason_required": true,
+        "missing_data_status": "answered",
+        "answer_origin": "rules",
+        "sector_gap_marker": "строительного проекта",
+        "role_action_marker": "портфель проектов",
+        "sources_status": "sources_ready",
+        "llm_calls": 0
+      },
+      "observed": {
+        "relevance_level": "high",
+        "business_score": 10,
+        "reasons": [
+          {
+            "points": 6,
+            "company_field": "company.industry_okved_code",
+            "company_value": "41.20.1",
+            "text": "Строительная деятельность совпадает с темой события."
+          },
+          {
+            "points": 1,
+            "company_field": "company.products.leasing",
+            "company_value": true,
+            "text": "Отмечен лизинг: возможная связь с условиями договоров требует проверки; автоматический пересмотр платежей не предполагается."
+          },
+          {
+            "points": 2,
+            "company_field": "company.employee_band_fns",
+            "company_value": "101-250",
+            "text": "Есть сведения о градации работников; событие о рынке труда может быть значимо для кадровых расходов."
+          },
+          {
+            "points": 1,
+            "company_field": "user.selected_role",
+            "company_value": "ceo",
+            "text": "Выбран ракурс руководителя: приоритет спросу, операционной деятельности и ресурсам."
+          }
+        ],
+        "topics": [
+          "consumer_demand",
+          "construction",
+          "labor"
+        ],
+        "missing_data_status": "answered",
+        "answer_origin": "rules",
+        "data_gap_items": [
+          {
+            "text": "Продажи и стадия каждого строительного проекта, сроки и договорные поступления.",
+            "purpose": "Отделить динамику бизнеса от общей статистики; указать единицы, период и базу сравнения."
+          },
+          {
+            "text": "План и факт затрат, закупок и сроков по проектам.",
+            "purpose": "Проверить операционный риск; макроотчёт не содержит этих показателей клиента."
+          },
+          {
+            "text": "Структура затрат, закупочные цены, маржа, условия поставщиков и фактическая география деятельности.",
+            "purpose": "Проверить передачу цен в издержки и спрос. Регион регистрации не равен географии бизнеса."
+          },
+          {
+            "text": "Приоритеты и портфель проектов, загрузка команд и причины отклонений сроков от плана.",
+            "purpose": "Проверить решения по продажам и ресурсам на данных бизнеса."
+          },
+          {
+            "text": "Уточнить наличие заимствований; если они есть — суммы и условия. Нулевой маркер в базе не доказывает отсутствие долга.",
+            "purpose": "Это вопрос клиенту и к его договорам; публичная макроаналитика не устанавливает индивидуальные условия."
+          }
+        ],
+        "sources_status": "sources_ready",
+        "bank_evidence": [
+          {
+            "source_id": "alfa_labor_7m",
+            "physical_page": 1,
+            "publication_date": "2026-09-07"
+          },
+          {
+            "source_id": "alfa_labor_7m",
+            "physical_page": 2,
+            "publication_date": "2026-09-07"
+          },
+          {
+            "source_id": "alfa_consumption",
+            "physical_page": 1,
+            "publication_date": "2026-08-05"
+          },
+          {
+            "source_id": "alfa_consumption",
+            "physical_page": 1,
+            "publication_date": "2026-08-05"
+          },
+          {
+            "source_id": "alfa_gdp_1h",
+            "physical_page": 2,
+            "publication_date": "2026-07-31"
+          },
+          {
+            "source_id": "alfa_gdp_1h",
+            "physical_page": 2,
+            "publication_date": "2026-07-31"
+          }
+        ]
+      },
+      "errors": [],
+      "status": "pass",
+      "company_id": "U_83932",
+      "role": "ceo",
+      "event_id": "news_6edd3faee905180b5c87",
+      "source_url": "https://www.cbr.ru/press/event/?id=32909",
+      "published_at": "2026-10-14T20:00:00+03:00"
+    }
+  ],
+  "limits": [
+    "Это вручную выбранный контроль из четырёх запросов и двух реальных материалов, не статистическая точность.",
+    "Смысл всех формулировок LLM не оценивался: генеративных запросов не было.",
+    "Проверено наличие текста на странице, а не ручная верификация финансовых чисел OCR.",
+    "Новое событие импортировано вручную из официально проверенной страницы и архивного RSS; сетевой full-article loader этим не подтверждён.",
+    "Региональные наблюдения не устанавливают географию или показатели демонстрационных компаний."
+  ]
+}

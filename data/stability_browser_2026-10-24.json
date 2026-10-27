@@ -1,0 +1,43 @@
+{
+  "synthetic": true,
+  "activeRegenerations": 2,
+  "terminalStates": [
+    "done",
+    "done",
+    "done",
+    "failed",
+    "done"
+  ],
+  "retryNewId": true,
+  "visibleError": "Не удалось завершить запрос\n\nЗадание не завершено. Проверьте локальный журнал. Если модель уже получила запрос, новая попытка может расходовать бюджет повторно.\n\nПовторить запрос",
+  "widths": [
+    {
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "scroll": 1024,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "scroll": 768,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    }
+  ],
+  "lost_post_after_reload": {
+    "restored": true,
+    "logical_jobs": 1,
+    "physical_drafts": 1,
+    "synthetic": true
+  },
+  "paid_gateway_calls": 0,
+  "analysis_version": "2026-10-24-v21-stable-attempts"
+}

@@ -1,0 +1,11 @@
+{
+  "protected_inputs": {
+    "research.sqlite": true,
+    "research_pages.jsonl": true,
+    "news_snapshot.jsonl": true
+  },
+  "old_profiles_unchanged_except_network": {
+    "U_1595": true,
+    "U_83932": true
+  }
+}

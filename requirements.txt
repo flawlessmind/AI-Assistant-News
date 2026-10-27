@@ -1,0 +1,5 @@
+# Runtime for local multilingual semantic search. Exact transitive pins: requirements.lock.txt.
+numpy==2.4.3
+onnxruntime==1.25.0
+tokenizers==0.22.2
+waitress==3.0.2

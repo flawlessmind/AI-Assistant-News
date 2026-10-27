@@ -1,0 +1,58 @@
+{
+  "analysis_version": "2026-10-24-v22-hybrid-metadata-shutdown",
+  "logic_sha256": "7c1d2a21e00737471e98e8b25da79004fe9cb2a630e331375f3d3bf043d6cfca",
+  "bank_query": "флоутеры",
+  "previously_missing_pages": [
+    3,
+    6,
+    21
+  ],
+  "current_results": [
+    {
+      "source_id": "alfa_fi_strategy",
+      "page": 24,
+      "semantic_score": 0.844801,
+      "semantic_rank": 1,
+      "lexical_rank": 1
+    },
+    {
+      "source_id": "alfa_fi_strategy",
+      "page": 6,
+      "semantic_score": 0.817971,
+      "semantic_rank": null,
+      "lexical_rank": 2
+    },
+    {
+      "source_id": "alfa_fi_strategy",
+      "page": 3,
+      "semantic_score": 0.787206,
+      "semantic_rank": null,
+      "lexical_rank": 3
+    },
+    {
+      "source_id": "alfa_fi_strategy",
+      "page": 21,
+      "semantic_score": 0.818164,
+      "semantic_rank": null,
+      "lexical_rank": 4
+    }
+  ],
+  "hybrid_controls": {
+    "relevant_cases": 8,
+    "hit_at_3": 7,
+    "hit_at_5": 8,
+    "unrelated_cases": 3,
+    "unrelated_empty": 3,
+    "failed": 0
+  },
+  "news_controls": {
+    "passed": 6,
+    "failed": 0
+  },
+  "new_paid_calls": 0,
+  "extra_negative_controls": {
+    "compared_to_v21": 15,
+    "added_candidates": 0
+  },
+  "caveat": "Small engineering control, not a representative precision estimate. Mixed-topic semantic false positives remain possible."
+}

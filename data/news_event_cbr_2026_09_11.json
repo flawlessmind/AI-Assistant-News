@@ -1,0 +1,21 @@
+{
+  "event_id": "cbr_key_rate_2026_09_11",
+  "title": "Банк России сохранил ключевую ставку на уровне 14% годовых",
+  "published_at": "2026-09-11T13:30:00+03:00",
+  "publisher": "Пресс-служба Банка России",
+  "source_url": "https://www.cbr.ru/press/pr/?file=11092026_133000key.htm",
+  "facts": [
+    {
+      "fact_id": "news_rate_decision",
+      "text": "11 сентября 2026 года Совет директоров Банка России решил оставить ключевую ставку равной 14% годовых.",
+      "key_rate_percent": 14.0,
+      "verification": "Сверено с официальным пресс-релизом и решением Совета директоров."
+    }
+  ],
+  "decision_source_url": "https://www.cbr.ru/rbr/dir_decisions/rsd_2026-09-11_20_01/",
+  "topics": ["key_rate", "credit_conditions", "inflation"],
+  "verified_on": "2026-10-20",
+  "ingestion_method": "manually_verified_official_source",
+  "is_historical_example": true,
+  "note": "Датированный реальный пример для разработки. Это не сегодняшняя новость и не работающий автоматический сборщик."
+}

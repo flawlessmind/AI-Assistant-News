@@ -1,0 +1,260 @@
+{
+  "company_id": "U_1595",
+  "company": {
+    "industry_okved_code": "47.71",
+    "industry_name": "Торговля розничная одеждой в специализированных магазинах",
+    "region": "Москва",
+    "city": "г. Москва",
+    "age_band": "16-25",
+    "employee_band_fns": "Более 251",
+    "revenue": 16461799989.0,
+    "customer_type": "CLIENT",
+    "economic_stage": "Бизнес в новой реальности",
+    "fts_activity_flag": true,
+    "products": {
+      "settlement_account": true,
+      "bank_guarantee": false,
+      "credit": true,
+      "leasing": true,
+      "deposit": false,
+      "payroll": true,
+      "factoring": false
+    }
+  },
+  "group": {
+    "group_id": "group_134285_sb",
+    "member_record_count": 1,
+    "revenue_sum_of_listed_records_not_consolidated": 16461799989.0,
+    "contains_repeated_company_id": false
+  },
+  "payments": {
+    "outgoing_relation_rows": 160,
+    "incoming_relation_rows": 6,
+    "outgoing_amount_sum": 18149198000.0,
+    "incoming_amount_sum": 16497700000.0,
+    "outgoing_transaction_count_sum": 5504,
+    "incoming_transaction_count_sum": 498,
+    "self_transfer_relation_rows": 1,
+    "self_transfer_amount_sum": 16326970000.0,
+    "self_transfer_transaction_count_sum": 458,
+    "outgoing_external_relation_rows": 159,
+    "incoming_external_relation_rows": 5,
+    "outgoing_external_amount_sum": 1822228000.0,
+    "incoming_external_amount_sum": 170730000.0,
+    "outgoing_external_transaction_count_sum": 5046,
+    "incoming_external_transaction_count_sum": 40,
+    "outgoing_external_counterparty_count": 159,
+    "incoming_external_counterparty_count": 5,
+    "outgoing_external_missing_profile_counterparty_count": 88,
+    "incoming_external_missing_profile_counterparty_count": 3,
+    "outgoing_external_missing_profile_amount_sum": 994681000.0,
+    "incoming_external_missing_profile_amount_sum": 170623000.0,
+    "largest_payees": [
+      {
+        "company_id": "U_107247",
+        "total_amount": 218064000.0,
+        "profile_available": true,
+        "profile_missing": false,
+        "share_of_external_amount": 0.11966888885474265
+      },
+      {
+        "company_id": "U_229071",
+        "total_amount": 72733000.0,
+        "profile_available": false,
+        "profile_missing": true,
+        "share_of_external_amount": 0.03991432466189741
+      },
+      {
+        "company_id": "U_141569",
+        "total_amount": 69732000.0,
+        "profile_available": false,
+        "profile_missing": true,
+        "share_of_external_amount": 0.03826743963982553
+      },
+      {
+        "company_id": "U_2253",
+        "total_amount": 65196000.0,
+        "profile_available": false,
+        "profile_missing": true,
+        "share_of_external_amount": 0.03577817923991948
+      },
+      {
+        "company_id": "U_70743",
+        "total_amount": 60559000.0,
+        "profile_available": false,
+        "profile_missing": true,
+        "share_of_external_amount": 0.03323349218648819
+      }
+    ],
+    "largest_payers": [
+      {
+        "company_id": "U_26993",
+        "total_amount": 169648000.0,
+        "profile_available": false,
+        "profile_missing": true,
+        "share_of_external_amount": 0.993662508053652
+      },
+      {
+        "company_id": "U_36496",
+        "total_amount": 972000.0,
+        "profile_available": false,
+        "profile_missing": true,
+        "share_of_external_amount": 0.005693199789140749
+      },
+      {
+        "company_id": "U_58918",
+        "total_amount": 99000.0,
+        "profile_available": true,
+        "profile_missing": false,
+        "share_of_external_amount": 0.0005798629414865578
+      },
+      {
+        "company_id": "U_18744",
+        "total_amount": 8000.0,
+        "profile_available": true,
+        "profile_missing": false,
+        "share_of_external_amount": 4.685761143325719e-05
+      },
+      {
+        "company_id": "U_373138",
+        "total_amount": 3000.0,
+        "profile_available": false,
+        "profile_missing": true,
+        "share_of_external_amount": 1.7571604287471446e-05
+      }
+    ]
+  },
+  "person_connections": {
+    "unique_person_count": 0,
+    "other_companies_sharing_person_id_count": 0
+  },
+  "network": {
+    "outgoing": {
+      "unique_company_count": 159,
+      "classified_count": 71,
+      "missing_profile_count": 88,
+      "ambiguous_profile_count": 0,
+      "unclassified_profile_count": 0,
+      "industry_divisions": [
+        {
+          "okved_division": "68",
+          "company_count": 34
+        },
+        {
+          "okved_division": "73",
+          "company_count": 7
+        },
+        {
+          "okved_division": "46",
+          "company_count": 6
+        },
+        {
+          "okved_division": "62",
+          "company_count": 5
+        },
+        {
+          "okved_division": "47",
+          "company_count": 2
+        },
+        {
+          "okved_division": "55",
+          "company_count": 2
+        },
+        {
+          "okved_division": "70",
+          "company_count": 2
+        },
+        {
+          "okved_division": "81",
+          "company_count": 2
+        },
+        {
+          "okved_division": "82",
+          "company_count": 2
+        },
+        {
+          "okved_division": "13",
+          "company_count": 1
+        },
+        {
+          "okved_division": "41",
+          "company_count": 1
+        },
+        {
+          "okved_division": "53",
+          "company_count": 1
+        },
+        {
+          "okved_division": "56",
+          "company_count": 1
+        },
+        {
+          "okved_division": "63",
+          "company_count": 1
+        },
+        {
+          "okved_division": "64",
+          "company_count": 1
+        },
+        {
+          "okved_division": "71",
+          "company_count": 1
+        },
+        {
+          "okved_division": "80",
+          "company_count": 1
+        },
+        {
+          "okved_division": "95",
+          "company_count": 1
+        }
+      ]
+    },
+    "incoming": {
+      "unique_company_count": 5,
+      "classified_count": 2,
+      "missing_profile_count": 3,
+      "ambiguous_profile_count": 0,
+      "unclassified_profile_count": 0,
+      "industry_divisions": [
+        {
+          "okved_division": "46",
+          "company_count": 1
+        },
+        {
+          "okved_division": "81",
+          "company_count": 1
+        }
+      ]
+    },
+    "group": {
+      "unique_company_count": 1,
+      "classified_count": 1,
+      "missing_profile_count": 0,
+      "ambiguous_profile_count": 0,
+      "unclassified_profile_count": 0,
+      "industry_divisions": [
+        {
+          "okved_division": "47",
+          "company_count": 1
+        }
+      ]
+    },
+    "basis": "Unique company identifiers linked by payment direction or the supplied GROUP_ID; no amount weighting.",
+    "limitations": [
+      "Payment links do not establish the purpose of a transfer or supplier/customer roles.",
+      "Sector counts describe counterparties, not spending shares, revenue exposure or ownership.",
+      "Missing and conflicting profiles are excluded from sector classification and counted separately.",
+      "Companies sharing GROUP_ID are not assumed to form a consolidated or controlled group."
+    ]
+  },
+  "data_quality_notes": [
+    "Company identifiers are synthetic; do not identify a real business.",
+    "Payments may involve companies absent from the company table.",
+    "No balance, debt principal, payment purpose, market size or company market share is provided.",
+    "No monetary units/observation period are specified in this CSV; verify in hackathon documentation.",
+    "Group revenue is a non-consolidated arithmetic sum and may include intra-group double counting.",
+    "Original incoming/outgoing totals include self-transfers; external totals and largest counterparties exclude them. Shares use the corresponding full external amount, not the top-five sum.",
+    "Missing counterparty profiles are retained and explicitly marked; payment links do not establish supplier/customer roles."
+  ]
+}

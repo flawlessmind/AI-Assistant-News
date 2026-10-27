@@ -1,0 +1,33 @@
+{
+  "real_source": true,
+  "title": "Новые правила инвестирования для ПИФ",
+  "found": true,
+  "semantic_score": 0.770733,
+  "exact_match": true,
+  "method": "hybrid",
+  "below_dense_threshold": true,
+  "widths": [
+    {
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "scroll": 1024,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "scroll": 768,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    }
+  ],
+  "paid_actions": 0,
+  "analysis_version": "2026-10-24-v22-hybrid-metadata-shutdown"
+}

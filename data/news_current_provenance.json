@@ -1,0 +1,24 @@
+{
+  "collected_at": "2026-10-23T03:00:47.097584+03:00",
+  "events": 40,
+  "sources": [
+    {
+      "feed_id": "cbr_news",
+      "rss_sha256": "30d9895b0cb7cea0df9c34ccf4db155d08b81e5299cfe38289153820ea9d3ef5",
+      "selected": 32
+    },
+    {
+      "feed_id": "rosstat_news",
+      "rss_sha256": "83f2da8e436f5c8d2e4a34cb28aa79af70f503cf1e09e983ec1b5a4637098918",
+      "selected": 8
+    }
+  ],
+  "errors": [
+    {
+      "url": "https://www.cbr.ru/press/event/?id=32855",
+      "error": "ValueError"
+    }
+  ],
+  "original_snapshot_changed": false,
+  "generation_requests": 0
+}

@@ -1,0 +1,48 @@
+{
+  "inserted": 0,
+  "updated": 0,
+  "duplicate": 0,
+  "errors": [
+    {
+      "source": "https://www.cbr.ru/press/event/?id=32927",
+      "error": "HTTPError"
+    },
+    {
+      "source": "https://www.cbr.ru/press/event/?id=32925",
+      "error": "HTTPError"
+    },
+    {
+      "source": "https://www.cbr.ru/press/PR/?file=639282394585722382BANK_SECTOR.htm",
+      "error": "HTTPError"
+    },
+    {
+      "source": "https://www.cbr.ru/press/PR/?file=639281939787093652PNP.htm",
+      "error": "HTTPError"
+    }
+  ],
+  "feeds": [
+    {
+      "feed_id": "cbr_news",
+      "source_url": "https://www.cbr.ru/rss/eventrss",
+      "items_available": 100,
+      "raw_sha256": "30d9895b0cb7cea0df9c34ccf4db155d08b81e5299cfe38289153820ea9d3ef5"
+    },
+    {
+      "feed_id": "cbr_press",
+      "source_url": "https://www.cbr.ru/rss/RssPress",
+      "items_available": 13,
+      "raw_sha256": "4fdcef5f6a669c5cd1b92ac3893d8351e0baf897036165806d59c351d4df1603"
+    }
+  ],
+  "verified_on": "2026-10-22T21:13:45.218885+03:00",
+  "new_events": [],
+  "llm_calls": 0,
+  "separate_http_diagnosis": {
+    "article_url": "https://www.cbr.ru/press/event/?id=32927",
+    "http_status": 403,
+    "server_header": "ddos-guard",
+    "delay_between_rss_and_article_seconds": 1.2,
+    "restriction_bypassed": false,
+    "note": "Диагностика отдельного запроса после RSS; полная статья не импортирована. Однократный прямой запрос без RSS ранее вернул HTTP 200, но этим не подтверждён стабильный автоматический импорт."
+  }
+}

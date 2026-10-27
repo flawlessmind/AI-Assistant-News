@@ -1,0 +1,503 @@
+{
+  "audit_date_msk": "2026-10-22",
+  "source_directory": "current local project",
+  "git_repository": false,
+  "baseline": {
+    "python_system_version": "3.12.10",
+    "python_tests": 85,
+    "web_tests": 22,
+    "corpus_checks": 12
+  },
+  "final_source_checks": {
+    "python_version": "3.12.14",
+    "python_unittest": {
+      "passed": 108,
+      "failed": 0
+    },
+    "web_node": {
+      "passed": 26,
+      "failed": 0
+    },
+    "corpus": {
+      "passed": 12,
+      "total": 12
+    },
+    "quality": {
+      "records": 13,
+      "passed": 13,
+      "failed": 0
+    },
+    "http": {
+      "no_key": true,
+      "news_count": 10,
+      "companies": 2,
+      "matrix": [
+        {
+          "company_id": "U_1595",
+          "role": "cfo",
+          "event_id": "news_9f10b60aed544eaa32d4",
+          "business_score": 7,
+          "reasons": [
+            {
+              "points": 5,
+              "company_field": "company.industry_okved_code",
+              "company_value": "47.71",
+              "text": "Розничная торговля: событие связано с потребительскими ценами или спросом. Влияние на продажи клиента ещё не установлено."
+            },
+            {
+              "points": 1,
+              "company_field": "company.products.credit",
+              "company_value": true,
+              "text": "В базе отмечен кредитный продукт: изменение цен — повод проверить потребность в оборотном финансировании. Текущий долг и рост расходов этим не установлены."
+            },
+            {
+              "points": 1,
+              "company_field": "user.selected_role",
+              "company_value": "cfo",
+              "text": "Выбран ракурс финансового директора: приоритет условиям финансирования и денежным потокам."
+            }
+          ],
+          "sources_status": "sources_ready",
+          "evidence_count": 6,
+          "gaps_status": "answered",
+          "generation_status": "generation_unavailable",
+          "context_fingerprint": "a1054b31649d1e89bcbb75c187f22297a529e193f10611af729e4f29d8ff8f72"
+        },
+        {
+          "company_id": "U_1595",
+          "role": "ceo",
+          "event_id": "news_9f10b60aed544eaa32d4",
+          "business_score": 6,
+          "reasons": [
+            {
+              "points": 5,
+              "company_field": "company.industry_okved_code",
+              "company_value": "47.71",
+              "text": "Розничная торговля: событие связано с потребительскими ценами или спросом. Влияние на продажи клиента ещё не установлено."
+            },
+            {
+              "points": 1,
+              "company_field": "company.products.credit",
+              "company_value": true,
+              "text": "В базе отмечен кредитный продукт: изменение цен — повод проверить потребность в оборотном финансировании. Текущий долг и рост расходов этим не установлены."
+            }
+          ],
+          "sources_status": "sources_ready",
+          "evidence_count": 6,
+          "gaps_status": "answered",
+          "generation_status": "generation_unavailable",
+          "context_fingerprint": "e9a2bb91c1012ba60376b7a167ec5c343a4c0001045c11d89a7056642c56dc52"
+        },
+        {
+          "company_id": "U_83932",
+          "role": "cfo",
+          "event_id": "news_9f10b60aed544eaa32d4",
+          "business_score": 4,
+          "reasons": [
+            {
+              "points": 3,
+              "company_field": "company.industry_okved_code",
+              "company_value": "41.20.1",
+              "text": "Для строительства событие может влиять на условия спроса, закупок и финансирования проектов. Конкретный эффект требует данных о проектах."
+            },
+            {
+              "points": 1,
+              "company_field": "user.selected_role",
+              "company_value": "cfo",
+              "text": "Выбран ракурс финансового директора: приоритет условиям финансирования и денежным потокам."
+            }
+          ],
+          "sources_status": "sources_ready",
+          "evidence_count": 6,
+          "gaps_status": "answered",
+          "generation_status": "generation_unavailable",
+          "context_fingerprint": "56904c7ab877ac19f7ff37ea4a97170423711d01beadfff3f684bf675b6c2a9a"
+        },
+        {
+          "company_id": "U_83932",
+          "role": "ceo",
+          "event_id": "news_9f10b60aed544eaa32d4",
+          "business_score": 3,
+          "reasons": [
+            {
+              "points": 3,
+              "company_field": "company.industry_okved_code",
+              "company_value": "41.20.1",
+              "text": "Для строительства событие может влиять на условия спроса, закупок и финансирования проектов. Конкретный эффект требует данных о проектах."
+            }
+          ],
+          "sources_status": "sources_ready",
+          "evidence_count": 6,
+          "gaps_status": "answered",
+          "generation_status": "generation_unavailable",
+          "context_fingerprint": "b433949e9d667bdb1f4b8aef432518f1d1df294f2e685a402df2067f40b896dd"
+        }
+      ],
+      "unsafe_action_codes": [
+        403,
+        403
+      ],
+      "new_llm_calls": 0,
+      "analysis_version": "2026-10-22-v8-general-scope-tasks"
+    },
+    "browser": {
+      "audit_date_msk": "2026-10-22",
+      "tool": "Official Playwright MCP, real Edge browser 155.0.4283.62",
+      "runtime_dir": "var/audit_frontend",
+      "url": "http://127.0.0.1:8012/",
+      "allow_live_llm": false,
+      "new_llm_calls": 0,
+      "final_backend_prompt_version": "2026-10-22-v8-general-scope-tasks",
+      "final_restart_completed": true,
+      "final_smoke": "Repeated after fresh server restart on final backend/store and rebuilt real profiles: both companies x both roles sources_ready (6 fragments) and rules answered; 1440/1024/768/390 no horizontal overflow; current screenshots saved; OCR and Escape passed; console 0 errors and 0 warnings; runtime calls table remains 0.",
+      "node_tests": {
+        "baseline_passed": 22,
+        "final_passed": 26,
+        "failed": 0
+      },
+      "fixed_findings": [
+        "Sources-only mode rendered two identical question buttons with different task payloads. Only the explicit sources action is now shown; live question retains automatic intent routing.",
+        "Construction and other companies saw a clothing/car placeholder. The example question is now industry-neutral.",
+        "A failed delayed feed request could show an obsolete error after a successful company switch. The feed error handler now validates the context version."
+      ],
+      "preserved": [
+        "Existing design, layout, CSS, source links, evidence disclosures",
+        "Automatic intent routing for live follow-up questions"
+      ],
+      "browser_checks": {
+        "widths_initial_and_sources": [
+          {
+            "viewport": 1440,
+            "scrollWidth": 1440,
+            "clientWidth": 1440,
+            "overflow_elements": []
+          },
+          {
+            "viewport": 1024,
+            "scrollWidth": 1024,
+            "clientWidth": 1024,
+            "overflow_elements": []
+          },
+          {
+            "viewport": 768,
+            "scrollWidth": 768,
+            "clientWidth": 768,
+            "overflow_elements": []
+          },
+          {
+            "viewport": 390,
+            "scrollWidth": 390,
+            "clientWidth": 390,
+            "overflow_elements": []
+          }
+        ],
+        "business_overview_entry": "Visible entry opens analytics with selected U_83932 / ceo context retained.",
+        "company_role_matrix": "U_1595 and U_83932, cfo and ceo: real sources_ready (6 bank fragments) then rules answered missing_data; no generation.",
+        "network_failure_retry": "One deliberate browser-aborted sources request leaves 6 source cards and visible inline error/retry. Retry preserves mode=sources, task=sources, question verbatim.",
+        "pending_context_change": "Held real source response: source cards retained, action disabled, elapsed waiting text shown. Company change clears the card; late response is ignored and aria-busy=false.",
+        "old_feed_error": "A delayed 503 for a previous company/role is ignored after the next company feed has loaded; notice remains hidden and the new feed is visible.",
+        "keyboard": "Tab focuses news-nav with solid 3px outline inside viewport; empty question gives inline alert and focuses textarea.",
+        "source_dialog_390": {
+          "left": 19,
+          "right": 371,
+          "width": 352,
+          "viewport": 390,
+          "ocr_characters": 2970,
+          "escape_closes": true
+        },
+        "trace": "6 steps with task, plan, search (3), stop; displayed names and results present.",
+        "search": "No-match search shows 0/10 and recovery text; clearing and selecting All exposes 10 real snapshot publications.",
+        "low_relevance": "Real low-relevance event stops with explicit no-model message.",
+        "reduced_motion_landscape": {
+          "viewport": "768x390",
+          "scrollWidth": 768,
+          "clientWidth": 768,
+          "transition_duration": "0s"
+        },
+        "console_after_clean_reload": {
+          "errors": 0,
+          "warnings": 0
+        }
+      },
+      "regressions_added": [
+        "One sources-only question action, explicit sources task and no live dispatch",
+        "Live question preserves automatic intent routing and neutral placeholder",
+        "Explanation retry keeps main parent; role change does not leak old parent",
+        "Delayed old feed failure does not place an error over the new company context"
+      ],
+      "limitations": [
+        "No new live LLM generation or model explanation was executed; model outcomes and saved-result behavior use clearly synthetic Node fixtures.",
+        "This is a focused interaction/responsive audit, not a full WCAG certification. Deliberately aborted requests and injected 503 responses are testing fixtures, not real source or LLM failures."
+      ],
+      "screenshots": "docs/screenshots/audit_2026-10-22/"
+    }
+  },
+  "profiles_rebuilt_from_original_csv": {
+    "sources": {
+      "companies": {
+        "file_name": "df_Uid_data_hack.csv",
+        "bytes": 31414716,
+        "sha256": "cb48983806ce7ca0ae045a40c9627ccbe47cc72bfb54058db04df2386da4a983"
+      },
+      "links": {
+        "file_name": "df_Fid_Uid_link_hack.csv",
+        "bytes": 697194,
+        "sha256": "3d9c718e2a87304f48bbc7447607116bb8e4bd61dded70b0a1d0558f086a1b58"
+      },
+      "payments": {
+        "file_name": "df_Uid_payment_hack.csv",
+        "bytes": 38752490,
+        "sha256": "30095f75bead1a1dac0d7232b0da09a326b7ef643ee3b77b36ad3b4458a1cab3"
+      }
+    },
+    "profiles": {
+      "U_1595": {
+        "all_non_payment_fields_preserved": true,
+        "legacy_totals_preserved": true,
+        "self_transfer_relation_rows": 1,
+        "self_transfer_amount_sum": 16326970000.0,
+        "outgoing_external_amount_sum": 1822228000.0,
+        "incoming_external_amount_sum": 170730000.0,
+        "outgoing_external_counterparty_count": 159,
+        "incoming_external_counterparty_count": 5,
+        "outgoing_external_missing_profile_counterparty_count": 88,
+        "incoming_external_missing_profile_counterparty_count": 3
+      },
+      "U_83932": {
+        "all_non_payment_fields_preserved": true,
+        "legacy_totals_preserved": true,
+        "self_transfer_relation_rows": 0,
+        "self_transfer_amount_sum": 0.0,
+        "outgoing_external_amount_sum": 907301000.0,
+        "incoming_external_amount_sum": 226003000.0,
+        "outgoing_external_counterparty_count": 61,
+        "incoming_external_counterparty_count": 8,
+        "outgoing_external_missing_profile_counterparty_count": 22,
+        "incoming_external_missing_profile_counterparty_count": 4
+      }
+    }
+  },
+  "protected_files_unchanged": {
+    ".env": true,
+    "data/research.sqlite": true,
+    "data/research_pages.jsonl": true,
+    "data/news_snapshot.jsonl": true,
+    "docs/case_spec.pdf": true,
+    "docs/api_instruction_2026-10-21.pdf": true,
+    "raw_csv_unchanged": true
+  },
+  "llm": {
+    "new_generative_requests": 0,
+    "new_key_info_requests": 0,
+    "model_called": null,
+    "main_runtime_calls_before": 34,
+    "main_runtime_calls_after": 34,
+    "local_cap_unchanged": 30,
+    "period_at_start": "2026-10-21",
+    "live_validation": "not_performed_local_cap_already_reached",
+    "new_generation_cost_rub": 0,
+    "historical_cost_rub": null
+  },
+  "new_real_material": {
+    "file": "data/news_audit_2026-10-22.json",
+    "source_url": "https://www.cbr.ru/press/event/?id=32909",
+    "outside_original_ten_story_snapshot": true,
+    "kind": "historical_real_publication_manual_partial_import",
+    "source_only": true,
+    "generative_scenario_verified": false,
+    "live_rss_full_html_fetch_verified": false
+  },
+  "docker": {
+    "cli_version": "29.0.1",
+    "compose_version": "2.40.3",
+    "compose_config": "passed",
+    "desktop_start": "failed_context_deadline_exceeded",
+    "build": "failed_daemon_named_pipe_missing",
+    "container_http_verified": false,
+    "runtime_volume_deleted": false
+  },
+  "clean_release": {
+    "status": "passed",
+    "python_version": "Python 3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "third_party_packages": [],
+    "extracted_source_without_env_or_var": true,
+    "no_configured_key": true,
+    "manifest_verified": true,
+    "secret_value_scan_passed": true,
+    "python_unittest": {
+      "passed": 108,
+      "failed": 0
+    },
+    "web_node": {
+      "passed": 26,
+      "failed": 0
+    },
+    "corpus": {
+      "passed": 12,
+      "total": 12
+    },
+    "quality": {
+      "report": "C:\\Users\\Fedic\\Documents\\hackaton_alfa\\alfa_service\\var\\audit_2026-10-22\\clean_quality.json",
+      "records": 13,
+      "passed": 13,
+      "failed": 0,
+      "llm_calls": 0,
+      "statistical_accuracy_estimate": false
+    },
+    "http": {
+      "no_key": true,
+      "news_count": 10,
+      "companies": 2,
+      "matrix": [
+        {
+          "company_id": "U_1595",
+          "role": "cfo",
+          "event_id": "news_9f10b60aed544eaa32d4",
+          "business_score": 7,
+          "reasons": [
+            {
+              "points": 5,
+              "company_field": "company.industry_okved_code",
+              "company_value": "47.71",
+              "text": "Розничная торговля: событие связано с потребительскими ценами или спросом. Влияние на продажи клиента ещё не установлено."
+            },
+            {
+              "points": 1,
+              "company_field": "company.products.credit",
+              "company_value": true,
+              "text": "В базе отмечен кредитный продукт: изменение цен — повод проверить потребность в оборотном финансировании. Текущий долг и рост расходов этим не установлены."
+            },
+            {
+              "points": 1,
+              "company_field": "user.selected_role",
+              "company_value": "cfo",
+              "text": "Выбран ракурс финансового директора: приоритет условиям финансирования и денежным потокам."
+            }
+          ],
+          "sources_status": "sources_ready",
+          "evidence_count": 6,
+          "gaps_status": "answered",
+          "generation_status": "generation_unavailable",
+          "context_fingerprint": "a1054b31649d1e89bcbb75c187f22297a529e193f10611af729e4f29d8ff8f72"
+        },
+        {
+          "company_id": "U_1595",
+          "role": "ceo",
+          "event_id": "news_9f10b60aed544eaa32d4",
+          "business_score": 6,
+          "reasons": [
+            {
+              "points": 5,
+              "company_field": "company.industry_okved_code",
+              "company_value": "47.71",
+              "text": "Розничная торговля: событие связано с потребительскими ценами или спросом. Влияние на продажи клиента ещё не установлено."
+            },
+            {
+              "points": 1,
+              "company_field": "company.products.credit",
+              "company_value": true,
+              "text": "В базе отмечен кредитный продукт: изменение цен — повод проверить потребность в оборотном финансировании. Текущий долг и рост расходов этим не установлены."
+            }
+          ],
+          "sources_status": "sources_ready",
+          "evidence_count": 6,
+          "gaps_status": "answered",
+          "generation_status": "generation_unavailable",
+          "context_fingerprint": "e9a2bb91c1012ba60376b7a167ec5c343a4c0001045c11d89a7056642c56dc52"
+        },
+        {
+          "company_id": "U_83932",
+          "role": "cfo",
+          "event_id": "news_9f10b60aed544eaa32d4",
+          "business_score": 4,
+          "reasons": [
+            {
+              "points": 3,
+              "company_field": "company.industry_okved_code",
+              "company_value": "41.20.1",
+              "text": "Для строительства событие может влиять на условия спроса, закупок и финансирования проектов. Конкретный эффект требует данных о проектах."
+            },
+            {
+              "points": 1,
+              "company_field": "user.selected_role",
+              "company_value": "cfo",
+              "text": "Выбран ракурс финансового директора: приоритет условиям финансирования и денежным потокам."
+            }
+          ],
+          "sources_status": "sources_ready",
+          "evidence_count": 6,
+          "gaps_status": "answered",
+          "generation_status": "generation_unavailable",
+          "context_fingerprint": "56904c7ab877ac19f7ff37ea4a97170423711d01beadfff3f684bf675b6c2a9a"
+        },
+        {
+          "company_id": "U_83932",
+          "role": "ceo",
+          "event_id": "news_9f10b60aed544eaa32d4",
+          "business_score": 3,
+          "reasons": [
+            {
+              "points": 3,
+              "company_field": "company.industry_okved_code",
+              "company_value": "41.20.1",
+              "text": "Для строительства событие может влиять на условия спроса, закупок и финансирования проектов. Конкретный эффект требует данных о проектах."
+            }
+          ],
+          "sources_status": "sources_ready",
+          "evidence_count": 6,
+          "gaps_status": "answered",
+          "generation_status": "generation_unavailable",
+          "context_fingerprint": "b433949e9d667bdb1f4b8aef432518f1d1df294f2e685a402df2067f40b896dd"
+        }
+      ],
+      "unsafe_action_codes": [
+        403,
+        403
+      ],
+      "new_llm_calls": 0,
+      "analysis_version": "2026-10-22-v8-general-scope-tasks"
+    },
+    "offline_probe_live_request_performed": false,
+    "scope": "Full tests on extracted executable sources; final report updates do not change code or input data. Final ZIP is re-extracted and HTTP checked separately."
+  },
+  "not_verified": [
+    "Docker build/up/HTTP due unavailable daemon",
+    "new live LLM insight or explanation due local cap",
+    "live RSS fetch/full HTML import for the new material",
+    "statistical quality and general semantic entailment",
+    "webinar Q&A 7990; source rights for unrestricted public redistribution"
+  ],
+  "submission": {
+    "github_published": false,
+    "jury_access_granted": false,
+    "submitted": false,
+    "team_actions": [
+      "start Docker daemon and verify container",
+      "bounded live scenarios after normal reset",
+      "one repository with history and final commit/tag",
+      "grant alfa-hack-2026 access if private",
+      "submit before 2026-10-26 18:00 MSK"
+    ]
+  },
+  "windows_port_fix": {
+    "observed_8000": "two_python_listeners_and_direct_http_timeout",
+    "working_port": 8002,
+    "browser_http": 200,
+    "companies": 2,
+    "news": 10,
+    "exclusive_bind": true,
+    "cli_occupied_port_error_verified": true,
+    "own_server_restart_verified": true,
+    "regressions": {
+      "passed": 2,
+      "failed": 0
+    },
+    "full_python_3_12_14": {
+      "passed": 108,
+      "failed": 0
+    },
+    "new_llm_calls": 0,
+    "user_processes_and_network_settings_changed": false,
+    "clean_release_verified": true
+  }
+}

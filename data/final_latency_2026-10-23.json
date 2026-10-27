@@ -1,0 +1,25 @@
+{
+  "health": {
+    "first_ms": 32.26,
+    "requests": 24,
+    "concurrency": 4,
+    "median_ms": 32.23,
+    "p95_ms": 49.96
+  },
+  "feed": {
+    "first_ms": 261.53,
+    "requests": 10,
+    "concurrency": 4,
+    "median_ms": 410.89,
+    "p95_ms": 517.74
+  },
+  "semantic_search": {
+    "first_ms": 242.53,
+    "requests": 6,
+    "concurrency": 4,
+    "median_ms": 416.4,
+    "p95_ms": 453.74
+  },
+  "new_generative_requests": 0,
+  "limits": "Одна локальная машина, малый контроль отклика. Не нагрузочное испытание банковской эксплуатации."
+}

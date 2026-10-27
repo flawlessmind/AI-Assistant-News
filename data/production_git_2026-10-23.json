@@ -1,0 +1,35 @@
+{
+  "windows_autocrlf_true_tested": true,
+  "staged_source_files_checked": 177,
+  "all_checkout_bytes_match_release_sources": true,
+  "actual_lfs_weights_restored": true,
+  "doctor": {
+    "ready": true,
+    "python": "3.12.14",
+    "runtime_packages": {
+      "numpy": "2.4.3",
+      "onnxruntime": "1.25.0",
+      "tokenizers": "0.22.2",
+      "waitress": "3.0.2"
+    },
+    "search": {
+      "mode": "hybrid",
+      "model_id": "intfloat/multilingual-e5-small",
+      "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+      "encoder_signature": "76c66307b818136283680614a7bafe7e22da4f5780c0a7d54d9f61075bfdc8e1",
+      "index_sha256": "bbaee463e046b80658da73e79c716754fd95e9b60826c5bc4b937cffe47b19e6",
+      "chunks": 74,
+      "dimension": 384,
+      "min_cosine": 0.82,
+      "policy_version": "e5-int8-mean-pool-hybrid-v1",
+      "network_at_query_time": false
+    },
+    "profiles": 2,
+    "news": 10,
+    "key_configured": false,
+    "live_enabled": false,
+    "generative_requests": 0
+  },
+  "new_generative_requests": 0,
+  "passed": true
+}

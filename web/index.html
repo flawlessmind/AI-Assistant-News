@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f5f5f7"><title>Бизнес в контексте — Альфа</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23cf2028'/%3E%3Ctext x='16' y='24' font-family='Arial,sans-serif' font-size='25' font-weight='700' fill='white' text-anchor='middle'%3E%D0%90%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/styles.css?v=20261023-release"><script src="/app.js?v=20261023-release" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Перейти к содержимому</a>
+  <header class="app-header">
+    <a class="brand" href="/" aria-label="Альфа-Бизнес — главная"><span class="logo" aria-hidden="true">А</span><span>Альфа-Бизнес<small>Бизнес в контексте</small></span></a>
+    <nav class="main-nav" aria-label="Разделы сервиса"><button type="button" id="home-nav" class="nav">Обзор бизнеса</button><button type="button" id="news-nav" class="nav active" aria-current="page">Новостная аналитика</button></nav>
+  </header>
+  <main id="main-content" tabindex="-1">
+    <header class="context-bar">
+      <div class="context"><label for="company">Компания<select id="company" aria-describedby="company-description"></select></label><label for="role">Ваш ракурс<select id="role"><option value="cfo">Финансовый директор</option><option value="ceo">Руководитель бизнеса</option></select></label></div>
+      <p id="company-description" class="context-description">Контекст компании для новостной аналитики.</p>
+    </header>
+    <section id="home" hidden aria-labelledby="home-title">
+      <div class="hero"><span class="eyebrow">БИЗНЕС В КОНТЕКСТЕ</span><h1 id="home-title">Событие снаружи.<br>Решение внутри бизнеса.</h1><p>Отберите важные новости, сверьтесь с аналитикой банка и определите, какие данные компании проверить.</p><button type="button" id="enter" class="primary">Открыть новостную аналитику <span aria-hidden="true">→</span></button></div>
+      <div class="home-grid">
+        <article class="info-card"><span class="eyebrow">ПРОФИЛЬ КОМПАНИИ</span><h2 id="home-industry">Загрузка компании…</h2><p id="home-profile"></p><details><summary>Связи и контекст компании</summary><p id="home-relations"></p><div id="home-network"></div></details></article>
+        <article class="info-card"><span class="eyebrow">КАК ЧИТАТЬ АНАЛИЗ</span><h2>Основания каждого вывода</h2><ol class="reading-guide"><li><strong>Факт новости</strong><span>Что сообщил первоисточник.</span></li><li><strong>Позиция банка</strong><span>Датированная оценка из аналитики.</span></li><li><strong>Условный вывод</strong><span>Что требует проверки на данных компании.</span></li></ol></article>
+      </div>
+    </section>
+    <section id="workspace" aria-labelledby="workspace-title">
+      <div class="page-title"><div><span class="eyebrow">СОБЫТИЯ И РЕШЕНИЯ</span><h1 id="workspace-title">Новостная аналитика</h1><p>Внешний контекст для вашей компании. С опорой на источники.</p></div><button type="button" id="refresh" class="secondary"><span aria-hidden="true">↻</span> Обновить источники</button></div>
+      <div class="status-row"><span id="gateway-status" class="status"></span><span id="source-count" class="muted"></span><span id="search-status" class="muted"></span><span class="muted">Аналитика Альфа-Банка</span></div>
+      <div id="notice" role="status" class="notice" hidden></div>
+      <div id="analysis-navigation" class="analysis-navigation" role="region" aria-label="Переход к анализу"></div>
+      <div class="workspace-grid">
+        <section class="feed" aria-labelledby="feed-title">
+          <div class="feed-top"><h2 id="feed-title">События для вас</h2><label class="check"><input type="checkbox" id="show-low" aria-label="Показать все события">Все</label></div>
+          <label class="search-field" for="search"><span class="sr-only">Поиск по событиям</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="search" type="search" placeholder="Поиск в ленте"></label>
+          <p id="feed-caption" class="feed-caption" role="status" aria-atomic="true"></p><div id="events"></div>
+          <p class="feed-footnote">Релевантность — связь с профилем, а не оценка влияния на выручку.</p>
+        </section>
+        <section id="detail" class="detail" aria-label="Анализ выбранного события"><div class="empty"><span class="eyebrow">ОТ НОВОСТИ К РЕШЕНИЮ</span><h2>Выберите событие в ленте</h2><p>Узнайте, как событие связано с компанией, и определите следующий шаг.</p></div></section>
+      </div>
+    </section>
+    <footer><span>Бизнес в контексте</span><details class="data-method"><summary>Данные и методика</summary><p>Профили построены по предоставленному набору данных и не идентифицируют реальные компании. Выбор компании и роли задаёт контекст анализа; банковская сессия не подключена.</p><p>Новости загружаются из указанных первоисточников. Дата публикации может отличаться от даты события и периода наблюдений. Позиция Альфа-Банка относится к дате документа. Интерпретации показывают возможное влияние и необходимые проверки.</p></details></footer>
+  </main>
+  <dialog id="source-dialog" aria-labelledby="source-title"><div class="dialog-head"><h2 id="source-title">Страница источника</h2><button type="button" id="close-source" class="secondary">Закрыть <span aria-hidden="true">×</span></button></div><p id="source-warning" class="notice"></p><pre id="source-text"></pre></dialog>
+</body>
+</html>

@@ -1,0 +1,31 @@
+services:
+  alfa-news:
+    build: .
+    ports:
+      - "127.0.0.1:${ALFA_HTTP_PORT:-8000}:8000"
+    environment:
+      ALFA_LLM_BASE_URL: ${ALFA_LLM_BASE_URL:-https://changellenge.up.railway.app/v1}
+      ALFA_LLM_API_KEY: ${ALFA_LLM_API_KEY:-}
+      ALFA_LLM_MODEL: ${ALFA_LLM_MODEL:-deepseek/deepseek-v4.1-flash}
+      ALFA_LLM_REVIEW_MODEL: ${ALFA_LLM_REVIEW_MODEL:-google/gemma-4-26b-a4b-it}
+      ALFA_LLM_RECOVERY_MODEL: ${ALFA_LLM_RECOVERY_MODEL:-google/gemma-4-26b-a4b-it}
+      ALFA_ALLOW_LIVE_LLM: ${ALFA_ALLOW_LIVE_LLM:-false}
+      ALFA_LLM_TIMEOUT_SECONDS: ${ALFA_LLM_TIMEOUT_SECONDS:-120}
+      ALFA_LLM_MAX_OUTPUT_TOKENS: ${ALFA_LLM_MAX_OUTPUT_TOKENS:-8192}
+      ALFA_LLM_REVIEW_MAX_TOKENS: ${ALFA_LLM_REVIEW_MAX_TOKENS:-6144}
+      ALFA_MAX_CALLS_PER_PERIOD: ${ALFA_MAX_CALLS_PER_PERIOD:-0}
+      ALFA_MAX_ACTIVE_JOBS: ${ALFA_MAX_ACTIVE_JOBS:-16}
+      # Required inside the container; the published host port above stays on 127.0.0.1.
+      ALFA_ALLOW_REMOTE_BIND: 'true'
+      ALFA_AGENT_MAX_ROUNDS: ${ALFA_AGENT_MAX_ROUNDS:-2}
+      ALFA_SEARCH_MODE: ${ALFA_SEARCH_MODE:-hybrid}
+      ALFA_RESEARCH_DATABASE: ${ALFA_RESEARCH_DATABASE:-/app/data/research.sqlite}
+      ALFA_NEWS_CA_BUNDLE: ${ALFA_NEWS_CA_BUNDLE:-}
+      ALFA_ALLOWED_HOSTS: ${ALFA_ALLOWED_HOSTS:-localhost,127.0.0.1,::1}
+    volumes:
+      - alfa-runtime:/app/var
+    restart: unless-stopped
+    # One allowed in-flight LLM timeout (<=180s), plus bounded HTTP/SQLite cleanup.
+    stop_grace_period: 210s
+volumes:
+  alfa-runtime:

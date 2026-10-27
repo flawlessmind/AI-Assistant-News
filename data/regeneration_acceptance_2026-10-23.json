@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-10-23T20:55:29.973077+03:00",
+  "analysis_version": "2026-10-23-v19-independent-regeneration",
+  "logic_sha256": "06d1d435e19eaaa0624eb391c251c39c16b6f4bbfc29f2d486321719e61d9402",
+  "python_tests_windows": 170,
+  "python_tests_linux": 170,
+  "web_tests": 44,
+  "controlled_browser_concurrent_workers": 2,
+  "controlled_browser_transport": "synthetic",
+  "controlled_browser_external_requests": 0,
+  "live_current_contexts_passed": 8,
+  "separate_live_manual_regeneration_passed": true,
+  "separate_manual_regeneration_requests": 2,
+  "physical_attempts_before_v19": 85,
+  "physical_attempts_after": 95,
+  "new_requests_in_v19": 10,
+  "local_call_cap": null,
+  "default_release_call_cap": null,
+  "artificial_job_queue_capacity": null,
+  "concurrent_analysis_workers": 2,
+  "gateway_budget_rub_per_day": 500,
+  "cost_rub": null,
+  "usage_ledger_reset": false,
+  "protected_input_hashes_unchanged": true,
+  "native_browser_widths": [
+    1440,
+    1024,
+    768,
+    390
+  ],
+  "browser_reads_new_generative_requests": 0,
+  "passed": true
+}

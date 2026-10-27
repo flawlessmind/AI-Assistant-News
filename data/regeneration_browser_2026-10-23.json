@@ -1,0 +1,16 @@
+{
+  "method": "Real browser, normal job API and SQLite; isolated synthetic model transport with a controllable barrier. User runtime untouched.",
+  "synthetic_transport": true,
+  "external_generative_requests": 0,
+  "both_workers_entered": true,
+  "simultaneous_running_jobs": 2,
+  "error_visible": true,
+  "raw_codes_in_error": false,
+  "technical_details_open": false,
+  "regeneration_succeeded": true,
+  "live_submissions": 3,
+  "regeneration_requested": true,
+  "unique_attempt_ids": true,
+  "second_article_restored": true,
+  "local_call_cap": null
+}

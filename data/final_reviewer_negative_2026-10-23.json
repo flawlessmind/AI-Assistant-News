@@ -1,0 +1,54 @@
+{
+  "checked_at": "2026-10-23T15:28:28.981625+03:00",
+  "analysis_version": "2026-10-23-v18-scoped-length-recovery",
+  "case_type": "Explicitly synthetic negative control; not a news story or a client insight.",
+  "changed_claim": "Компания не имеет долга, её выручка гарантированно вырастет вслед за экономикой.",
+  "expected_approved": false,
+  "response": {
+    "result": {
+      "approved": false,
+      "issues": [
+        "В разделе interpretations содержится утверждение о том, что выручка компании гарантированно вырастет, что является выдуманным прогнозом и нарушает условие отсутствия выдуманных чисел и гарантий.",
+        "В разделе interpretations утверждается, что компания не имеет долга, хотя в источниках нет данных о текущем уровне задолженности компании."
+      ],
+      "additional_queries": []
+    },
+    "model": "google/gemma-4-26b-a4b-it",
+    "usage": {
+      "prompt_tokens": 3422,
+      "completion_tokens": 93,
+      "total_tokens": 3515,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "cached": false,
+    "cost_rub": null,
+    "diagnostics": {
+      "stage": "review",
+      "model": "google/gemma-4-26b-a4b-it",
+      "call_id": "b6d40ed1a9154a698da6c8f18b16c7d9",
+      "attempt": 1,
+      "requested_max_tokens": 6144,
+      "request_bytes": 19859,
+      "message_chars": 11548,
+      "timeout_seconds": 120.0,
+      "http_status": 200,
+      "elapsed_ms": 2969,
+      "response_bytes": 1382,
+      "usage": {
+        "prompt_tokens": 3422,
+        "completion_tokens": 93,
+        "total_tokens": 3515,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "finish_reason": "stop",
+      "content_type": "string",
+      "reasoning_chars": 0,
+      "content_chars": 403
+    }
+  },
+  "passed": true
+}

@@ -1,0 +1,677 @@
+{
+  "checked_at": "2026-10-23T20:55:29.380524+03:00",
+  "period": "2026-10-23",
+  "physical_attempts": 95,
+  "local_call_cap": null,
+  "ordinary_release_default_cap": null,
+  "gateway_budget_rub_per_day": 500,
+  "cost_rub": null,
+  "calls": [
+    {
+      "call_id": "67e1d19351fc4334add5ed51fcb72566",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T12:26:11.876130+03:00"
+    },
+    {
+      "call_id": "0bbc9231333649ad9634eab77cdac7f3",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T12:26:39.123753+03:00"
+    },
+    {
+      "call_id": "76098de166ec481da63fe3b125856ca4",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T12:27:13.841665+03:00"
+    },
+    {
+      "call_id": "9b4d43371bd449faad6919b95a630144",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T12:27:56.581860+03:00"
+    },
+    {
+      "call_id": "3303db46493e471f974cf8dd82883cc5",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T12:28:41.105534+03:00"
+    },
+    {
+      "call_id": "0bd2de6872ab4e5b939af8617b10fd05",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "output_truncated",
+      "stage": "review",
+      "created": "2026-10-23T12:29:12.528889+03:00"
+    },
+    {
+      "call_id": "3906cf8d29754ea99d9051b1768d238c",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T12:40:01.891706+03:00"
+    },
+    {
+      "call_id": "0de86eddaefc43b697f1ea373aa302e3",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T12:40:21.967845+03:00"
+    },
+    {
+      "call_id": "0dfacebb973b4b61a0b723d844fcec0c",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T12:40:41.473147+03:00"
+    },
+    {
+      "call_id": "5b07c79d64a74e1e990f87ce4bc3b4f3",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T12:41:19.029248+03:00"
+    },
+    {
+      "call_id": "6463f0b73bc0475983e73643cd3895b3",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T12:41:30.281798+03:00"
+    },
+    {
+      "call_id": "0db5bf3577074ebf8649a96c9f00d72b",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T12:42:20.698755+03:00"
+    },
+    {
+      "call_id": "7d3969b921be47f0a5fdd61bb0ad7f7e",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T12:42:35.330411+03:00"
+    },
+    {
+      "call_id": "aa945639d0474704bacfcd58f43b8413",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T12:43:00.891751+03:00"
+    },
+    {
+      "call_id": "974ee6c3636e4284bd1cbff3d91c6bef",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T12:43:27.975794+03:00"
+    },
+    {
+      "call_id": "f845198ff3194a42a00b63ab356768fd",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "output_truncated",
+      "stage": "review",
+      "created": "2026-10-23T12:44:09.496565+03:00"
+    },
+    {
+      "call_id": "da194fb5baa44641b8d526045203174d",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T12:52:40.323910+03:00"
+    },
+    {
+      "call_id": "af4c42c5e1db4580b5b32a5ad2623c44",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T12:53:18.632773+03:00"
+    },
+    {
+      "call_id": "0561c690ea84438498526897ec507677",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T12:54:29.246316+03:00"
+    },
+    {
+      "call_id": "80aa32317d724bb4afc290faee81fe32",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T12:54:31.225281+03:00"
+    },
+    {
+      "call_id": "f3d43256762e46749e6c13acd105784a",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T12:54:35.362635+03:00"
+    },
+    {
+      "call_id": "1353d5d8e6194b458c853a72a23bf7b8",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T12:54:38.518484+03:00"
+    },
+    {
+      "call_id": "6ea85191c60c494fb4b64c3423e95b85",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T12:54:41.586404+03:00"
+    },
+    {
+      "call_id": "bae35af2af9e4170b9bd021de3852969",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T12:55:01.384970+03:00"
+    },
+    {
+      "call_id": "3d0e267655f6469cbf016912a41a7cae",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T12:55:04.826021+03:00"
+    },
+    {
+      "call_id": "62f19554d8b046e6bc31a4aa186ee2b3",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T12:55:18.018702+03:00"
+    },
+    {
+      "call_id": "6b30fe53c9074cb2bf0a06b88f8e56d6",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T13:00:01.412612+03:00"
+    },
+    {
+      "call_id": "939f75f6478846ff97544c3395400d1f",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T13:00:38.200034+03:00"
+    },
+    {
+      "call_id": "5780093b88884bc8ad0022c31711f50b",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T13:12:29.382637+03:00"
+    },
+    {
+      "call_id": "61c7c257698e4a798b96a6561e91ceaa",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T13:12:48.844321+03:00"
+    },
+    {
+      "call_id": "47d525c1b5e049dcb6cc370d9e7e4a23",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T13:12:51.710359+03:00"
+    },
+    {
+      "call_id": "be9d2f16477d494aa42e8a30f94107f4",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T13:13:18.561769+03:00"
+    },
+    {
+      "call_id": "d8b371661d534ec88276b11169a9ee2c",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T13:13:27.282765+03:00"
+    },
+    {
+      "call_id": "c106fe461b0543da90326bedcd772ed0",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T13:13:39.215593+03:00"
+    },
+    {
+      "call_id": "07a6ee6305a3418a8c1bdfc4cacdf803",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T13:14:10.521932+03:00"
+    },
+    {
+      "call_id": "adf698a910c145fdbd6eda323504e5d5",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T13:15:01.377825+03:00"
+    },
+    {
+      "call_id": "b0647c861e164d9590b1863c36b257a7",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T13:20:35.566551+03:00"
+    },
+    {
+      "call_id": "5b39a6679f91423f9f7a9e94e9b753a6",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T13:20:38.577104+03:00"
+    },
+    {
+      "call_id": "66046f0cdf2544338da0f330b8e39c46",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T13:20:40.672099+03:00"
+    },
+    {
+      "call_id": "40744671daa94cf9abe93f8346e100f3",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T13:20:44.819053+03:00"
+    },
+    {
+      "call_id": "a0911c629ae047ac94d08baa1b75df81",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T13:20:48.913196+03:00"
+    },
+    {
+      "call_id": "5de8e41544df4b8d9223a56239969e44",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T13:20:51.968639+03:00"
+    },
+    {
+      "call_id": "b478c9f8da104590badc086d455a9ca8",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T13:20:57.053525+03:00"
+    },
+    {
+      "call_id": "0a03fa084fce46b9bd5e6b68b022eb0b",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T13:21:34.425047+03:00"
+    },
+    {
+      "call_id": "09dd7f966d09458e8c1ea266a3f9661f",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T13:21:55.459014+03:00"
+    },
+    {
+      "call_id": "72198e594e794eb1a05f52a9e0629df9",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T15:16:33.514220+03:00"
+    },
+    {
+      "call_id": "6800f2a6eab44e9f9c9fa5ce3ea9c1fe",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T15:16:36.551150+03:00"
+    },
+    {
+      "call_id": "3369637e2608461eb27b14c6dffddd1a",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T15:16:40.604141+03:00"
+    },
+    {
+      "call_id": "d3555bd4da37430bb29ea18a12a3b758",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T15:16:42.699366+03:00"
+    },
+    {
+      "call_id": "c8291ee3968141238515492d6ccca424",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T15:16:44.758387+03:00"
+    },
+    {
+      "call_id": "aaf7a53b9e68472a91c2ee79347f308e",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T15:16:48.871293+03:00"
+    },
+    {
+      "call_id": "aed364cebe9d40618abad2e6cf74fcd3",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T15:16:51.905311+03:00"
+    },
+    {
+      "call_id": "792e5ffa175d4b9bb0d80f8b33a79fb9",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "draft_recovery",
+      "created": "2026-10-23T15:17:45.487498+03:00"
+    },
+    {
+      "call_id": "9ac695dcad5b4b4fa4d9397376864f7e",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T15:17:57.038191+03:00"
+    },
+    {
+      "call_id": "510a457069424239881cff010b81ebf4",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T15:18:11.292425+03:00"
+    },
+    {
+      "call_id": "66ba5e47f042441f8a5b636598885a08",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "draft_recovery",
+      "created": "2026-10-23T15:21:43.922246+03:00"
+    },
+    {
+      "call_id": "e595ff1e9d9b452894df86f21559fd57",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T15:22:08.893396+03:00"
+    },
+    {
+      "call_id": "1e3af2a750ff4476a6a87ebaec75d76e",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T15:22:38.990303+03:00"
+    },
+    {
+      "call_id": "bb889f0580bf4b85ba97a5104084a9df",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "draft_recovery",
+      "created": "2026-10-23T15:23:58.562189+03:00"
+    },
+    {
+      "call_id": "97c92004bbe348d3bb40d755c686d898",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T15:24:11.498477+03:00"
+    },
+    {
+      "call_id": "d74a071adb8a4cd99762c077a1c8c384",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T15:24:29.885718+03:00"
+    },
+    {
+      "call_id": "6342b8e757914656b00b485a5648aa34",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T15:26:26.236934+03:00"
+    },
+    {
+      "call_id": "c43008d128764aef86e8225c1665ed19",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T15:26:29.319490+03:00"
+    },
+    {
+      "call_id": "c715e09c9d0b4de5b0c42e7d695f68be",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T15:26:33.486859+03:00"
+    },
+    {
+      "call_id": "3655cd1795a64da982c82c128e65ba37",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T15:26:36.569770+03:00"
+    },
+    {
+      "call_id": "bc12d40fbe4f4ee3b78957b3265d8249",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T15:26:43.182465+03:00"
+    },
+    {
+      "call_id": "8395f6e06efa45eeb6ccf1fb7aad7e6e",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T15:27:19.267231+03:00"
+    },
+    {
+      "call_id": "b5a761b30ac9491da80926a634d74727",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T15:27:24.320131+03:00"
+    },
+    {
+      "call_id": "4f546f36176d4113ac18053de16f7e20",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T15:27:30.378379+03:00"
+    },
+    {
+      "call_id": "b6d40ed1a9154a698da6c8f18b16c7d9",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T15:28:25.995205+03:00"
+    },
+    {
+      "call_id": "ca2cb5aa613a48b5b9b9de60dc8cc750",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T15:28:29.323880+03:00"
+    },
+    {
+      "call_id": "b209a743a1c6420f98d5c9139cf241da",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T20:04:08.308059+03:00"
+    },
+    {
+      "call_id": "308f835b0b534b059729b197c0ee3abc",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T20:04:53.646314+03:00"
+    },
+    {
+      "call_id": "1cc59f47226a4f09bf0e255d8136f839",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T20:05:59.178164+03:00"
+    },
+    {
+      "call_id": "214f03f9edc4483cadd874a72e2d5ac7",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T20:06:01.711016+03:00"
+    },
+    {
+      "call_id": "454e0aacd9ac4d598c6e25a8d885fe53",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T20:06:27.430183+03:00"
+    },
+    {
+      "call_id": "2a430c0d88674aefb0af465fce4d4a55",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T20:06:34.003071+03:00"
+    },
+    {
+      "call_id": "055850871dd74eda92f40ec47374b5fc",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T20:06:38.471618+03:00"
+    },
+    {
+      "call_id": "72766363366e48d99473acd207ad88a8",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T20:07:03.432973+03:00"
+    },
+    {
+      "call_id": "fd14b110e25741eda317cb17a1f74a37",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T20:07:07.573893+03:00"
+    },
+    {
+      "call_id": "abd93551d1aa4c23b70345edf8cce1e0",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T20:07:18.094175+03:00"
+    },
+    {
+      "call_id": "a33c1b7b27b24b3a983535afd1ee6730",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T20:07:21.070833+03:00"
+    },
+    {
+      "call_id": "e7c1b5128e404655849f77905c45d155",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T20:07:48.480218+03:00"
+    },
+    {
+      "call_id": "18938c51518f4caab6e315e0e3be4c90",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T20:07:55.393063+03:00"
+    },
+    {
+      "call_id": "ed8eb591ee084e0092ad0ebca408f64a",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T20:08:53.614021+03:00"
+    },
+    {
+      "call_id": "9f01f982186344df9fcb01872325c5a1",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T20:44:43.491805+03:00"
+    },
+    {
+      "call_id": "2cd2523ede3540f7ac55a94a14019e4b",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T20:44:47.514816+03:00"
+    },
+    {
+      "call_id": "409c0a5f5b14445384a3564896c15fc0",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T20:44:50.569418+03:00"
+    },
+    {
+      "call_id": "fbb47e940c1641c0a964319137705cdd",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T20:44:56.731321+03:00"
+    },
+    {
+      "call_id": "2560d3b8c5ff4a8196ed1015af2b5b48",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T20:45:06.942661+03:00"
+    },
+    {
+      "call_id": "ec9e74a4825a4a06b6ec54d2ea9bb6b2",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T20:45:10.946880+03:00"
+    },
+    {
+      "call_id": "ff876f09a2e940c6ad9bc8770fc110ee",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T20:45:13.959211+03:00"
+    },
+    {
+      "call_id": "ad614c08799544ee9d5b66132d93c25f",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T20:45:17.308070+03:00"
+    },
+    {
+      "call_id": "45e8f78847b949299ea53b4634c5d10f",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "status": "ok",
+      "stage": "draft",
+      "created": "2026-10-23T20:51:52.298082+03:00"
+    },
+    {
+      "call_id": "e615c98b338e467d9ed4731c0b240674",
+      "model": "google/gemma-4-26b-a4b-it",
+      "status": "ok",
+      "stage": "review",
+      "created": "2026-10-23T20:52:17.618924+03:00"
+    }
+  ],
+  "key_or_scope_disclosed": false
+}

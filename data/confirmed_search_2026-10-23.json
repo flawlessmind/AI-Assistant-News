@@ -1,0 +1,1873 @@
+{
+  "analysis_version": "2026-10-23-v20-confirmed-fixes",
+  "news": {
+    "sample_type": "Ручные перефразирования, маленький инженерный контроль; не статистическая точность.",
+    "queries": [
+      {
+        "query": "Респондентов хотят избавить от лишних статистических форм",
+        "expected_event_ids": [
+          "news_6d2bb5079fbfcddcbf14"
+        ],
+        "top5": [
+          {
+            "event_id": "news_6d2bb5079fbfcddcbf14",
+            "semantic_score": 0.836356,
+            "score": 0.8363558650016785,
+            "retrieval_method": "hybrid",
+            "exact_match": false
+          },
+          {
+            "event_id": "news_2f1c5b8efafa74f5118b",
+            "semantic_score": 0.827313,
+            "score": 0.8273133039474487,
+            "retrieval_method": "hybrid",
+            "exact_match": false
+          },
+          {
+            "event_id": "news_98663337d6b15748d025",
+            "semantic_score": 0.822633,
+            "score": 0.8226327896118164,
+            "retrieval_method": "hybrid",
+            "exact_match": false
+          },
+          {
+            "event_id": "news_bee3b1a6bca6cca2b689",
+            "semantic_score": 0.822586,
+            "score": 0.8225858211517334,
+            "retrieval_method": "hybrid",
+            "exact_match": false
+          },
+          {
+            "event_id": "news_3d3579e93ae804930267",
+            "semantic_score": 0.822456,
+            "score": 0.8224558234214783,
+            "retrieval_method": "hybrid",
+            "exact_match": false
+          }
+        ],
+        "passed": true
+      },
+      {
+        "query": "Заводы стали выпускать меньше продукции",
+        "expected_event_ids": [
+          "news_b75c8277b510b4276596"
+        ],
+        "top5": [
+          {
+            "event_id": "news_b75c8277b510b4276596",
+            "semantic_score": 0.851545,
+            "score": 0.8515447378158569,
+            "retrieval_method": "hybrid",
+            "exact_match": false
+          },
+          {
+            "event_id": "news_6d2bb5079fbfcddcbf14",
+            "semantic_score": 0.828153,
+            "score": 0.8281528949737549,
+            "retrieval_method": "hybrid",
+            "exact_match": false
+          },
+          {
+            "event_id": "news_6edd3faee905180b5c87",
+            "semantic_score": 0.827179,
+            "score": 0.8271788358688354,
+            "retrieval_method": "hybrid",
+            "exact_match": false
+          },
+          {
+            "event_id": "news_1f50b1f63a57705cf833",
+            "semantic_score": 0.82017,
+            "score": 0.8201702833175659,
+            "retrieval_method": "hybrid",
+            "exact_match": false
+          }
+        ],
+        "passed": true
+      },
+      {
+        "query": "Как долго государство будет оплачивать льготный процент по кредиту на жильё?",
+        "expected_event_ids": [
+          "news_7e40391627d879b84af9"
+        ],
+        "top5": [
+          {
+            "event_id": "news_7e40391627d879b84af9",
+            "semantic_score": 0.873288,
+            "score": 0.8732879161834717,
+            "retrieval_method": "hybrid",
+            "exact_match": false
+          },
+          {
+            "event_id": "news_19f9b29ccd0a5644e2ee",
+            "semantic_score": 0.840164,
+            "score": 0.8401644229888916,
+            "retrieval_method": "hybrid",
+            "exact_match": false
+          },
+          {
+            "event_id": "news_cee4f41f506cd3f6b15b",
+            "semantic_score": 0.832378,
+            "score": 0.8323782682418823,
+            "retrieval_method": "hybrid",
+            "exact_match": false
+          },
+          {
+            "event_id": "news_bee3b1a6bca6cca2b689",
+            "semantic_score": 0.831342,
+            "score": 0.8313420414924622,
+            "retrieval_method": "hybrid",
+            "exact_match": false
+          },
+          {
+            "event_id": "news_54cb34ca3c51d5774c3b",
+            "semantic_score": 0.82459,
+            "score": 0.8245900869369507,
+            "retrieval_method": "hybrid",
+            "exact_match": false
+          }
+        ],
+        "passed": true
+      },
+      {
+        "query": "Граждане стали покупать больше долговых бумаг бизнеса",
+        "expected_event_ids": [
+          "news_7b0dc6cf1214d764cb0b"
+        ],
+        "top5": [
+          {
+            "event_id": "news_cee4f41f506cd3f6b15b",
+            "semantic_score": 0.843824,
+            "score": 0.8438239693641663,
+            "retrieval_method": "hybrid",
+            "exact_match": false
+          },
+          {
+            "event_id": "news_3480bd33b321108b78d0",
+            "semantic_score": 0.843044,
+            "score": 0.8430442810058594,
+            "retrieval_method": "hybrid",
+            "exact_match": false
+          },
+          {
+            "event_id": "news_7b0dc6cf1214d764cb0b",
+            "semantic_score": 0.841908,
+            "score": 0.8419076800346375,
+            "retrieval_method": "hybrid",
+            "exact_match": false
+          },
+          {
+            "event_id": "news_60b920c05a72da2f96d5",
+            "semantic_score": 0.840592,
+            "score": 0.840591549873352,
+            "retrieval_method": "hybrid",
+            "exact_match": false
+          },
+          {
+            "event_id": "news_8c041112f2e7c26e0f00",
+            "semantic_score": 0.838891,
+            "score": 0.8388909101486206,
+            "retrieval_method": "hybrid",
+            "exact_match": false
+          }
+        ],
+        "passed": true
+      },
+      {
+        "query": "Расходы бизнеса на новые заимствования остаются высокими",
+        "expected_event_ids": [
+          "news_e54611adbe9e1b3c2754"
+        ],
+        "top5": [
+          {
+            "event_id": "news_3480bd33b321108b78d0",
+            "semantic_score": 0.852738,
+            "score": 0.8527377247810364,
+            "retrieval_method": "hybrid",
+            "exact_match": false
+          },
+          {
+            "event_id": "news_bee3b1a6bca6cca2b689",
+            "semantic_score": 0.838925,
+            "score": 0.8389248847961426,
+            "retrieval_method": "hybrid",
+            "exact_match": false
+          },
+          {
+            "event_id": "news_e54611adbe9e1b3c2754",
+            "semantic_score": 0.838817,
+            "score": 0.8388170003890991,
+            "retrieval_method": "hybrid",
+            "exact_match": false
+          },
+          {
+            "event_id": "news_3c5f961dc953f99a7b96",
+            "semantic_score": 0.837616,
+            "score": 0.837615966796875,
+            "retrieval_method": "hybrid",
+            "exact_match": false
+          },
+          {
+            "event_id": "news_60b920c05a72da2f96d5",
+            "semantic_score": 0.83664,
+            "score": 0.836640477180481,
+            "retrieval_method": "hybrid",
+            "exact_match": false
+          }
+        ],
+        "passed": true
+      },
+      {
+        "query": "Студентам предлагают проверить финансовые знания",
+        "expected_event_ids": [
+          "news_54cb34ca3c51d5774c3b",
+          "news_69e99d337a83245bddd8"
+        ],
+        "top5": [
+          {
+            "event_id": "news_03379ce50691b6af7360",
+            "semantic_score": 0.855269,
+            "score": 0.8552694320678711,
+            "retrieval_method": "hybrid",
+            "exact_match": false
+          },
+          {
+            "event_id": "news_54cb34ca3c51d5774c3b",
+            "semantic_score": 0.847351,
+            "score": 0.8473511934280396,
+            "retrieval_method": "hybrid",
+            "exact_match": false
+          },
+          {
+            "event_id": "news_69e99d337a83245bddd8",
+            "semantic_score": 0.843419,
+            "score": 0.8434193730354309,
+            "retrieval_method": "hybrid",
+            "exact_match": false
+          },
+          {
+            "event_id": "news_bee3b1a6bca6cca2b689",
+            "semantic_score": 0.825063,
+            "score": 0.8250634074211121,
+            "retrieval_method": "hybrid",
+            "exact_match": false
+          }
+        ],
+        "passed": true
+      }
+    ],
+    "passed": 6,
+    "total": 6,
+    "generative_calls": 0
+  },
+  "bank": {
+    "kind": "small_explicit_local_retrieval_comparison",
+    "analysis_as_of": "2026-10-22",
+    "generative_requests": 0,
+    "statistical_accuracy_estimate": false,
+    "search": {
+      "mode": "hybrid",
+      "model_id": "intfloat/multilingual-e5-small",
+      "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+      "encoder_signature": "76c66307b818136283680614a7bafe7e22da4f5780c0a7d54d9f61075bfdc8e1",
+      "index_sha256": "bbaee463e046b80658da73e79c716754fd95e9b60826c5bc4b937cffe47b19e6",
+      "chunks": 74,
+      "dimension": 384,
+      "min_cosine": 0.82,
+      "policy_version": "e5-int8-mean-pool-hybrid-v1",
+      "network_at_query_time": false
+    },
+    "summary": {
+      "lexical": {
+        "relevant_cases": 8,
+        "hit_at_3": 4,
+        "hit_at_5": 5,
+        "unrelated_cases": 3,
+        "unrelated_empty": 3,
+        "failed": 3
+      },
+      "semantic": {
+        "relevant_cases": 8,
+        "hit_at_3": 8,
+        "hit_at_5": 8,
+        "unrelated_cases": 3,
+        "unrelated_empty": 3,
+        "failed": 0
+      },
+      "hybrid": {
+        "relevant_cases": 8,
+        "hit_at_3": 7,
+        "hit_at_5": 8,
+        "unrelated_cases": 3,
+        "unrelated_empty": 3,
+        "failed": 0
+      }
+    },
+    "records": [
+      {
+        "id": "labor_paraphrase",
+        "query": "Работодателям приходится повышать оплату персонала",
+        "expected": {
+          "source_id": "alfa_labor_7m",
+          "page": 2
+        },
+        "results": {
+          "lexical": {
+            "expected_rank": null,
+            "hit_at_3": false,
+            "hit_at_5": false,
+            "empty": true,
+            "all_text_on_original_page": true,
+            "passed": false,
+            "returned": []
+          },
+          "semantic": {
+            "expected_rank": 1,
+            "hit_at_3": true,
+            "hit_at_5": true,
+            "empty": false,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": [
+              {
+                "source_id": "alfa_labor_7m",
+                "page": 2,
+                "evidence_id": "ev_29fc10d29fa7dc90f24f2975",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.832805,
+                "query_terms_matched": []
+              },
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 12,
+                "evidence_id": "ev_466819d9f38c8550f79ce092",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.831667,
+                "query_terms_matched": []
+              },
+              {
+                "source_id": "alfa_gdp_1h",
+                "page": 3,
+                "evidence_id": "ev_cd18d4172c26eb770764290a",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.830482,
+                "query_terms_matched": []
+              },
+              {
+                "source_id": "alfa_consumption",
+                "page": 1,
+                "evidence_id": "ev_3c2af628d2aa08e46f6a2629",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.826003,
+                "query_terms_matched": []
+              },
+              {
+                "source_id": "alfa_consumption",
+                "page": 2,
+                "evidence_id": "ev_0d4b6576620c7ea2a9bac6a7",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.822267,
+                "query_terms_matched": []
+              }
+            ]
+          },
+          "hybrid": {
+            "expected_rank": 1,
+            "hit_at_3": true,
+            "hit_at_5": true,
+            "empty": false,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": [
+              {
+                "source_id": "alfa_labor_7m",
+                "page": 2,
+                "evidence_id": "ev_29fc10d29fa7dc90f24f2975",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.832805,
+                "query_terms_matched": []
+              },
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 12,
+                "evidence_id": "ev_466819d9f38c8550f79ce092",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.831667,
+                "query_terms_matched": []
+              },
+              {
+                "source_id": "alfa_gdp_1h",
+                "page": 3,
+                "evidence_id": "ev_cd18d4172c26eb770764290a",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.830482,
+                "query_terms_matched": []
+              },
+              {
+                "source_id": "alfa_consumption",
+                "page": 1,
+                "evidence_id": "ev_3c2af628d2aa08e46f6a2629",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.826003,
+                "query_terms_matched": []
+              },
+              {
+                "source_id": "alfa_consumption",
+                "page": 2,
+                "evidence_id": "ev_0d4b6576620c7ea2a9bac6a7",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.822267,
+                "query_terms_matched": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "consumer_paraphrase",
+        "query": "Люди перестали так активно тратить деньги в магазинах",
+        "expected": {
+          "source_id": "alfa_consumption",
+          "page": 1
+        },
+        "results": {
+          "lexical": {
+            "expected_rank": null,
+            "hit_at_3": false,
+            "hit_at_5": false,
+            "empty": false,
+            "all_text_on_original_page": true,
+            "passed": false,
+            "returned": [
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 3,
+                "evidence_id": "ev_fe952dea6de31fa25868b705",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "активно"
+                ]
+              },
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 10,
+                "evidence_id": "ev_d5b0dd1a3e66692891a3caa7",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "активно"
+                ]
+              },
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 19,
+                "evidence_id": "ev_94e22f8a99576a27ec666f10",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "активно"
+                ]
+              }
+            ]
+          },
+          "semantic": {
+            "expected_rank": 2,
+            "hit_at_3": true,
+            "hit_at_5": true,
+            "empty": false,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": [
+              {
+                "source_id": "alfa_labor_7m",
+                "page": 1,
+                "evidence_id": "ev_7ae7338fd2d2dcb274ec0b69",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.828576,
+                "query_terms_matched": []
+              },
+              {
+                "source_id": "alfa_consumption",
+                "page": 1,
+                "evidence_id": "ev_e544ad1c4cf24ded425d16c3",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.824992,
+                "query_terms_matched": []
+              },
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 11,
+                "evidence_id": "ev_b51e00b2dad5e5402a1a9cb2",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.822694,
+                "query_terms_matched": []
+              },
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 12,
+                "evidence_id": "ev_466819d9f38c8550f79ce092",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.822394,
+                "query_terms_matched": []
+              }
+            ]
+          },
+          "hybrid": {
+            "expected_rank": 2,
+            "hit_at_3": true,
+            "hit_at_5": true,
+            "empty": false,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": [
+              {
+                "source_id": "alfa_labor_7m",
+                "page": 1,
+                "evidence_id": "ev_7ae7338fd2d2dcb274ec0b69",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.828576,
+                "query_terms_matched": []
+              },
+              {
+                "source_id": "alfa_consumption",
+                "page": 1,
+                "evidence_id": "ev_e544ad1c4cf24ded425d16c3",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.824992,
+                "query_terms_matched": []
+              },
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 11,
+                "evidence_id": "ev_b51e00b2dad5e5402a1a9cb2",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.822694,
+                "query_terms_matched": []
+              },
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 12,
+                "evidence_id": "ev_466819d9f38c8550f79ce092",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.822394,
+                "query_terms_matched": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "rate_paraphrase",
+        "query": "Центральный банк сохранил стоимость денег",
+        "expected": {
+          "source_id": "alfa_policy_rate",
+          "page": 1
+        },
+        "results": {
+          "lexical": {
+            "expected_rank": 5,
+            "hit_at_3": false,
+            "hit_at_5": true,
+            "empty": false,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": [
+              {
+                "source_id": "alfa_consumption",
+                "page": 3,
+                "evidence_id": "ev_cadba6abd91f405736d26a25",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "банк",
+                  "денег"
+                ]
+              },
+              {
+                "source_id": "alfa_bond_brief",
+                "page": 1,
+                "evidence_id": "ev_408978e6afd10cfc1825cd5b",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "банк",
+                  "сохранил"
+                ]
+              },
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 19,
+                "evidence_id": "ev_9203298a26501264b83cf818",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "банк",
+                  "денег"
+                ]
+              },
+              {
+                "source_id": "alfa_consumption",
+                "page": 1,
+                "evidence_id": "ev_cbae631e50420bfaff4874f4",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "банк"
+                ]
+              },
+              {
+                "source_id": "alfa_policy_rate",
+                "page": 1,
+                "evidence_id": "ev_c164253912f795a5e01166d1",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "банк"
+                ]
+              }
+            ]
+          },
+          "semantic": {
+            "expected_rank": 3,
+            "hit_at_3": true,
+            "hit_at_5": true,
+            "empty": false,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": [
+              {
+                "source_id": "alfa_bond_brief",
+                "page": 1,
+                "evidence_id": "ev_ccef9c1f3c735b7cab3afe7f",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.83616,
+                "query_terms_matched": []
+              },
+              {
+                "source_id": "alfa_consumption",
+                "page": 3,
+                "evidence_id": "ev_cadba6abd91f405736d26a25",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.835486,
+                "query_terms_matched": [
+                  "банк",
+                  "денег"
+                ]
+              },
+              {
+                "source_id": "alfa_policy_rate",
+                "page": 1,
+                "evidence_id": "ev_617f9f9c5cdca990db5a194f",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.831591,
+                "query_terms_matched": [
+                  "банк"
+                ]
+              },
+              {
+                "source_id": "alfa_consumption",
+                "page": 1,
+                "evidence_id": "ev_cbae631e50420bfaff4874f4",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.831114,
+                "query_terms_matched": [
+                  "банк"
+                ]
+              },
+              {
+                "source_id": "alfa_labor_7m",
+                "page": 1,
+                "evidence_id": "ev_9a7917655cff5df91c44a581",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.830195,
+                "query_terms_matched": [
+                  "банк"
+                ]
+              }
+            ]
+          },
+          "hybrid": {
+            "expected_rank": 3,
+            "hit_at_3": true,
+            "hit_at_5": true,
+            "empty": false,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": [
+              {
+                "source_id": "alfa_consumption",
+                "page": 3,
+                "evidence_id": "ev_cadba6abd91f405736d26a25",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.835486,
+                "query_terms_matched": [
+                  "банк",
+                  "денег"
+                ]
+              },
+              {
+                "source_id": "alfa_consumption",
+                "page": 1,
+                "evidence_id": "ev_cbae631e50420bfaff4874f4",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.831114,
+                "query_terms_matched": [
+                  "банк"
+                ]
+              },
+              {
+                "source_id": "alfa_policy_rate",
+                "page": 1,
+                "evidence_id": "ev_617f9f9c5cdca990db5a194f",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.831591,
+                "query_terms_matched": [
+                  "банк"
+                ]
+              },
+              {
+                "source_id": "alfa_bond_brief",
+                "page": 1,
+                "evidence_id": "ev_408978e6afd10cfc1825cd5b",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.829045,
+                "query_terms_matched": [
+                  "банк",
+                  "сохранил"
+                ]
+              },
+              {
+                "source_id": "alfa_labor_7m",
+                "page": 1,
+                "evidence_id": "ev_9a7917655cff5df91c44a581",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.830195,
+                "query_terms_matched": [
+                  "банк"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "inflation",
+        "query": "инфляция бензин недельная",
+        "expected": {
+          "source_id": "alfa_inflation",
+          "page": 1
+        },
+        "results": {
+          "lexical": {
+            "expected_rank": 1,
+            "hit_at_3": true,
+            "hit_at_5": true,
+            "empty": false,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": [
+              {
+                "source_id": "alfa_inflation",
+                "page": 1,
+                "evidence_id": "ev_916131830f6a0f295f29698d",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "инфляц",
+                  "бензин",
+                  "недельная"
+                ]
+              },
+              {
+                "source_id": "alfa_consumption",
+                "page": 2,
+                "evidence_id": "ev_093499d04edac4927d8f55d3",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "инфляц",
+                  "бензин"
+                ]
+              },
+              {
+                "source_id": "alfa_gdp_1h",
+                "page": 2,
+                "evidence_id": "ev_d1adac9db2fe9d4c27588125",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "бензин"
+                ]
+              },
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 12,
+                "evidence_id": "ev_466819d9f38c8550f79ce092",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "инфляц"
+                ]
+              },
+              {
+                "source_id": "alfa_policy_rate",
+                "page": 1,
+                "evidence_id": "ev_8ab75b3e3425094b79422991",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "инфляц"
+                ]
+              }
+            ]
+          },
+          "semantic": {
+            "expected_rank": 2,
+            "hit_at_3": true,
+            "hit_at_5": true,
+            "empty": false,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": [
+              {
+                "source_id": "alfa_consumption",
+                "page": 2,
+                "evidence_id": "ev_093499d04edac4927d8f55d3",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.895894,
+                "query_terms_matched": [
+                  "инфляц",
+                  "бензин"
+                ]
+              },
+              {
+                "source_id": "alfa_inflation",
+                "page": 1,
+                "evidence_id": "ev_916131830f6a0f295f29698d",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.894273,
+                "query_terms_matched": [
+                  "инфляц",
+                  "бензин",
+                  "недельная"
+                ]
+              },
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 13,
+                "evidence_id": "ev_8182d1baec68b32b6d75f8e2",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.875567,
+                "query_terms_matched": [
+                  "инфляц"
+                ]
+              },
+              {
+                "source_id": "alfa_bond_brief",
+                "page": 1,
+                "evidence_id": "ev_408978e6afd10cfc1825cd5b",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.874806,
+                "query_terms_matched": [
+                  "инфляц"
+                ]
+              },
+              {
+                "source_id": "alfa_gdp_1h",
+                "page": 2,
+                "evidence_id": "ev_c52b5eea43a91b9f6a9e773e",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.871062,
+                "query_terms_matched": [
+                  "инфляц"
+                ]
+              }
+            ]
+          },
+          "hybrid": {
+            "expected_rank": 2,
+            "hit_at_3": true,
+            "hit_at_5": true,
+            "empty": false,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": [
+              {
+                "source_id": "alfa_consumption",
+                "page": 2,
+                "evidence_id": "ev_093499d04edac4927d8f55d3",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.895894,
+                "query_terms_matched": [
+                  "инфляц",
+                  "бензин"
+                ]
+              },
+              {
+                "source_id": "alfa_inflation",
+                "page": 1,
+                "evidence_id": "ev_916131830f6a0f295f29698d",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.894273,
+                "query_terms_matched": [
+                  "инфляц",
+                  "бензин",
+                  "недельная"
+                ]
+              },
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 13,
+                "evidence_id": "ev_8182d1baec68b32b6d75f8e2",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.875567,
+                "query_terms_matched": [
+                  "инфляц"
+                ]
+              },
+              {
+                "source_id": "alfa_bond_brief",
+                "page": 1,
+                "evidence_id": "ev_408978e6afd10cfc1825cd5b",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.874806,
+                "query_terms_matched": [
+                  "инфляц"
+                ]
+              },
+              {
+                "source_id": "alfa_gdp_1h",
+                "page": 2,
+                "evidence_id": "ev_c52b5eea43a91b9f6a9e773e",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.871062,
+                "query_terms_matched": [
+                  "инфляц"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "gdp",
+        "query": "прогноз роста ВВП инвестиции",
+        "expected": {
+          "source_id": "alfa_gdp_1h",
+          "page": 3
+        },
+        "results": {
+          "lexical": {
+            "expected_rank": 2,
+            "hit_at_3": true,
+            "hit_at_5": true,
+            "empty": false,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": [
+              {
+                "source_id": "alfa_gdp_1h",
+                "page": 1,
+                "evidence_id": "ev_0fecf348802c6357eb969ab4",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "прогноз",
+                  "роста",
+                  "ввп",
+                  "инвест"
+                ]
+              },
+              {
+                "source_id": "alfa_gdp_1h",
+                "page": 3,
+                "evidence_id": "ev_93822b0d28b72148f1b8e90e",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "прогноз",
+                  "роста",
+                  "ввп",
+                  "инвест"
+                ]
+              },
+              {
+                "source_id": "alfa_consumption",
+                "page": 1,
+                "evidence_id": "ev_3c2af628d2aa08e46f6a2629",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "прогноз",
+                  "роста",
+                  "ввп",
+                  "инвест"
+                ]
+              },
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 3,
+                "evidence_id": "ev_314a8f67ea04383aebfa5f05",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "прогноз",
+                  "роста",
+                  "инвест"
+                ]
+              },
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 10,
+                "evidence_id": "ev_3cb3ae6443222b4af174cd53",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "прогноз",
+                  "роста"
+                ]
+              }
+            ]
+          },
+          "semantic": {
+            "expected_rank": 1,
+            "hit_at_3": true,
+            "hit_at_5": true,
+            "empty": false,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": [
+              {
+                "source_id": "alfa_gdp_1h",
+                "page": 3,
+                "evidence_id": "ev_93822b0d28b72148f1b8e90e",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.893805,
+                "query_terms_matched": [
+                  "прогноз",
+                  "роста",
+                  "ввп",
+                  "инвест"
+                ]
+              },
+              {
+                "source_id": "alfa_gdp_1h",
+                "page": 1,
+                "evidence_id": "ev_0fecf348802c6357eb969ab4",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.887922,
+                "query_terms_matched": [
+                  "прогноз",
+                  "роста",
+                  "ввп",
+                  "инвест"
+                ]
+              },
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 11,
+                "evidence_id": "ev_b51e00b2dad5e5402a1a9cb2",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.878054,
+                "query_terms_matched": [
+                  "роста"
+                ]
+              },
+              {
+                "source_id": "alfa_gdp_1h",
+                "page": 2,
+                "evidence_id": "ev_1ed326a5a16719fb5a00fcfd",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.875574,
+                "query_terms_matched": [
+                  "роста",
+                  "инвест"
+                ]
+              },
+              {
+                "source_id": "alfa_labor_7m",
+                "page": 2,
+                "evidence_id": "ev_b980b7b9f12ce9f0502f76a2",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.86586,
+                "query_terms_matched": []
+              }
+            ]
+          },
+          "hybrid": {
+            "expected_rank": 1,
+            "hit_at_3": true,
+            "hit_at_5": true,
+            "empty": false,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": [
+              {
+                "source_id": "alfa_gdp_1h",
+                "page": 3,
+                "evidence_id": "ev_93822b0d28b72148f1b8e90e",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.893805,
+                "query_terms_matched": [
+                  "прогноз",
+                  "роста",
+                  "ввп",
+                  "инвест"
+                ]
+              },
+              {
+                "source_id": "alfa_gdp_1h",
+                "page": 1,
+                "evidence_id": "ev_0fecf348802c6357eb969ab4",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.887922,
+                "query_terms_matched": [
+                  "прогноз",
+                  "роста",
+                  "ввп",
+                  "инвест"
+                ]
+              },
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 11,
+                "evidence_id": "ev_b51e00b2dad5e5402a1a9cb2",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.878054,
+                "query_terms_matched": [
+                  "роста"
+                ]
+              },
+              {
+                "source_id": "alfa_gdp_1h",
+                "page": 2,
+                "evidence_id": "ev_1ed326a5a16719fb5a00fcfd",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.875574,
+                "query_terms_matched": [
+                  "роста",
+                  "инвест"
+                ]
+              },
+              {
+                "source_id": "alfa_consumption",
+                "page": 1,
+                "evidence_id": "ev_3c2af628d2aa08e46f6a2629",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.862604,
+                "query_terms_matched": [
+                  "прогноз",
+                  "роста",
+                  "ввп",
+                  "инвест"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "credit",
+        "query": "Ключевая ставка пауза кредиты",
+        "expected": {
+          "source_id": "alfa_policy_rate",
+          "page": 1
+        },
+        "results": {
+          "lexical": {
+            "expected_rank": 1,
+            "hit_at_3": true,
+            "hit_at_5": true,
+            "empty": false,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": [
+              {
+                "source_id": "alfa_policy_rate",
+                "page": 1,
+                "evidence_id": "ev_617f9f9c5cdca990db5a194f",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "ключев",
+                  "ставк",
+                  "пауз",
+                  "кредит"
+                ]
+              },
+              {
+                "source_id": "alfa_bond_brief",
+                "page": 1,
+                "evidence_id": "ev_ccef9c1f3c735b7cab3afe7f",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "ключев",
+                  "ставк",
+                  "пауз",
+                  "кредит"
+                ]
+              },
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 23,
+                "evidence_id": "ev_601f780180d30d437b608a6a",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "ключев",
+                  "ставк",
+                  "кредит"
+                ]
+              },
+              {
+                "source_id": "alfa_consumption",
+                "page": 2,
+                "evidence_id": "ev_093499d04edac4927d8f55d3",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "ключев",
+                  "ставк",
+                  "кредит"
+                ]
+              },
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 5,
+                "evidence_id": "ev_9718b829d038f0bc3c37e776",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "ключев",
+                  "ставк",
+                  "кредит"
+                ]
+              }
+            ]
+          },
+          "semantic": {
+            "expected_rank": 1,
+            "hit_at_3": true,
+            "hit_at_5": true,
+            "empty": false,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": [
+              {
+                "source_id": "alfa_policy_rate",
+                "page": 1,
+                "evidence_id": "ev_c164253912f795a5e01166d1",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.871454,
+                "query_terms_matched": [
+                  "ставк"
+                ]
+              },
+              {
+                "source_id": "alfa_bond_brief",
+                "page": 1,
+                "evidence_id": "ev_408978e6afd10cfc1825cd5b",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.865949,
+                "query_terms_matched": [
+                  "ключев",
+                  "ставк",
+                  "пауз"
+                ]
+              },
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 10,
+                "evidence_id": "ev_d5b0dd1a3e66692891a3caa7",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.863023,
+                "query_terms_matched": [
+                  "ставк",
+                  "кредит"
+                ]
+              },
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 11,
+                "evidence_id": "ev_b51e00b2dad5e5402a1a9cb2",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.861861,
+                "query_terms_matched": [
+                  "ключев",
+                  "ставк",
+                  "кредит"
+                ]
+              },
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 5,
+                "evidence_id": "ev_9718b829d038f0bc3c37e776",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.851946,
+                "query_terms_matched": [
+                  "ключев",
+                  "ставк",
+                  "кредит"
+                ]
+              }
+            ]
+          },
+          "hybrid": {
+            "expected_rank": 2,
+            "hit_at_3": true,
+            "hit_at_5": true,
+            "empty": false,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": [
+              {
+                "source_id": "alfa_bond_brief",
+                "page": 1,
+                "evidence_id": "ev_408978e6afd10cfc1825cd5b",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.865949,
+                "query_terms_matched": [
+                  "ключев",
+                  "ставк",
+                  "пауз"
+                ]
+              },
+              {
+                "source_id": "alfa_policy_rate",
+                "page": 1,
+                "evidence_id": "ev_c164253912f795a5e01166d1",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.871454,
+                "query_terms_matched": [
+                  "ставк"
+                ]
+              },
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 10,
+                "evidence_id": "ev_d5b0dd1a3e66692891a3caa7",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.863023,
+                "query_terms_matched": [
+                  "ставк",
+                  "кредит"
+                ]
+              },
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 11,
+                "evidence_id": "ev_b51e00b2dad5e5402a1a9cb2",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.861861,
+                "query_terms_matched": [
+                  "ключев",
+                  "ставк",
+                  "кредит"
+                ]
+              },
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 5,
+                "evidence_id": "ev_9718b829d038f0bc3c37e776",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.851946,
+                "query_terms_matched": [
+                  "ключев",
+                  "ставк",
+                  "кредит"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "shopping_paraphrase",
+        "query": "Покупки населения и расходы в торговых точках",
+        "expected": {
+          "source_id": "alfa_consumption",
+          "page": 1
+        },
+        "results": {
+          "lexical": {
+            "expected_rank": null,
+            "hit_at_3": false,
+            "hit_at_5": false,
+            "empty": false,
+            "all_text_on_original_page": true,
+            "passed": false,
+            "returned": [
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 9,
+                "evidence_id": "ev_0f1df315fcbd6f48707c9b46",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "расходы"
+                ]
+              },
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 18,
+                "evidence_id": "ev_d14458bcb67c005f8545348f",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "покупки"
+                ]
+              },
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 12,
+                "evidence_id": "ev_0d851dee2abc98c847bd6cce",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "населения"
+                ]
+              },
+              {
+                "source_id": "alfa_gdp_1h",
+                "page": 3,
+                "evidence_id": "ev_93822b0d28b72148f1b8e90e",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "расходы"
+                ]
+              },
+              {
+                "source_id": "alfa_labor_7m",
+                "page": 2,
+                "evidence_id": "ev_29fc10d29fa7dc90f24f2975",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "расходы"
+                ]
+              }
+            ]
+          },
+          "semantic": {
+            "expected_rank": 3,
+            "hit_at_3": true,
+            "hit_at_5": true,
+            "empty": false,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": [
+              {
+                "source_id": "alfa_labor_7m",
+                "page": 1,
+                "evidence_id": "ev_7ae7338fd2d2dcb274ec0b69",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.842243,
+                "query_terms_matched": []
+              },
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 11,
+                "evidence_id": "ev_b51e00b2dad5e5402a1a9cb2",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.841098,
+                "query_terms_matched": [
+                  "населения"
+                ]
+              },
+              {
+                "source_id": "alfa_consumption",
+                "page": 1,
+                "evidence_id": "ev_cbae631e50420bfaff4874f4",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.83869,
+                "query_terms_matched": []
+              },
+              {
+                "source_id": "alfa_gdp_1h",
+                "page": 2,
+                "evidence_id": "ev_d1adac9db2fe9d4c27588125",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.835794,
+                "query_terms_matched": []
+              },
+              {
+                "source_id": "alfa_gdp_1h",
+                "page": 3,
+                "evidence_id": "ev_cd18d4172c26eb770764290a",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.835644,
+                "query_terms_matched": []
+              }
+            ]
+          },
+          "hybrid": {
+            "expected_rank": 5,
+            "hit_at_3": false,
+            "hit_at_5": true,
+            "empty": false,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": [
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 11,
+                "evidence_id": "ev_b51e00b2dad5e5402a1a9cb2",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.841098,
+                "query_terms_matched": [
+                  "населения"
+                ]
+              },
+              {
+                "source_id": "alfa_labor_7m",
+                "page": 1,
+                "evidence_id": "ev_7ae7338fd2d2dcb274ec0b69",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.842243,
+                "query_terms_matched": []
+              },
+              {
+                "source_id": "alfa_labor_7m",
+                "page": 2,
+                "evidence_id": "ev_29fc10d29fa7dc90f24f2975",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.834074,
+                "query_terms_matched": [
+                  "расходы"
+                ]
+              },
+              {
+                "source_id": "alfa_fi_strategy",
+                "page": 18,
+                "evidence_id": "ev_7a04031876d2fbaf9c00ff32",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.832588,
+                "query_terms_matched": [
+                  "покупки"
+                ]
+              },
+              {
+                "source_id": "alfa_consumption",
+                "page": 1,
+                "evidence_id": "ev_cbae631e50420bfaff4874f4",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.83869,
+                "query_terms_matched": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "staff_paraphrase",
+        "query": "Нехватка сотрудников заставляет фирмы поднимать зарплаты",
+        "expected": {
+          "source_id": "alfa_labor_7m",
+          "page": 2
+        },
+        "results": {
+          "lexical": {
+            "expected_rank": 2,
+            "hit_at_3": true,
+            "hit_at_5": true,
+            "empty": false,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": [
+              {
+                "source_id": "alfa_consumption",
+                "page": 1,
+                "evidence_id": "ev_3c2af628d2aa08e46f6a2629",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "зарплат"
+                ]
+              },
+              {
+                "source_id": "alfa_labor_7m",
+                "page": 2,
+                "evidence_id": "ev_b980b7b9f12ce9f0502f76a2",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "зарплат"
+                ]
+              },
+              {
+                "source_id": "alfa_gdp_1h",
+                "page": 2,
+                "evidence_id": "ev_1ed326a5a16719fb5a00fcfd",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "зарплат"
+                ]
+              },
+              {
+                "source_id": "alfa_gdp_1h",
+                "page": 3,
+                "evidence_id": "ev_cd18d4172c26eb770764290a",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "зарплат"
+                ]
+              },
+              {
+                "source_id": "alfa_gdp_1h",
+                "page": 1,
+                "evidence_id": "ev_0fecf348802c6357eb969ab4",
+                "retrieval_method": "lexical",
+                "semantic_score": null,
+                "query_terms_matched": [
+                  "зарплат"
+                ]
+              }
+            ]
+          },
+          "semantic": {
+            "expected_rank": 1,
+            "hit_at_3": true,
+            "hit_at_5": true,
+            "empty": false,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": [
+              {
+                "source_id": "alfa_labor_7m",
+                "page": 2,
+                "evidence_id": "ev_29fc10d29fa7dc90f24f2975",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.853985,
+                "query_terms_matched": [
+                  "зарплат"
+                ]
+              },
+              {
+                "source_id": "alfa_labor_7m",
+                "page": 1,
+                "evidence_id": "ev_7ae7338fd2d2dcb274ec0b69",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.847416,
+                "query_terms_matched": []
+              },
+              {
+                "source_id": "alfa_gdp_1h",
+                "page": 3,
+                "evidence_id": "ev_cd18d4172c26eb770764290a",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.846427,
+                "query_terms_matched": [
+                  "зарплат"
+                ]
+              },
+              {
+                "source_id": "alfa_consumption",
+                "page": 1,
+                "evidence_id": "ev_3c2af628d2aa08e46f6a2629",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.845715,
+                "query_terms_matched": [
+                  "зарплат"
+                ]
+              },
+              {
+                "source_id": "alfa_gdp_1h",
+                "page": 2,
+                "evidence_id": "ev_1ed326a5a16719fb5a00fcfd",
+                "retrieval_method": "semantic",
+                "semantic_score": 0.840072,
+                "query_terms_matched": [
+                  "зарплат"
+                ]
+              }
+            ]
+          },
+          "hybrid": {
+            "expected_rank": 1,
+            "hit_at_3": true,
+            "hit_at_5": true,
+            "empty": false,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": [
+              {
+                "source_id": "alfa_labor_7m",
+                "page": 2,
+                "evidence_id": "ev_29fc10d29fa7dc90f24f2975",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.853985,
+                "query_terms_matched": [
+                  "зарплат"
+                ]
+              },
+              {
+                "source_id": "alfa_gdp_1h",
+                "page": 3,
+                "evidence_id": "ev_cd18d4172c26eb770764290a",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.846427,
+                "query_terms_matched": [
+                  "зарплат"
+                ]
+              },
+              {
+                "source_id": "alfa_consumption",
+                "page": 1,
+                "evidence_id": "ev_3c2af628d2aa08e46f6a2629",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.845715,
+                "query_terms_matched": [
+                  "зарплат"
+                ]
+              },
+              {
+                "source_id": "alfa_gdp_1h",
+                "page": 2,
+                "evidence_id": "ev_1ed326a5a16719fb5a00fcfd",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.840072,
+                "query_terms_matched": [
+                  "зарплат"
+                ]
+              },
+              {
+                "source_id": "alfa_gdp_1h",
+                "page": 1,
+                "evidence_id": "ev_0fecf348802c6357eb969ab4",
+                "retrieval_method": "hybrid",
+                "semantic_score": 0.839871,
+                "query_terms_matched": [
+                  "зарплат"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "unrelated_food",
+        "query": "Как приготовить борщ из свёклы",
+        "expected": {
+          "source_id": null,
+          "page": null
+        },
+        "results": {
+          "lexical": {
+            "expected_rank": null,
+            "hit_at_3": false,
+            "hit_at_5": false,
+            "empty": true,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": []
+          },
+          "semantic": {
+            "expected_rank": null,
+            "hit_at_3": false,
+            "hit_at_5": false,
+            "empty": true,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": []
+          },
+          "hybrid": {
+            "expected_rank": null,
+            "hit_at_3": false,
+            "hit_at_5": false,
+            "empty": true,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": []
+          }
+        }
+      },
+      {
+        "id": "unrelated_physics",
+        "query": "квантовая запутанность фотонов в вакууме",
+        "expected": {
+          "source_id": null,
+          "page": null
+        },
+        "results": {
+          "lexical": {
+            "expected_rank": null,
+            "hit_at_3": false,
+            "hit_at_5": false,
+            "empty": true,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": []
+          },
+          "semantic": {
+            "expected_rank": null,
+            "hit_at_3": false,
+            "hit_at_5": false,
+            "empty": true,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": []
+          },
+          "hybrid": {
+            "expected_rank": null,
+            "hit_at_3": false,
+            "hit_at_5": false,
+            "empty": true,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": []
+          }
+        }
+      },
+      {
+        "id": "unrelated_computer",
+        "query": "Как заменить видеокарту в ноутбуке?",
+        "expected": {
+          "source_id": null,
+          "page": null
+        },
+        "results": {
+          "lexical": {
+            "expected_rank": null,
+            "hit_at_3": false,
+            "hit_at_5": false,
+            "empty": true,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": []
+          },
+          "semantic": {
+            "expected_rank": null,
+            "hit_at_3": false,
+            "hit_at_5": false,
+            "empty": true,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": []
+          },
+          "hybrid": {
+            "expected_rank": null,
+            "hit_at_3": false,
+            "hit_at_5": false,
+            "empty": true,
+            "all_text_on_original_page": true,
+            "passed": true,
+            "returned": []
+          }
+        }
+      }
+    ],
+    "limits": [
+      "11 выбранных запросов не являются репрезентативным бенчмарком.",
+      "Порог cosine 0.82 — инженерный отсев, не вероятность правильности.",
+      "Порог проверялся на темах труда/потребления и двух посторонних запросах; ноутбук добавлен после его выбора.",
+      "Смысловая модель может пропускать полезные источники и возвращать тематически похожие нерелевантные фрагменты.",
+      "Проверено наличие текста на исходной странице; финансовые числа OCR этим не подтверждены.",
+      "Позиция в первых трёх/пяти результатах не доказывает корректность итогового бизнес-вывода."
+    ]
+  },
+  "new_generative_requests": 0
+}

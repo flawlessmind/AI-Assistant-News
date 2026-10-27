@@ -1,0 +1,55 @@
+{
+  "runtime": "Python 3.12.14",
+  "runtime_third_party_python_packages": {
+    "anyio": "4.15.1",
+    "certifi": "2026.10.19",
+    "click": "8.5.0",
+    "colorama": "0.4.6",
+    "filelock": "4.2.4",
+    "flatbuffers": "25.12.19",
+    "fsspec": "2026.9.0",
+    "h11": "0.16.0",
+    "hf-xet": "1.7.0",
+    "httpcore": "1.0.9",
+    "httpx": "0.28.1",
+    "huggingface_hub": "1.33.0",
+    "idna": "3.20",
+    "numpy": "2.4.3",
+    "onnxruntime": "1.25.0",
+    "packaging": "26.3",
+    "protobuf": "7.36.2",
+    "PyYAML": "6.0.3",
+    "tokenizers": "0.22.2",
+    "tqdm": "4.70.1",
+    "typing_extensions": "4.16.0",
+    "waitress": "3.0.2"
+  },
+  "frontend_build_required": false,
+  "container_image": "python:3.12.14-slim@sha256:f77ac9e44ae96ef2c90b8053ea08c31f8be030f824196b0ae4db6d462c84e51f",
+  "optional_pdf_extraction": {
+    "pypdf": "6.10.0"
+  },
+  "note": "Runtime dependencies and pinned local model are required for semantic search. No Node/npm/browser/MCP or OCR tools are required to start the application. Query-time embeddings use local CPU inference.",
+  "requirements_lock": "requirements.lock.txt",
+  "semantic_model": {
+    "schema_version": 1,
+    "model_id": "intfloat/multilingual-e5-small",
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "dimension": 384,
+    "max_tokens": 512,
+    "query_prefix": "query: ",
+    "passage_prefix": "passage: ",
+    "files": {
+      "model.onnx": {
+        "source_path": "onnx/model_qint8_avx512_vnni.onnx",
+        "size": 118346824,
+        "sha256": "dd476dd0c2514e9b9be83aeb3853fac0763e0bdf4a71645407587d77c48a2d88"
+      },
+      "tokenizer.json": {
+        "source_path": "tokenizer.json",
+        "size": 17082730,
+        "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39"
+      }
+    }
+  }
+}

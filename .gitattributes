@@ -1,0 +1,4 @@
+# Preserve byte-level hashes of model assets, evidence and loaded application
+# logic on Windows and Linux; Git must not translate their line endings.
+* -text
+models/**/*.onnx filter=lfs diff=lfs merge=lfs -text

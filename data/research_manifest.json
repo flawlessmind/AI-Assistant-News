@@ -1,0 +1,233 @@
+[
+  {
+    "source_id": "alfa_consumption",
+    "file_name": "ALFA-consumption.pdf",
+    "source_url": "https://drive.google.com/file/d/1riR1lhsb6EY1MwGMxdBlS_tI5ed9mIiz/view",
+    "expected_size_bytes": 6658115,
+    "publication_date": "2026-08-05",
+    "date_review_status": "visual_verified",
+    "title": "Потребление на пике",
+    "language": "ru",
+    "exclude_from_search_pages": [
+      4
+    ],
+    "notes": [
+      "Все страницы являются сканами. OCR не гарантирует правильность чисел и таблиц.",
+      "page означает физическую страницу PDF, начиная с 1; печатная нумерация может отличаться."
+    ],
+    "sha256": "807ee9925cf7d15ecffc72ad7142f9a83d342cd19690e12dd3b90aa2ba8ea1c6",
+    "page_count": 4,
+    "date_precision": "day",
+    "date_evidence_physical_page": 1,
+    "ocr_engine": "Windows.Media.Ocr, ru",
+    "date_reviewed_on": "2026-10-20",
+    "numeric_values_verified_globally": false
+  },
+  {
+    "source_id": "alfa_steel",
+    "file_name": "ALFA_Russian_Steels_1К21PreviewUpdate_15Apr2021.pdf",
+    "source_url": "https://drive.google.com/file/d/1yLCBrIoyIsubLTEBvBHh6io48ysnW-wn/view",
+    "expected_size_bytes": 6968001,
+    "publication_date": "2021-04-15",
+    "date_review_status": "visual_verified",
+    "title": "Российская сталь. Ралли цен продолжается; прогноз результатов за 1К21",
+    "language": "ru",
+    "exclude_from_search_pages": [
+      2,
+      3,
+      4
+    ],
+    "notes": [
+      "Все страницы являются сканами. OCR не гарантирует правильность чисел и таблиц.",
+      "page означает физическую страницу PDF, начиная с 1; печатная нумерация может отличаться.",
+      "Исторический обзор 15.04.2021; общий дисклеймер 2026 года не меняет дату основного исследования. Не заменяет свежий Commodities performance из перечня ТЗ."
+    ],
+    "sha256": "36eaaa58ae68d858db3600dbf3cc93d0bdefb8ca03f1f5cc154c532cc32e0c86",
+    "page_count": 4,
+    "date_precision": "day",
+    "date_evidence_physical_page": 1,
+    "ocr_engine": "Windows.Media.Ocr, ru",
+    "date_reviewed_on": "2026-10-20",
+    "numeric_values_verified_globally": false
+  },
+  {
+    "source_id": "alfa_labor_7m",
+    "file_name": "ALFA-7M26.pdf",
+    "source_url": "https://drive.google.com/file/d/1HZDq3WGRFdzgm1TZ5hWL23Q3I9c2Eq64/view",
+    "expected_size_bytes": 6458583,
+    "publication_date": "2026-09-07",
+    "date_review_status": "visual_verified",
+    "title": "Макростатистика 7М26. Данные по рынку труда не подтверждают охлаждения экономики",
+    "language": "ru",
+    "exclude_from_search_pages": [
+      3,
+      4
+    ],
+    "notes": [
+      "Все страницы являются сканами. OCR не гарантирует правильность чисел и таблиц.",
+      "page означает физическую страницу PDF, начиная с 1; печатная нумерация может отличаться."
+    ],
+    "sha256": "3c64c1e43f3b46a795f9581967f2dbc8efb0994cb77ab82e95da180830e9ff8c",
+    "page_count": 4,
+    "date_precision": "day",
+    "date_evidence_physical_page": 1,
+    "ocr_engine": "Windows.Media.Ocr, ru",
+    "date_reviewed_on": "2026-10-20",
+    "numeric_values_verified_globally": false
+  },
+  {
+    "source_id": "alfa_policy_rate",
+    "file_name": "ALFA-Macro_Insights-Policy_Rate_11Sep.pdf",
+    "source_url": "https://drive.google.com/file/d/1shHG89LtMgHT1_uEebHmQSFZe_zbeq7-/view",
+    "expected_size_bytes": 6343186,
+    "publication_date": "2026-09-11",
+    "date_review_status": "visual_verified",
+    "title": "Ключевая ставка ЦБ РФ. Ставка без изменения на 14,0%, риторика стала жестче",
+    "language": "ru",
+    "exclude_from_search_pages": [
+      2,
+      3,
+      4
+    ],
+    "notes": [
+      "Все страницы являются сканами. OCR не гарантирует правильность чисел и таблиц.",
+      "page означает физическую страницу PDF, начиная с 1; печатная нумерация может отличаться.",
+      "Прогноз ставки 14% до конца 2026 года заменяет более ранний прогноз 13,5% в июльском обзоре. Это прогноз на дату документа, не состоявшийся факт."
+    ],
+    "sha256": "92a96805f2b720f76bd0c52d2491044812b38401ab62d0f4a9157b4ca81c49bb",
+    "page_count": 4,
+    "date_precision": "day",
+    "date_evidence_physical_page": 1,
+    "ocr_engine": "Windows.Media.Ocr, ru",
+    "date_reviewed_on": "2026-10-20",
+    "numeric_values_verified_globally": false
+  },
+  {
+    "source_id": "alfa_gdp_1h",
+    "file_name": "ALFA-macro_stat1H26.pdf",
+    "source_url": "https://drive.google.com/file/d/1khcHwoS0FkG9p_0J4XoHGaGq3B4V0ime/view",
+    "expected_size_bytes": 6100459,
+    "publication_date": "2026-07-31",
+    "date_review_status": "visual_verified",
+    "title": "Макростатистика 1П26. Слабый рост 1П26 смещает наш прогноз роста ВВП на 0,1% за год",
+    "language": "ru",
+    "exclude_from_search_pages": [
+      4,
+      5
+    ],
+    "notes": [
+      "Все страницы являются сканами. OCR не гарантирует правильность чисел и таблиц.",
+      "page означает физическую страницу PDF, начиная с 1; печатная нумерация может отличаться."
+    ],
+    "sha256": "84899553fadf3e49abac7074c7b7d2afc2fa5c70b7fde0bf4c3eabe3d7402266",
+    "page_count": 5,
+    "date_precision": "day",
+    "date_evidence_physical_page": 1,
+    "ocr_engine": "Windows.Media.Ocr, ru",
+    "date_reviewed_on": "2026-10-20",
+    "numeric_values_verified_globally": false
+  },
+  {
+    "source_id": "alfa_fi_strategy",
+    "file_name": "FI_Strategy_3Q26_22072026.pdf",
+    "source_url": "https://drive.google.com/file/d/1hq3Fhyz9ce_sRyGUQB1MdoHeQdfAJfhK/view",
+    "expected_size_bytes": 34890230,
+    "publication_date": "2026-07-22",
+    "date_review_status": "visual_verified",
+    "title": "Тактический взгляд на 3-й квартал 2026 года: Время собирать камни",
+    "language": "ru",
+    "exclude_from_search_pages": [
+      1,
+      26,
+      27
+    ],
+    "notes": [
+      "Все страницы являются сканами. OCR не гарантирует правильность чисел и таблиц.",
+      "page означает физическую страницу PDF, начиная с 1; печатная нумерация может отличаться."
+    ],
+    "sha256": "6c3a4882ee784b608880693d8ba2b62d0ba2236e34b404179adaab909c6dd046",
+    "page_count": 27,
+    "date_precision": "day",
+    "date_evidence_physical_page": 1,
+    "ocr_engine": "Windows.Media.Ocr, ru",
+    "date_reviewed_on": "2026-10-20",
+    "numeric_values_verified_globally": false
+  },
+  {
+    "source_id": "alfa_inflation",
+    "file_name": "Inflation_tracker_02.pdf",
+    "source_url": "https://drive.google.com/file/d/19iW3Ph8_wO0HHQY7Ik4lTfC3jRc9gjWV/view",
+    "expected_size_bytes": 3385668,
+    "publication_date": "2026-09-02",
+    "date_review_status": "visual_verified",
+    "title": "Инфляция 25–31 августа: основные выводы",
+    "language": "ru",
+    "exclude_from_search_pages": [
+      2,
+      3
+    ],
+    "notes": [
+      "Все страницы являются сканами. OCR не гарантирует правильность чисел и таблиц.",
+      "page означает физическую страницу PDF, начиная с 1; печатная нумерация может отличаться."
+    ],
+    "sha256": "09d5537f6a52f5f8f2d9518ed9171e794382972ce38cbdc4bd3099b2db129d0c",
+    "page_count": 3,
+    "date_precision": "day",
+    "date_evidence_physical_page": 1,
+    "ocr_engine": "Windows.Media.Ocr, ru",
+    "date_reviewed_on": "2026-10-20",
+    "numeric_values_verified_globally": false
+  },
+  {
+    "source_id": "alfa_gold",
+    "file_name": "Gold_digest_August26.pdf",
+    "source_url": "https://drive.google.com/file/d/1a7TXOCHARfKzUR0hn9Cm9gQSrIldxTDE/view",
+    "expected_size_bytes": 8613150,
+    "publication_date": null,
+    "date_review_status": "publication_date_unknown",
+    "title": "Обзор рынка золота. Август 2026",
+    "language": "ru",
+    "exclude_from_search_pages": [
+      1,
+      8
+    ],
+    "notes": [
+      "Все страницы являются сканами. OCR не гарантирует правильность чисел и таблиц.",
+      "page означает физическую страницу PDF, начиная с 1; печатная нумерация может отличаться.",
+      "На обложке указан месяц обзора, точная дата публикации не найдена. Страница 6 содержит сведения на 7 сентября: нельзя считать документ опубликованным в августе. Поиск требует явного --include-undated."
+    ],
+    "sha256": "4159576a6223985dd318b6f5a04ad4aeb888f47a6c266d0e9ee9eb35bf01e245",
+    "page_count": 8,
+    "date_precision": "unknown",
+    "date_evidence_physical_page": null,
+    "ocr_engine": "Windows.Media.Ocr, ru",
+    "date_reviewed_on": "2026-10-20",
+    "numeric_values_verified_globally": false,
+    "report_period": "2026-08"
+  },
+  {
+    "source_id": "alfa_bond_brief",
+    "file_name": "Бонд_Бриф_14092026.pdf",
+    "source_url": "https://drive.google.com/file/d/1bPzix_332N2CyMY0tqCHuYtGsfJWnFGv/view",
+    "expected_size_bytes": 7463613,
+    "publication_date": "2026-09-14",
+    "date_review_status": "visual_verified",
+    "title": "Бонд Бриф: Итоги недели",
+    "language": "ru",
+    "exclude_from_search_pages": [
+      4,
+      5
+    ],
+    "notes": [
+      "Все страницы являются сканами. OCR не гарантирует правильность чисел и таблиц.",
+      "page означает физическую страницу PDF, начиная с 1; печатная нумерация может отличаться."
+    ],
+    "sha256": "87dc17520e2a744f95580ee2ec42461d0ee6ebf19e752622a49c49600cb1b055",
+    "page_count": 5,
+    "date_precision": "day",
+    "date_evidence_physical_page": 1,
+    "ocr_engine": "Windows.Media.Ocr, ru",
+    "date_reviewed_on": "2026-10-20",
+    "numeric_values_verified_globally": false
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "kind": "actual_linux_signals_synthetic_gateway",
+  "external_calls": 0,
+  "sigterm": {
+    "exit_code": 0,
+    "seconds": 6.31,
+    "state_after_restart": {
+      "calls": {
+        "ok": 1
+      },
+      "usage": 1,
+      "jobs": {
+        "failed": 1
+      },
+      "cache": 1,
+      "markers": 1
+    },
+    "review_started": false
+  },
+  "sigkill_restart": {
+    "state": {
+      "calls": {
+        "interrupted_outcome_unknown": 1,
+        "ok": 1
+      },
+      "usage": 2,
+      "jobs": {
+        "failed": 2
+      },
+      "cache": 1,
+      "markers": 2
+    },
+    "same_id_returns_failed_without_send": true,
+    "automatic_replay": false
+  },
+  "passed": true
+}

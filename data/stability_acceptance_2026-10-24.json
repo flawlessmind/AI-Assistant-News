@@ -1,0 +1,48 @@
+{
+  "analysis_version": "2026-10-24-v21-stable-attempts",
+  "logic_sha256": "669d667122085afbb7f837593bdda56867d0bf9d82eee9411e463896464244f1",
+  "python_windows": {
+    "passed": 205,
+    "failed": 0
+  },
+  "python_linux_network_none": {
+    "passed": 205,
+    "failed": 0
+  },
+  "javascript": {
+    "passed": 58,
+    "failed": 0
+  },
+  "corpus_checks": 12,
+  "quality_checks": 13,
+  "expanded_checks": 866,
+  "news_search_cases": 6,
+  "bank_search": {
+    "relevant_cases": 8,
+    "hit_at_3": 7,
+    "hit_at_5": 8,
+    "unrelated_cases": 3,
+    "unrelated_empty": 3,
+    "failed": 0
+  },
+  "http_company_role_cases": 10,
+  "dependency_blocked_tests": [],
+  "new_paid_llm_calls": 0,
+  "real_environment_unchanged": true,
+  "old_runtime_rows_preserved": true,
+  "ui_markup_and_styles_unchanged": true,
+  "local_ready": true,
+  "public_ready": false,
+  "public_prerequisites": [
+    "authentication",
+    "company and history ACLs",
+    "rate limiting",
+    "per-user LLM quotas",
+    "TLS and secrets management"
+  ],
+  "test_inputs": {
+    "python-final.log": "7c20a745d56844a2754f2705e5577b9aa0a2570f280cbaa69e61fa67569e83fe",
+    "docker-python.log": "841493b179625ab0976ae11bfccd6dc7a4cf657f685a673f4ff062773cbf81ad",
+    "js-final.log": "7dadf9e39fa55bd9ae22b539c1a280b73f59c90fca1a88a3b0be6fd095916d4f"
+  }
+}

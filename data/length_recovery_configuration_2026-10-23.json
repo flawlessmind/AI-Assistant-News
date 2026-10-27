@@ -1,0 +1,13 @@
+{
+  "local_cap": 100,
+  "ordinary_release_default_cap": 30,
+  "gateway_budget_rub_per_day": 500,
+  "authorization": "Existing explicit user authorization for necessary additional paid calls.",
+  "purpose": "Acceptance plus continued local use after the authorized checks; no reset or bypass of the official budget.",
+  "changed_local_configuration_fields": [
+    "ALFA_MAX_CALLS_PER_PERIOD"
+  ],
+  "all_other_configuration_fields_unchanged": true,
+  "usage_ledger_reset": false,
+  "history_deleted": false
+}

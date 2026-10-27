@@ -1,0 +1,1078 @@
+{
+  "checked_at": "2026-10-21T03:46:51.855904+03:00",
+  "status": "complete",
+  "run_id": "9c3dc4fc749d40cf9374c41d3a05dd28",
+  "scenario": {
+    "company_id": "U_1595",
+    "role": "cfo",
+    "event_id": "news_9f10b60aed544eaa32d4",
+    "news_title": "В большинстве регионов в сентябре цены выросли умеренно",
+    "published_at": "2026-10-16T12:46:00+03:00",
+    "source_url": "https://www.cbr.ru/press/event/?id=32919"
+  },
+  "initial_truncation_diagnostics": {
+    "http_status": 200,
+    "response_bytes": 17194,
+    "requested_max_tokens": 1800,
+    "usage": {
+      "prompt_tokens": 5393,
+      "completion_tokens": 1800,
+      "total_tokens": 7193,
+      "completion_tokens_details": {
+        "reasoning_tokens": 1800
+      }
+    },
+    "finish_reason": "length",
+    "content_type": "string",
+    "reasoning_chars": 6274,
+    "content_chars": 0,
+    "reason": "output_truncated"
+  },
+  "model": "deepseek/deepseek-v4.1-flash",
+  "limits": {
+    "draft_max_tokens": 6144,
+    "review_max_tokens": 4096,
+    "timeout_seconds": 120.0
+  },
+  "gateway_parameters": {
+    "used": [
+      "model",
+      "messages",
+      "max_tokens"
+    ],
+    "json_mode_or_thinking_controls_used": false,
+    "support_for_those_controls_verified": false
+  },
+  "actual_draft_diagnostics": {
+    "stage": "draft",
+    "call_id": "f068cc3c808c40c4be5f9ba8ede126df",
+    "attempt": 1,
+    "requested_max_tokens": 6144,
+    "request_bytes": 30444,
+    "message_chars": 17735,
+    "timeout_seconds": 120.0,
+    "http_status": 200,
+    "elapsed_ms": 30062,
+    "response_bytes": 34605,
+    "usage": {
+      "prompt_tokens": 5803,
+      "completion_tokens": 3859,
+      "total_tokens": 9662,
+      "completion_tokens_details": {
+        "reasoning_tokens": 3176
+      }
+    },
+    "finish_reason": "stop",
+    "content_type": "string",
+    "reasoning_chars": 11768,
+    "content_chars": 2090
+  },
+  "actual_review_diagnostics": {
+    "stage": "review",
+    "call_id": "49079df65b144ab3b5e2abcd5bcaa7a9",
+    "attempt": 1,
+    "requested_max_tokens": 4096,
+    "request_bytes": 29473,
+    "message_chars": 17176,
+    "timeout_seconds": 120.0,
+    "http_status": 200,
+    "elapsed_ms": 9984,
+    "response_bytes": 10311,
+    "usage": {
+      "prompt_tokens": 5725,
+      "completion_tokens": 1123,
+      "total_tokens": 6848,
+      "completion_tokens_details": {
+        "reasoning_tokens": 1106
+      }
+    },
+    "finish_reason": "stop",
+    "content_type": "string",
+    "reasoning_chars": 3973,
+    "content_chars": 53
+  },
+  "real_generation_requests_this_task": 12,
+  "request_breakdown": {
+    "draft": 7,
+    "review": 5
+  },
+  "key_info_requests": 1,
+  "network_retries": 0,
+  "cost_rub": null,
+  "key_info_units_verified": false,
+  "insight": {
+    "status": "complete",
+    "title": "Торговля одеждой: сдержанный рост цен в непродовольственном сегменте и охлаждение спроса",
+    "news_facts": [
+      {
+        "text": "Цены по широкому кругу непродовольственных товаров в регионах росли сдержанно.",
+        "quote": "Цены по широкому кругу непродовольственных товаров в регионах росли сдержанно.",
+        "evidence_ids": [
+          "news_9f10b60aed544eaa32d4"
+        ]
+      }
+    ],
+    "bank_positions": [
+      {
+        "text": "2026-09-07: банк оценивает замедление роста оборота розничной торговли как следствие охлаждения спроса в непродовольственном сегменте.",
+        "quote": "Основной причиной мы считаем замедление роста потребления в сегменте непродовольственных",
+        "evidence_ids": [
+          "ev_ea0f1e38daffe69d107aa6c1"
+        ]
+      }
+    ],
+    "interpretations": [
+      {
+        "text": "Если сдержанный рост цен на непродовольственные товары сопровождается охлаждением спроса в этом сегменте, выручка розничного продавца одежды может расти медленнее.",
+        "evidence_ids": [
+          "news_9f10b60aed544eaa32d4",
+          "ev_ea0f1e38daffe69d107aa6c1"
+        ],
+        "company_fields": [
+          "company.industry_okved_code"
+        ],
+        "conditional": true
+      }
+    ],
+    "risks": [
+      {
+        "text": "Если прогноз банка, опубликованный в августе, об охлаждении потребления реализуется, спрос в розничной торговле одеждой может ослабнуть.",
+        "evidence_ids": [
+          "ev_e544ad1c4cf24ded425d16c3"
+        ],
+        "company_fields": [
+          "company.industry_okved_code"
+        ],
+        "conditional": true
+      }
+    ],
+    "opportunities": [
+      {
+        "text": "Возможность проверить, насколько ценовые и ассортиментные решения клиента устойчивы при сдержанном росте цен на непродовольственные товары.",
+        "evidence_ids": [
+          "news_9f10b60aed544eaa32d4",
+          "ev_ea0f1e38daffe69d107aa6c1"
+        ],
+        "company_fields": [
+          "company.industry_okved_code"
+        ],
+        "conditional": true
+      }
+    ],
+    "actions": [
+      {
+        "text": "Уточнить у клиента динамику продаж и, если кредитный договор действует, его условия, включая ставку и график платежей.",
+        "evidence_ids": [
+          "news_9f10b60aed544eaa32d4",
+          "ev_ea0f1e38daffe69d107aa6c1"
+        ],
+        "company_fields": [
+          "company.products.credit",
+          "company.industry_okved_code"
+        ],
+        "conditional": true
+      }
+    ],
+    "uncertainties": [
+      "Единицы и отчётный год выручки, динамика продаж и запасов не установлены.",
+      "Сумма долга и условия кредитных договоров клиента не установлены."
+    ],
+    "additional_queries": []
+  },
+  "review": {
+    "approved": true,
+    "issues": [],
+    "additional_queries": []
+  },
+  "quote_checks": [
+    {
+      "kind": "news",
+      "evidence_id": "news_9f10b60aed544eaa32d4",
+      "present": true,
+      "start_char": 0
+    },
+    {
+      "kind": "bank",
+      "evidence_id": "ev_ea0f1e38daffe69d107aa6c1",
+      "source_id": "alfa_labor_7m",
+      "publication_date": "2026-09-07",
+      "page": 1,
+      "present": true
+    }
+  ],
+  "bank_sources": [
+    {
+      "evidence_id": "ev_916131830f6a0f295f29698d",
+      "source_id": "alfa_inflation",
+      "title": "Инфляция 25–31 августа: основные выводы",
+      "publication_date": "2026-09-02",
+      "page": 1,
+      "page_url": "https://drive.google.com/file/d/19iW3Ph8_wO0HHQY7Ik4lTfC3jRc9gjWV/view#page=1"
+    },
+    {
+      "evidence_id": "ev_8ab75b3e3425094b79422991",
+      "source_id": "alfa_policy_rate",
+      "title": "Ключевая ставка ЦБ РФ. Ставка без изменения на 14,0%, риторика стала жестче",
+      "publication_date": "2026-09-11",
+      "page": 1,
+      "page_url": "https://drive.google.com/file/d/1shHG89LtMgHT1_uEebHmQSFZe_zbeq7-/view#page=1"
+    },
+    {
+      "evidence_id": "ev_ea0f1e38daffe69d107aa6c1",
+      "source_id": "alfa_labor_7m",
+      "title": "Макростатистика 7М26. Данные по рынку труда не подтверждают охлаждения экономики",
+      "publication_date": "2026-09-07",
+      "page": 1,
+      "page_url": "https://drive.google.com/file/d/1HZDq3WGRFdzgm1TZ5hWL23Q3I9c2Eq64/view#page=1"
+    },
+    {
+      "evidence_id": "ev_093499d04edac4927d8f55d3",
+      "source_id": "alfa_consumption",
+      "title": "Потребление на пике",
+      "publication_date": "2026-08-05",
+      "page": 2,
+      "page_url": "https://drive.google.com/file/d/1riR1lhsb6EY1MwGMxdBlS_tI5ed9mIiz/view#page=2"
+    },
+    {
+      "evidence_id": "ev_e544ad1c4cf24ded425d16c3",
+      "source_id": "alfa_consumption",
+      "title": "Потребление на пике",
+      "publication_date": "2026-08-05",
+      "page": 1,
+      "page_url": "https://drive.google.com/file/d/1riR1lhsb6EY1MwGMxdBlS_tI5ed9mIiz/view#page=1"
+    },
+    {
+      "evidence_id": "ev_cadba6abd91f405736d26a25",
+      "source_id": "alfa_consumption",
+      "title": "Потребление на пике",
+      "publication_date": "2026-08-05",
+      "page": 3,
+      "page_url": "https://drive.google.com/file/d/1riR1lhsb6EY1MwGMxdBlS_tI5ed9mIiz/view#page=3"
+    }
+  ],
+  "trace": [
+    {
+      "step": "plan",
+      "queries": [
+        "инфляция основные выводы",
+        "инфляция непродовольственные товары цены",
+        "инфляция ограничения предложения спрос",
+        "розничная торговля потребление спрос"
+      ],
+      "reason": "Темы новости, профиль и выбранный вопрос определяют план поиска."
+    },
+    {
+      "step": "retrieve",
+      "round": 1,
+      "query": "инфляция основные выводы",
+      "source_filter": "alfa_inflation",
+      "evidence_ids": [
+        "ev_916131830f6a0f295f29698d"
+      ],
+      "new_evidence_ids": [
+        "ev_916131830f6a0f295f29698d"
+      ]
+    },
+    {
+      "step": "retrieve",
+      "round": 1,
+      "query": "инфляция непродовольственные товары цены",
+      "source_filter": null,
+      "evidence_ids": [
+        "ev_093499d04edac4927d8f55d3",
+        "ev_466819d9f38c8550f79ce092",
+        "ev_8182d1baec68b32b6d75f8e2"
+      ],
+      "new_evidence_ids": [
+        "ev_093499d04edac4927d8f55d3",
+        "ev_466819d9f38c8550f79ce092",
+        "ev_8182d1baec68b32b6d75f8e2"
+      ]
+    },
+    {
+      "step": "retrieve",
+      "round": 1,
+      "query": "инфляция ограничения предложения спрос",
+      "source_filter": null,
+      "evidence_ids": [
+        "ev_93822b0d28b72148f1b8e90e",
+        "ev_ea0f1e38daffe69d107aa6c1",
+        "ev_8ab75b3e3425094b79422991"
+      ],
+      "new_evidence_ids": [
+        "ev_93822b0d28b72148f1b8e90e",
+        "ev_ea0f1e38daffe69d107aa6c1",
+        "ev_8ab75b3e3425094b79422991"
+      ]
+    },
+    {
+      "step": "retrieve",
+      "round": 1,
+      "query": "розничная торговля потребление спрос",
+      "source_filter": null,
+      "evidence_ids": [
+        "ev_c52b5eea43a91b9f6a9e773e",
+        "ev_e544ad1c4cf24ded425d16c3",
+        "ev_ea0f1e38daffe69d107aa6c1"
+      ],
+      "new_evidence_ids": [
+        "ev_c52b5eea43a91b9f6a9e773e",
+        "ev_e544ad1c4cf24ded425d16c3"
+      ]
+    },
+    {
+      "step": "draft",
+      "round": 1,
+      "model": "deepseek/deepseek-v4.1-flash",
+      "requested_max_tokens": 6144,
+      "context_chars": 14311,
+      "news_chars": 1043,
+      "bank_evidence_chars": 8400
+    },
+    {
+      "step": "draft_result",
+      "cached": true,
+      "usage": {
+        "prompt_tokens": 5630,
+        "completion_tokens": 3256,
+        "total_tokens": 8886,
+        "completion_tokens_details": {
+          "reasoning_tokens": 2595
+        }
+      },
+      "cost_rub": null,
+      "diagnostics": {
+        "stage": "draft",
+        "call_id": "cfbbb705a9c54756b80eeb59f4046980",
+        "attempt": 1,
+        "requested_max_tokens": 6144,
+        "request_bytes": 29633,
+        "message_chars": 17245,
+        "timeout_seconds": 120.0,
+        "http_status": 200,
+        "elapsed_ms": 22437,
+        "response_bytes": 28995,
+        "usage": {
+          "prompt_tokens": 5630,
+          "completion_tokens": 3256,
+          "total_tokens": 8886,
+          "completion_tokens_details": {
+            "reasoning_tokens": 2595
+          }
+        },
+        "finish_reason": "stop",
+        "content_type": "string",
+        "reasoning_chars": 9344,
+        "content_chars": 2080
+      }
+    },
+    {
+      "step": "check",
+      "issues": [],
+      "semantic_entailment_automatically_proved": false
+    },
+    {
+      "step": "model_review",
+      "approved": false,
+      "issues": [
+        "Риск про «обслуживание кредита» опирается на маркер products.credit: текущий долг и условия договора не подтверждены.",
+        "Действие предполагает наличие «действующего кредитного договора», а источник ev_8ab75b3e — о ключевой ставке, не о кредитах клиента."
+      ],
+      "queries": [
+        "Наличие, сумма и условия кредитов клиента U_1595; график платежей и ставка",
+        "Структура выручки U_1595: доля одежды и чувствительность продаж к спросу"
+      ],
+      "cached": true,
+      "usage": {
+        "prompt_tokens": 5508,
+        "completion_tokens": 1756,
+        "total_tokens": 7264,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1613
+        }
+      },
+      "diagnostics": {
+        "stage": "review",
+        "call_id": "bf6b31cc9c344cc0a4ee82c62bb28c69",
+        "attempt": 1,
+        "requested_max_tokens": 4096,
+        "request_bytes": 28597,
+        "message_chars": 16644,
+        "timeout_seconds": 120.0,
+        "http_status": 200,
+        "elapsed_ms": 14906,
+        "response_bytes": 18751,
+        "usage": {
+          "prompt_tokens": 5508,
+          "completion_tokens": 1756,
+          "total_tokens": 7264,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1613
+          }
+        },
+        "finish_reason": "stop",
+        "content_type": "string",
+        "reasoning_chars": 6989,
+        "content_chars": 459
+      }
+    },
+    {
+      "step": "replan",
+      "reason": "Проверка не пройдена; уточняем поиск и передаём ошибки в следующую генерацию.",
+      "issues": [
+        "semantic_review_not_approved"
+      ],
+      "queries": [
+        "розничная торговля потребление спрос",
+        "инфляция непродовольственные товары цены"
+      ],
+      "unavailable_queries": [
+        "Наличие, сумма и условия кредитов клиента U_1595; график платежей и ставка",
+        "Структура выручки U_1595: доля одежды и чувствительность продаж к спросу"
+      ]
+    },
+    {
+      "step": "retrieve",
+      "round": 2,
+      "query": "розничная торговля потребление спрос",
+      "source_filter": null,
+      "evidence_ids": [
+        "ev_c52b5eea43a91b9f6a9e773e",
+        "ev_e544ad1c4cf24ded425d16c3",
+        "ev_ea0f1e38daffe69d107aa6c1",
+        "ev_cadba6abd91f405736d26a25",
+        "ev_cd18d4172c26eb770764290a"
+      ],
+      "new_evidence_ids": [
+        "ev_cadba6abd91f405736d26a25",
+        "ev_cd18d4172c26eb770764290a"
+      ]
+    },
+    {
+      "step": "retrieve",
+      "round": 2,
+      "query": "инфляция непродовольственные товары цены",
+      "source_filter": null,
+      "evidence_ids": [
+        "ev_093499d04edac4927d8f55d3",
+        "ev_466819d9f38c8550f79ce092",
+        "ev_8182d1baec68b32b6d75f8e2",
+        "ev_916131830f6a0f295f29698d",
+        "ev_c52b5eea43a91b9f6a9e773e"
+      ],
+      "new_evidence_ids": []
+    },
+    {
+      "step": "draft",
+      "round": 2,
+      "model": "deepseek/deepseek-v4.1-flash",
+      "requested_max_tokens": 6144,
+      "context_chars": 14801,
+      "news_chars": 1043,
+      "bank_evidence_chars": 8400
+    },
+    {
+      "step": "draft_result",
+      "cached": false,
+      "usage": {
+        "prompt_tokens": 5803,
+        "completion_tokens": 3859,
+        "total_tokens": 9662,
+        "completion_tokens_details": {
+          "reasoning_tokens": 3176
+        }
+      },
+      "cost_rub": null,
+      "diagnostics": {
+        "stage": "draft",
+        "call_id": "f068cc3c808c40c4be5f9ba8ede126df",
+        "attempt": 1,
+        "requested_max_tokens": 6144,
+        "request_bytes": 30444,
+        "message_chars": 17735,
+        "timeout_seconds": 120.0,
+        "http_status": 200,
+        "elapsed_ms": 30062,
+        "response_bytes": 34605,
+        "usage": {
+          "prompt_tokens": 5803,
+          "completion_tokens": 3859,
+          "total_tokens": 9662,
+          "completion_tokens_details": {
+            "reasoning_tokens": 3176
+          }
+        },
+        "finish_reason": "stop",
+        "content_type": "string",
+        "reasoning_chars": 11768,
+        "content_chars": 2090
+      }
+    },
+    {
+      "step": "check",
+      "issues": [],
+      "semantic_entailment_automatically_proved": false
+    },
+    {
+      "step": "model_review",
+      "approved": true,
+      "issues": [],
+      "queries": [],
+      "cached": false,
+      "usage": {
+        "prompt_tokens": 5725,
+        "completion_tokens": 1123,
+        "total_tokens": 6848,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1106
+        }
+      },
+      "diagnostics": {
+        "stage": "review",
+        "call_id": "49079df65b144ab3b5e2abcd5bcaa7a9",
+        "attempt": 1,
+        "requested_max_tokens": 4096,
+        "request_bytes": 29473,
+        "message_chars": 17176,
+        "timeout_seconds": 120.0,
+        "http_status": 200,
+        "elapsed_ms": 9984,
+        "response_bytes": 10311,
+        "usage": {
+          "prompt_tokens": 5725,
+          "completion_tokens": 1123,
+          "total_tokens": 6848,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1106
+          }
+        },
+        "finish_reason": "stop",
+        "content_type": "string",
+        "reasoning_chars": 3973,
+        "content_chars": 53
+      }
+    },
+    {
+      "step": "stop",
+      "reason": "Структура, источники, признаки и модельная проверка пройдены; остаются заявленные ограничения."
+    }
+  ],
+  "company_comparison": [
+    {
+      "company_id": "U_1595",
+      "score": 7.92,
+      "reasons": [
+        {
+          "points": 5,
+          "company_field": "company.industry_okved_code",
+          "company_value": "47.71",
+          "text": "Розничная торговля: событие связано с потребительскими ценами или спросом. Влияние на продажи клиента ещё не установлено."
+        },
+        {
+          "points": 1,
+          "company_field": "company.products.credit",
+          "company_value": true,
+          "text": "Отмечен кредитный продукт: изменение цен — повод проверить потребность в оборотном финансировании. Рост расходов клиента этим не установлен."
+        },
+        {
+          "points": 1,
+          "company_field": "user.selected_role",
+          "company_value": "cfo",
+          "text": "Выбран ракурс финансового директора: приоритет условиям финансирования и денежным потокам."
+        }
+      ]
+    },
+    {
+      "company_id": "U_83932",
+      "score": 4.92,
+      "reasons": [
+        {
+          "points": 3,
+          "company_field": "company.industry_okved_code",
+          "company_value": "41.20.1",
+          "text": "Для строительства событие может влиять на условия спроса, закупок и финансирования проектов. Конкретный эффект требует данных о проектах."
+        },
+        {
+          "points": 1,
+          "company_field": "user.selected_role",
+          "company_value": "cfo",
+          "text": "Выбран ракурс финансового директора: приоритет условиям финансирования и денежным потокам."
+        }
+      ]
+    }
+  ],
+  "manual_audit": {
+    "accepted": true,
+    "notes": [
+      "News fact and bank quotation were compared with original stored source text and indexed page.",
+      "Dated bank assessment is separated from the conditional company impact.",
+      "Credit contract is conditional, current debt/contract rate and financial quantities are not asserted.",
+      "Risks, opportunities, actions and explicit unknown revenue units are present.",
+      "Earlier model-approved but unsound result was withdrawn; it is not the final run."
+    ]
+  },
+  "browser_verification": {
+    "scenario_performed": true,
+    "trace_text_and_diagnostics_visible": true,
+    "trace_steps": 17,
+    "company_switch_without_llm": true,
+    "screenshots": [
+      "docs/llm_insight_verified.png",
+      "docs/llm_trace_verified.png"
+    ]
+  },
+  "protected_files_unchanged": 10,
+  "deleted_files": [
+    "apply_alfa_llm_fix.py"
+  ],
+  "env_other_lines_and_key_preserved": true,
+  "old_runtime_and_backups_preserved": true,
+  "calls": [
+    {
+      "id": "8210a35d2e0c4ca0886d1473b3f18d77",
+      "status": "ok",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "usage": {
+        "prompt_tokens": 4658,
+        "completion_tokens": 2965,
+        "total_tokens": 7623,
+        "completion_tokens_details": {
+          "reasoning_tokens": 2305
+        }
+      },
+      "diagnostics": {
+        "stage": "draft",
+        "call_id": "8210a35d2e0c4ca0886d1473b3f18d77",
+        "attempt": 1,
+        "requested_max_tokens": 6144,
+        "request_bytes": 23717,
+        "message_chars": 13937,
+        "timeout_seconds": 120.0,
+        "http_status": 200,
+        "elapsed_ms": 20469,
+        "response_bytes": 25798,
+        "usage": {
+          "prompt_tokens": 4658,
+          "completion_tokens": 2965,
+          "total_tokens": 7623,
+          "completion_tokens_details": {
+            "reasoning_tokens": 2305
+          }
+        },
+        "finish_reason": "stop",
+        "content_type": "string",
+        "reasoning_chars": 8270,
+        "content_chars": 2066
+      }
+    },
+    {
+      "id": "a63f8bd9a4c0425fb9fcbfd9828aed26",
+      "status": "ok",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "usage": {
+        "prompt_tokens": 4688,
+        "completion_tokens": 4068,
+        "total_tokens": 8756,
+        "completion_tokens_details": {
+          "reasoning_tokens": 3395
+        }
+      },
+      "diagnostics": {
+        "stage": "draft",
+        "call_id": "a63f8bd9a4c0425fb9fcbfd9828aed26",
+        "attempt": 1,
+        "requested_max_tokens": 6144,
+        "request_bytes": 24056,
+        "message_chars": 14160,
+        "timeout_seconds": 120.0,
+        "http_status": 200,
+        "elapsed_ms": 28109,
+        "response_bytes": 36109,
+        "usage": {
+          "prompt_tokens": 4688,
+          "completion_tokens": 4068,
+          "total_tokens": 8756,
+          "completion_tokens_details": {
+            "reasoning_tokens": 3395
+          }
+        },
+        "finish_reason": "stop",
+        "content_type": "string",
+        "reasoning_chars": 11815,
+        "content_chars": 2076
+      }
+    },
+    {
+      "id": "da05e2ad6b37494d9f2534e1f8084c23",
+      "status": "ok",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "usage": {
+        "prompt_tokens": 5390,
+        "completion_tokens": 3350,
+        "total_tokens": 8740,
+        "completion_tokens_details": {
+          "reasoning_tokens": 2734
+        }
+      },
+      "diagnostics": {
+        "stage": "draft",
+        "call_id": "da05e2ad6b37494d9f2534e1f8084c23",
+        "attempt": 1,
+        "requested_max_tokens": 6144,
+        "request_bytes": 27961,
+        "message_chars": 16348,
+        "timeout_seconds": 120.0,
+        "http_status": 200,
+        "elapsed_ms": 22063,
+        "response_bytes": 29900,
+        "usage": {
+          "prompt_tokens": 5390,
+          "completion_tokens": 3350,
+          "total_tokens": 8740,
+          "completion_tokens_details": {
+            "reasoning_tokens": 2734
+          }
+        },
+        "finish_reason": "stop",
+        "content_type": "string",
+        "reasoning_chars": 9446,
+        "content_chars": 1917
+      }
+    },
+    {
+      "id": "5286d5d026364ebc9a6cc3bc555d5f2a",
+      "status": "ok",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "usage": {
+        "prompt_tokens": 5412,
+        "completion_tokens": 1533,
+        "total_tokens": 6945,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1516
+        }
+      },
+      "diagnostics": {
+        "stage": "review",
+        "call_id": "5286d5d026364ebc9a6cc3bc555d5f2a",
+        "attempt": 1,
+        "requested_max_tokens": 4096,
+        "request_bytes": 27869,
+        "message_chars": 16254,
+        "timeout_seconds": 120.0,
+        "http_status": 200,
+        "elapsed_ms": 12469,
+        "response_bytes": 15770,
+        "usage": {
+          "prompt_tokens": 5412,
+          "completion_tokens": 1533,
+          "total_tokens": 6945,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1516
+          }
+        },
+        "finish_reason": "stop",
+        "content_type": "string",
+        "reasoning_chars": 5969,
+        "content_chars": 53
+      }
+    },
+    {
+      "id": "fc8fdc6e58834f788aca1c3a4c9db3d1",
+      "status": "ok",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "usage": {
+        "prompt_tokens": 5512,
+        "completion_tokens": 2765,
+        "total_tokens": 8277,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1951
+        }
+      },
+      "diagnostics": {
+        "stage": "draft",
+        "call_id": "fc8fdc6e58834f788aca1c3a4c9db3d1",
+        "attempt": 1,
+        "requested_max_tokens": 6144,
+        "request_bytes": 28727,
+        "message_chars": 16761,
+        "timeout_seconds": 120.0,
+        "http_status": 200,
+        "elapsed_ms": 19562,
+        "response_bytes": 23006,
+        "usage": {
+          "prompt_tokens": 5512,
+          "completion_tokens": 2765,
+          "total_tokens": 8277,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1951
+          }
+        },
+        "finish_reason": "stop",
+        "content_type": "string",
+        "reasoning_chars": 6649,
+        "content_chars": 2575
+      }
+    },
+    {
+      "id": "4b33cc45cc2a4e16a456b353dea411b4",
+      "status": "ok",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "usage": {
+        "prompt_tokens": 5633,
+        "completion_tokens": 1474,
+        "total_tokens": 7107,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1315
+        }
+      },
+      "diagnostics": {
+        "stage": "review",
+        "call_id": "4b33cc45cc2a4e16a456b353dea411b4",
+        "attempt": 1,
+        "requested_max_tokens": 4096,
+        "request_bytes": 29180,
+        "message_chars": 16990,
+        "timeout_seconds": 120.0,
+        "http_status": 200,
+        "elapsed_ms": 13609,
+        "response_bytes": 15507,
+        "usage": {
+          "prompt_tokens": 5633,
+          "completion_tokens": 1474,
+          "total_tokens": 7107,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1315
+          }
+        },
+        "finish_reason": "stop",
+        "content_type": "string",
+        "reasoning_chars": 5570,
+        "content_chars": 554
+      }
+    },
+    {
+      "id": "cfbbb705a9c54756b80eeb59f4046980",
+      "status": "ok",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "usage": {
+        "prompt_tokens": 5630,
+        "completion_tokens": 3256,
+        "total_tokens": 8886,
+        "completion_tokens_details": {
+          "reasoning_tokens": 2595
+        }
+      },
+      "diagnostics": {
+        "stage": "draft",
+        "call_id": "cfbbb705a9c54756b80eeb59f4046980",
+        "attempt": 1,
+        "requested_max_tokens": 6144,
+        "request_bytes": 29633,
+        "message_chars": 17245,
+        "timeout_seconds": 120.0,
+        "http_status": 200,
+        "elapsed_ms": 22437,
+        "response_bytes": 28995,
+        "usage": {
+          "prompt_tokens": 5630,
+          "completion_tokens": 3256,
+          "total_tokens": 8886,
+          "completion_tokens_details": {
+            "reasoning_tokens": 2595
+          }
+        },
+        "finish_reason": "stop",
+        "content_type": "string",
+        "reasoning_chars": 9344,
+        "content_chars": 2080
+      }
+    },
+    {
+      "id": "bf6b31cc9c344cc0a4ee82c62bb28c69",
+      "status": "ok",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "usage": {
+        "prompt_tokens": 5508,
+        "completion_tokens": 1756,
+        "total_tokens": 7264,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1613
+        }
+      },
+      "diagnostics": {
+        "stage": "review",
+        "call_id": "bf6b31cc9c344cc0a4ee82c62bb28c69",
+        "attempt": 1,
+        "requested_max_tokens": 4096,
+        "request_bytes": 28597,
+        "message_chars": 16644,
+        "timeout_seconds": 120.0,
+        "http_status": 200,
+        "elapsed_ms": 14906,
+        "response_bytes": 18751,
+        "usage": {
+          "prompt_tokens": 5508,
+          "completion_tokens": 1756,
+          "total_tokens": 7264,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1613
+          }
+        },
+        "finish_reason": "stop",
+        "content_type": "string",
+        "reasoning_chars": 6989,
+        "content_chars": 459
+      }
+    },
+    {
+      "id": "09762edd1b9d47eea094519cb6f59e14",
+      "status": "ok",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "usage": {
+        "prompt_tokens": 5986,
+        "completion_tokens": 2613,
+        "total_tokens": 8599,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1932
+        }
+      },
+      "diagnostics": {
+        "stage": "draft",
+        "call_id": "09762edd1b9d47eea094519cb6f59e14",
+        "attempt": 1,
+        "requested_max_tokens": 6144,
+        "request_bytes": 29841,
+        "message_chars": 17491,
+        "timeout_seconds": 120.0,
+        "http_status": 200,
+        "elapsed_ms": 20313,
+        "response_bytes": 22570,
+        "usage": {
+          "prompt_tokens": 5986,
+          "completion_tokens": 2613,
+          "total_tokens": 8599,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1932
+          }
+        },
+        "finish_reason": "stop",
+        "content_type": "string",
+        "reasoning_chars": 7290,
+        "content_chars": 2140
+      }
+    },
+    {
+      "id": "743e9d4c11054eada0abcebfda177c8c",
+      "status": "ok",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "usage": {
+        "prompt_tokens": 5876,
+        "completion_tokens": 2506,
+        "total_tokens": 8382,
+        "completion_tokens_details": {
+          "reasoning_tokens": 2359
+        }
+      },
+      "diagnostics": {
+        "stage": "review",
+        "call_id": "743e9d4c11054eada0abcebfda177c8c",
+        "attempt": 1,
+        "requested_max_tokens": 4096,
+        "request_bytes": 28896,
+        "message_chars": 16920,
+        "timeout_seconds": 120.0,
+        "http_status": 200,
+        "elapsed_ms": 21890,
+        "response_bytes": 25753,
+        "usage": {
+          "prompt_tokens": 5876,
+          "completion_tokens": 2506,
+          "total_tokens": 8382,
+          "completion_tokens_details": {
+            "reasoning_tokens": 2359
+          }
+        },
+        "finish_reason": "stop",
+        "content_type": "string",
+        "reasoning_chars": 10090,
+        "content_chars": 423
+      }
+    },
+    {
+      "id": "f068cc3c808c40c4be5f9ba8ede126df",
+      "status": "ok",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "usage": {
+        "prompt_tokens": 5803,
+        "completion_tokens": 3859,
+        "total_tokens": 9662,
+        "completion_tokens_details": {
+          "reasoning_tokens": 3176
+        }
+      },
+      "diagnostics": {
+        "stage": "draft",
+        "call_id": "f068cc3c808c40c4be5f9ba8ede126df",
+        "attempt": 1,
+        "requested_max_tokens": 6144,
+        "request_bytes": 30444,
+        "message_chars": 17735,
+        "timeout_seconds": 120.0,
+        "http_status": 200,
+        "elapsed_ms": 30062,
+        "response_bytes": 34605,
+        "usage": {
+          "prompt_tokens": 5803,
+          "completion_tokens": 3859,
+          "total_tokens": 9662,
+          "completion_tokens_details": {
+            "reasoning_tokens": 3176
+          }
+        },
+        "finish_reason": "stop",
+        "content_type": "string",
+        "reasoning_chars": 11768,
+        "content_chars": 2090
+      }
+    },
+    {
+      "id": "49079df65b144ab3b5e2abcd5bcaa7a9",
+      "status": "ok",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "usage": {
+        "prompt_tokens": 5725,
+        "completion_tokens": 1123,
+        "total_tokens": 6848,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1106
+        }
+      },
+      "diagnostics": {
+        "stage": "review",
+        "call_id": "49079df65b144ab3b5e2abcd5bcaa7a9",
+        "attempt": 1,
+        "requested_max_tokens": 4096,
+        "request_bytes": 29473,
+        "message_chars": 17176,
+        "timeout_seconds": 120.0,
+        "http_status": 200,
+        "elapsed_ms": 9984,
+        "response_bytes": 10311,
+        "usage": {
+          "prompt_tokens": 5725,
+          "completion_tokens": 1123,
+          "total_tokens": 6848,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1106
+          }
+        },
+        "finish_reason": "stop",
+        "content_type": "string",
+        "reasoning_chars": 3973,
+        "content_chars": 53
+      }
+    }
+  ],
+  "historical_record": true,
+  "superseded_by": "semantic_verification_2026-10-21.json"
+}

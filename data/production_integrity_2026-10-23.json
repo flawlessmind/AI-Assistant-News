@@ -1,0 +1,22 @@
+{
+  "verified_on": "2026-10-23T02:24:03.110244+03:00",
+  "protected_inputs_unchanged": {
+    "data/research.sqlite": true,
+    "data/research_pages.jsonl": true,
+    "data/news_snapshot.jsonl": true,
+    "docs/case_spec.pdf": true,
+    "docs/api_instruction_2026-10-21.pdf": true
+  },
+  "original_env_backup_matches_audit_hash": true,
+  "env_changed_keys": [
+    "ALFA_LLM_MAX_OUTPUT_TOKENS",
+    "ALFA_LLM_REVIEW_MAX_TOKENS"
+  ],
+  "private_key_model_urls_and_request_cap_unchanged": true,
+  "release_sources_do_not_contain_actual_api_key": true,
+  "physical_acceptance_requests": 16,
+  "original_audit_requests_same_period": 4,
+  "acceptance_limit": 18,
+  "local_call_cap": 30,
+  "hidden_reasoning_text_exported": false
+}

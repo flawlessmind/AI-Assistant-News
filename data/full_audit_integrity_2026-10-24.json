@@ -1,0 +1,56 @@
+{
+  "analysis_version": "2026-10-24-v22-hybrid-metadata-shutdown",
+  "logic_sha256": "7c1d2a21e00737471e98e8b25da79004fe9cb2a630e331375f3d3bf043d6cfca",
+  "tables": {
+    "news": {
+      "before": 53,
+      "after": 53,
+      "preserved": true
+    },
+    "aliases": {
+      "before": 0,
+      "after": 0,
+      "preserved": true
+    },
+    "runs": {
+      "before": 230,
+      "after": 232,
+      "preserved": true
+    },
+    "jobs": {
+      "before": 85,
+      "after": 85,
+      "preserved": true
+    },
+    "job_requests": {
+      "before": 0,
+      "after": 0,
+      "preserved": true
+    },
+    "calls": {
+      "before": 176,
+      "after": 176,
+      "preserved": true
+    },
+    "usage": {
+      "before": 3,
+      "after": 3,
+      "preserved": true
+    },
+    "llm_cache": {
+      "before": 165,
+      "after": 165,
+      "preserved": true
+    },
+    "feedback": {
+      "before": 1,
+      "after": 1,
+      "preserved": true
+    }
+  },
+  "new_real_llm_calls": 0,
+  "protected_files_unchanged": true,
+  "sqlite_quick_check": "ok",
+  "environment_unchanged": true,
+  "runtime_schema_changed_in_this_audit": false
+}

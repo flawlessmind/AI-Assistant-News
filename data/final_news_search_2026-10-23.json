@@ -1,0 +1,259 @@
+{
+  "sample_type": "Ручные перефразирования, маленький инженерный контроль; не статистическая точность.",
+  "queries": [
+    {
+      "query": "Респондентов хотят избавить от лишних статистических форм",
+      "expected_event_ids": [
+        "news_6d2bb5079fbfcddcbf14"
+      ],
+      "top5": [
+        {
+          "event_id": "news_6d2bb5079fbfcddcbf14",
+          "semantic_score": 0.836356,
+          "score": 0.8363558650016785,
+          "retrieval_method": "hybrid",
+          "exact_match": false
+        },
+        {
+          "event_id": "news_2f1c5b8efafa74f5118b",
+          "semantic_score": 0.827313,
+          "score": 0.8273133039474487,
+          "retrieval_method": "hybrid",
+          "exact_match": false
+        },
+        {
+          "event_id": "news_98663337d6b15748d025",
+          "semantic_score": 0.822633,
+          "score": 0.8226327896118164,
+          "retrieval_method": "hybrid",
+          "exact_match": false
+        },
+        {
+          "event_id": "news_bee3b1a6bca6cca2b689",
+          "semantic_score": 0.822586,
+          "score": 0.8225858211517334,
+          "retrieval_method": "hybrid",
+          "exact_match": false
+        },
+        {
+          "event_id": "news_3d3579e93ae804930267",
+          "semantic_score": 0.822456,
+          "score": 0.8224558234214783,
+          "retrieval_method": "hybrid",
+          "exact_match": false
+        }
+      ],
+      "passed": true
+    },
+    {
+      "query": "Заводы стали выпускать меньше продукции",
+      "expected_event_ids": [
+        "news_b75c8277b510b4276596"
+      ],
+      "top5": [
+        {
+          "event_id": "news_b75c8277b510b4276596",
+          "semantic_score": 0.851545,
+          "score": 0.8515447378158569,
+          "retrieval_method": "hybrid",
+          "exact_match": false
+        },
+        {
+          "event_id": "news_6d2bb5079fbfcddcbf14",
+          "semantic_score": 0.828153,
+          "score": 0.8281528949737549,
+          "retrieval_method": "hybrid",
+          "exact_match": false
+        },
+        {
+          "event_id": "news_6edd3faee905180b5c87",
+          "semantic_score": 0.827179,
+          "score": 0.8271788358688354,
+          "retrieval_method": "hybrid",
+          "exact_match": false
+        },
+        {
+          "event_id": "news_1f50b1f63a57705cf833",
+          "semantic_score": 0.82017,
+          "score": 0.8201702833175659,
+          "retrieval_method": "hybrid",
+          "exact_match": false
+        }
+      ],
+      "passed": true
+    },
+    {
+      "query": "Как долго государство будет оплачивать льготный процент по кредиту на жильё?",
+      "expected_event_ids": [
+        "news_7e40391627d879b84af9"
+      ],
+      "top5": [
+        {
+          "event_id": "news_7e40391627d879b84af9",
+          "semantic_score": 0.873288,
+          "score": 0.8732879161834717,
+          "retrieval_method": "hybrid",
+          "exact_match": false
+        },
+        {
+          "event_id": "news_19f9b29ccd0a5644e2ee",
+          "semantic_score": 0.840164,
+          "score": 0.8401644229888916,
+          "retrieval_method": "hybrid",
+          "exact_match": false
+        },
+        {
+          "event_id": "news_cee4f41f506cd3f6b15b",
+          "semantic_score": 0.832378,
+          "score": 0.8323782682418823,
+          "retrieval_method": "hybrid",
+          "exact_match": false
+        },
+        {
+          "event_id": "news_bee3b1a6bca6cca2b689",
+          "semantic_score": 0.831342,
+          "score": 0.8313420414924622,
+          "retrieval_method": "hybrid",
+          "exact_match": false
+        },
+        {
+          "event_id": "news_54cb34ca3c51d5774c3b",
+          "semantic_score": 0.82459,
+          "score": 0.8245900869369507,
+          "retrieval_method": "hybrid",
+          "exact_match": false
+        }
+      ],
+      "passed": true
+    },
+    {
+      "query": "Граждане стали покупать больше долговых бумаг бизнеса",
+      "expected_event_ids": [
+        "news_7b0dc6cf1214d764cb0b"
+      ],
+      "top5": [
+        {
+          "event_id": "news_cee4f41f506cd3f6b15b",
+          "semantic_score": 0.843824,
+          "score": 0.8438239693641663,
+          "retrieval_method": "hybrid",
+          "exact_match": false
+        },
+        {
+          "event_id": "news_3480bd33b321108b78d0",
+          "semantic_score": 0.843044,
+          "score": 0.8430442810058594,
+          "retrieval_method": "hybrid",
+          "exact_match": false
+        },
+        {
+          "event_id": "news_7b0dc6cf1214d764cb0b",
+          "semantic_score": 0.841908,
+          "score": 0.8419076800346375,
+          "retrieval_method": "hybrid",
+          "exact_match": false
+        },
+        {
+          "event_id": "news_60b920c05a72da2f96d5",
+          "semantic_score": 0.840592,
+          "score": 0.840591549873352,
+          "retrieval_method": "hybrid",
+          "exact_match": false
+        },
+        {
+          "event_id": "news_8c041112f2e7c26e0f00",
+          "semantic_score": 0.838891,
+          "score": 0.8388909101486206,
+          "retrieval_method": "hybrid",
+          "exact_match": false
+        }
+      ],
+      "passed": true
+    },
+    {
+      "query": "Расходы бизнеса на новые заимствования остаются высокими",
+      "expected_event_ids": [
+        "news_e54611adbe9e1b3c2754"
+      ],
+      "top5": [
+        {
+          "event_id": "news_3480bd33b321108b78d0",
+          "semantic_score": 0.852738,
+          "score": 0.8527377247810364,
+          "retrieval_method": "hybrid",
+          "exact_match": false
+        },
+        {
+          "event_id": "news_bee3b1a6bca6cca2b689",
+          "semantic_score": 0.838925,
+          "score": 0.8389248847961426,
+          "retrieval_method": "hybrid",
+          "exact_match": false
+        },
+        {
+          "event_id": "news_e54611adbe9e1b3c2754",
+          "semantic_score": 0.838817,
+          "score": 0.8388170003890991,
+          "retrieval_method": "hybrid",
+          "exact_match": false
+        },
+        {
+          "event_id": "news_3c5f961dc953f99a7b96",
+          "semantic_score": 0.837616,
+          "score": 0.837615966796875,
+          "retrieval_method": "hybrid",
+          "exact_match": false
+        },
+        {
+          "event_id": "news_60b920c05a72da2f96d5",
+          "semantic_score": 0.83664,
+          "score": 0.836640477180481,
+          "retrieval_method": "hybrid",
+          "exact_match": false
+        }
+      ],
+      "passed": true
+    },
+    {
+      "query": "Студентам предлагают проверить финансовые знания",
+      "expected_event_ids": [
+        "news_54cb34ca3c51d5774c3b",
+        "news_69e99d337a83245bddd8"
+      ],
+      "top5": [
+        {
+          "event_id": "news_03379ce50691b6af7360",
+          "semantic_score": 0.855269,
+          "score": 0.8552694320678711,
+          "retrieval_method": "hybrid",
+          "exact_match": false
+        },
+        {
+          "event_id": "news_54cb34ca3c51d5774c3b",
+          "semantic_score": 0.847351,
+          "score": 0.8473511934280396,
+          "retrieval_method": "hybrid",
+          "exact_match": false
+        },
+        {
+          "event_id": "news_69e99d337a83245bddd8",
+          "semantic_score": 0.843419,
+          "score": 0.8434193730354309,
+          "retrieval_method": "hybrid",
+          "exact_match": false
+        },
+        {
+          "event_id": "news_bee3b1a6bca6cca2b689",
+          "semantic_score": 0.825063,
+          "score": 0.8250634074211121,
+          "retrieval_method": "hybrid",
+          "exact_match": false
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "passed": 6,
+  "total": 6,
+  "generative_calls": 0
+}

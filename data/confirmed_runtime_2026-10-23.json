@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-10-23T22:43:33.581979+03:00",
+  "analysis_version": "2026-10-23-v20-confirmed-fixes",
+  "logic_sha256": "3639fce8e7c2e71ca00f72bd6765202440717a0dd2b4fdfdb8b01b5d2d5cb569",
+  "preserved_logical_rows": {
+    "runs": 228,
+    "calls": 176,
+    "jobs": 85,
+    "llm_cache": 165,
+    "usage": 3,
+    "feedback": 1
+  },
+  "news_count": 53,
+  "known_news_revisions_applied": 8,
+  "history_deleted": false,
+  "cache_deleted": false,
+  "usage_ledger_reset": false,
+  "old_approval_retired_without_deletion": true,
+  "physical_attempts_before": 122,
+  "physical_attempts_after": 122,
+  "new_real_generative_requests": 0,
+  "local_call_cap": null,
+  "max_active_jobs": 16,
+  "gateway_budget_rub_per_day": 500,
+  "protected_input_hashes_unchanged": true,
+  "protected_input_hashes": {
+    "research.sqlite": "ae589b2357bc66ffaff129d042b407b0654893f83ab05b395d867016e70e3be6",
+    "research_pages.jsonl": "7e3bf3ae422520c59320d77a09a7f21248cc4ee9daa25af20b48f6a75c149302",
+    "news_snapshot.jsonl": "af967db2d8cbefd64eb79e063461b78256f03dd8c43dc0cabf47c4eab4a4ede7"
+  },
+  "key_and_scope_disclosed": false,
+  "passed": true
+}

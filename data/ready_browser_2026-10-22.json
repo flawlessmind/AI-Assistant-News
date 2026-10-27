@@ -1,0 +1,44 @@
+{
+  "application": "http://127.0.0.1:8002/",
+  "analysis_version": "2026-10-22-v9-local-semantic-search",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "horizontal_overflow": false,
+      "approved_card_visible": true
+    },
+    {
+      "width": 1024,
+      "height": 1000,
+      "horizontal_overflow": false,
+      "approved_card_visible": true
+    },
+    {
+      "width": 768,
+      "height": 1000,
+      "horizontal_overflow": false,
+      "approved_card_visible": true
+    },
+    {
+      "width": 390,
+      "height": 1000,
+      "horizontal_overflow": false,
+      "approved_card_visible": true
+    }
+  ],
+  "scenarios": {
+    "current_approved_insight_restored_from_runtime": true,
+    "semantic_news_query_without_headline_match": true,
+    "semantic_question_finds_labor_page_2": true,
+    "sources_task_has_no_llm_attempt": true,
+    "controlled_http_503_shows_retry_and_keeps_card": true,
+    "retry_after_restored_real_http_succeeds": true,
+    "data_gaps_answered_by_rules_no_llm": true,
+    "company_and_role_switch_clear_old_card": true
+  },
+  "generative_requests": 0,
+  "synthetic_network_interception": "One intentional HTTP 503 only for /api/search; the interception was removed before successful retry. This was not a real gateway error.",
+  "screenshots": "docs/screenshots/release_2026-10-22",
+  "unexpected_console_errors": 0
+}

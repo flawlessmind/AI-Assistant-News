@@ -1,0 +1,83 @@
+{
+  "extraction_version": "publisher-main-content-v2",
+  "method": "Re-extracted from preserved original HTML; structural chrome exclusions, no text-marker cutoff.",
+  "checked_at": "2026-10-23T22:21:41.618935+03:00",
+  "revisions": [
+    {
+      "event_id": "news_6d2bb5079fbfcddcbf14",
+      "previous_content_sha256": "2e8b0fbd86981fddee1aae69acb4bd4727a85fb2d152349112d937be1f263682",
+      "new_content_sha256": "1e86d8db167e3138849f2bac2a4d4702d5e1b512832b5cef15680d643e1579f2",
+      "raw_sha256": "c3122adcda0c966b2593e0bbd3dcad027af72fd4d128a05c6d0fc6209581d0d9",
+      "raw_source": "data/news_sources/c3122adcda0c966b2593e0bbd3dcad027af72fd4d128a05c6d0fc6209581d0d9.html",
+      "previous_chars": 5285,
+      "cleaned_chars": 4727
+    },
+    {
+      "event_id": "news_3d3579e93ae804930267",
+      "previous_content_sha256": "1b97b0710ad5400400d8283798eb5fdc149badc53c443e70e16d9c22af632448",
+      "new_content_sha256": "777e8ae4303f95a3472f19723cabab1d19329f7bd13210dd246202f8e8e6dceb",
+      "raw_sha256": "d609cb68fa94edaa1d30d132123994ba54d71457f024a42aa4c784c49bf8ae9d",
+      "raw_source": "data/news_sources/d609cb68fa94edaa1d30d132123994ba54d71457f024a42aa4c784c49bf8ae9d.html",
+      "previous_chars": 3627,
+      "cleaned_chars": 3069
+    },
+    {
+      "event_id": "news_74efdcd1cd7772bc239b",
+      "previous_content_sha256": "85895f57e1bc8904533f47a07c2ea2a8cea4f010f60a84eccb8a7d1942575d41",
+      "new_content_sha256": "8e3485a6d762787216a5f4310c5e2918f20cfc4705a03ca6d8b7090d778b1c68",
+      "raw_sha256": "66160f66fb999cfa962ab31af9b0ee48dd319da70579a531c2d78ca6af1e8507",
+      "raw_source": "data/news_sources/66160f66fb999cfa962ab31af9b0ee48dd319da70579a531c2d78ca6af1e8507.html",
+      "previous_chars": 2263,
+      "cleaned_chars": 1705
+    },
+    {
+      "event_id": "news_98663337d6b15748d025",
+      "previous_content_sha256": "7d0d4426e08fbf5d57fdd54df85ab3918384120ab7183997ef25c5b5874a2062",
+      "new_content_sha256": "5e9a81efbbcbd87f623c788359c5582d91ec137e58c1dfbfb49102227851baa9",
+      "raw_sha256": "aa951625b1077a2c0c2ad545796355584f8bb2f4a5ad3c6f98d704e3752fa21e",
+      "raw_source": "data/news_sources/aa951625b1077a2c0c2ad545796355584f8bb2f4a5ad3c6f98d704e3752fa21e.html",
+      "previous_chars": 3418,
+      "cleaned_chars": 2860
+    },
+    {
+      "event_id": "news_34456792284a8c5b3270",
+      "previous_content_sha256": "fe8f26892ffaa3e351f04541990bdbf89c45e50af056b89c9bfa2bfb0cdfddaa",
+      "new_content_sha256": "d06b937ea84bbdd33254df34e778bcdc835b23eba18fe3171b6cd36ec070cde8",
+      "raw_sha256": "d691f34fc4f58bca4c8d58d74b104e01f19bce89da8be702c94277193264f6e3",
+      "raw_source": "data/news_sources/d691f34fc4f58bca4c8d58d74b104e01f19bce89da8be702c94277193264f6e3.html",
+      "previous_chars": 3026,
+      "cleaned_chars": 2468
+    },
+    {
+      "event_id": "news_b75c8277b510b4276596",
+      "previous_content_sha256": "39040b0a3b6af1432578ff78ebae6294277b3b07aff39e8f652faace94ec9c20",
+      "new_content_sha256": "636453b3b0621a1320de0cbafeab1d01a5f0f27b526516f4fdf0c164ec991e14",
+      "raw_sha256": "6af7eb6c1c531d88d0d2a634c419baf2af4b72d40f1a4e1ae77b7f4245ffc855",
+      "raw_source": "data/news_sources/6af7eb6c1c531d88d0d2a634c419baf2af4b72d40f1a4e1ae77b7f4245ffc855.html",
+      "previous_chars": 7197,
+      "cleaned_chars": 6639
+    },
+    {
+      "event_id": "news_3c5f961dc953f99a7b96",
+      "previous_content_sha256": "9244f24150086e04ac2cd798b66ef3daca07a5ba7e76bd5f8d1933eb2b7411e2",
+      "new_content_sha256": "4a457571e7ea972986c6422eda44be222b3c5ce299228fa943539f73d3a57b2d",
+      "raw_sha256": "2b891fdb199ae32f684d9481d41b660f76843e796fa725c0556c373686fc5bdb",
+      "raw_source": "data/news_sources/2b891fdb199ae32f684d9481d41b660f76843e796fa725c0556c373686fc5bdb.html",
+      "previous_chars": 2973,
+      "cleaned_chars": 2415
+    },
+    {
+      "event_id": "news_857877b89628553e1070",
+      "previous_content_sha256": "180aec6dd7b095da770844511942ef61ced3054906ecd26dd745878f6c48c487",
+      "new_content_sha256": "6d7e63083a966b40ec975a1a255c618589810723e155964f04e4504416c6a49c",
+      "raw_sha256": "488accc866c98c148f1d07e9d5641169c932ccaf7cb01fbfb0f6aff081f3556e",
+      "raw_source": "data/news_sources/488accc866c98c148f1d07e9d5641169c932ccaf7cb01fbfb0f6aff081f3556e.html",
+      "previous_chars": 2996,
+      "cleaned_chars": 2438
+    }
+  ],
+  "original_html_modified": false,
+  "original_rss_modified": false,
+  "analysis_history_deleted": false,
+  "new_generative_requests": 0
+}
